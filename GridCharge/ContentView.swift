@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  ElectricVehicle
+//  GridCharge
 //
 //  Created by Michael Lam on 22/4/2025.
 //

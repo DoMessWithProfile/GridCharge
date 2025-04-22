@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		8F644D152DB7344A002C353E /* ElectricVehicle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ElectricVehicle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F644D602DB73C25002C353E /* GridCharge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GridCharge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		8F644D172DB7344A002C353E /* ElectricVehicle */ = {
+		8F644D622DB73C25002C353E /* GridCharge */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ElectricVehicle;
+			path = GridCharge;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8F644D122DB7344A002C353E /* Frameworks */ = {
+		8F644D5D2DB73C25002C353E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -29,18 +29,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8F644D0C2DB7344A002C353E = {
+		8F644D572DB73C25002C353E = {
 			isa = PBXGroup;
 			children = (
-				8F644D172DB7344A002C353E /* ElectricVehicle */,
-				8F644D162DB7344A002C353E /* Products */,
+				8F644D622DB73C25002C353E /* GridCharge */,
+				8F644D612DB73C25002C353E /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		8F644D162DB7344A002C353E /* Products */ = {
+		8F644D612DB73C25002C353E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8F644D152DB7344A002C353E /* ElectricVehicle.app */,
+				8F644D602DB73C25002C353E /* GridCharge.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,64 +48,64 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8F644D142DB7344A002C353E /* ElectricVehicle */ = {
+		8F644D5F2DB73C25002C353E /* GridCharge */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8F644D202DB7344C002C353E /* Build configuration list for PBXNativeTarget "ElectricVehicle" */;
+			buildConfigurationList = 8F644D6B2DB73C27002C353E /* Build configuration list for PBXNativeTarget "GridCharge" */;
 			buildPhases = (
-				8F644D112DB7344A002C353E /* Sources */,
-				8F644D122DB7344A002C353E /* Frameworks */,
-				8F644D132DB7344A002C353E /* Resources */,
+				8F644D5C2DB73C25002C353E /* Sources */,
+				8F644D5D2DB73C25002C353E /* Frameworks */,
+				8F644D5E2DB73C25002C353E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				8F644D172DB7344A002C353E /* ElectricVehicle */,
+				8F644D622DB73C25002C353E /* GridCharge */,
 			);
-			name = ElectricVehicle;
+			name = GridCharge;
 			packageProductDependencies = (
 			);
-			productName = ElectricVehicle;
-			productReference = 8F644D152DB7344A002C353E /* ElectricVehicle.app */;
+			productName = GridCharge;
+			productReference = 8F644D602DB73C25002C353E /* GridCharge.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		8F644D0D2DB7344A002C353E /* Project object */ = {
+		8F644D582DB73C25002C353E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1630;
 				LastUpgradeCheck = 1630;
 				TargetAttributes = {
-					8F644D142DB7344A002C353E = {
+					8F644D5F2DB73C25002C353E = {
 						CreatedOnToolsVersion = 16.3;
 					};
 				};
 			};
-			buildConfigurationList = 8F644D102DB7344A002C353E /* Build configuration list for PBXProject "ElectricVehicle" */;
+			buildConfigurationList = 8F644D5B2DB73C25002C353E /* Build configuration list for PBXProject "GridCharge" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 8F644D0C2DB7344A002C353E;
+			mainGroup = 8F644D572DB73C25002C353E;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 8F644D162DB7344A002C353E /* Products */;
+			productRefGroup = 8F644D612DB73C25002C353E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8F644D142DB7344A002C353E /* ElectricVehicle */,
+				8F644D5F2DB73C25002C353E /* GridCharge */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		8F644D132DB7344A002C353E /* Resources */ = {
+		8F644D5E2DB73C25002C353E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -115,7 +115,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8F644D112DB7344A002C353E /* Sources */ = {
+		8F644D5C2DB73C25002C353E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -125,7 +125,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		8F644D1E2DB7344C002C353E /* Debug */ = {
+		8F644D692DB73C27002C353E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -188,7 +188,7 @@
 			};
 			name = Debug;
 		};
-		8F644D1F2DB7344C002C353E /* Release */ = {
+		8F644D6A2DB73C27002C353E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -244,7 +244,7 @@
 			};
 			name = Release;
 		};
-		8F644D212DB7344C002C353E /* Debug */ = {
+		8F644D6C2DB73C27002C353E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -263,7 +263,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = UTS.ElectricVehicle;
+				PRODUCT_BUNDLE_IDENTIFIER = UTS.GridCharge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -271,7 +271,7 @@
 			};
 			name = Debug;
 		};
-		8F644D222DB7344C002C353E /* Release */ = {
+		8F644D6D2DB73C27002C353E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -290,7 +290,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = UTS.ElectricVehicle;
+				PRODUCT_BUNDLE_IDENTIFIER = UTS.GridCharge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -301,25 +301,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8F644D102DB7344A002C353E /* Build configuration list for PBXProject "ElectricVehicle" */ = {
+		8F644D5B2DB73C25002C353E /* Build configuration list for PBXProject "GridCharge" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8F644D1E2DB7344C002C353E /* Debug */,
-				8F644D1F2DB7344C002C353E /* Release */,
+				8F644D692DB73C27002C353E /* Debug */,
+				8F644D6A2DB73C27002C353E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8F644D202DB7344C002C353E /* Build configuration list for PBXNativeTarget "ElectricVehicle" */ = {
+		8F644D6B2DB73C27002C353E /* Build configuration list for PBXNativeTarget "GridCharge" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8F644D212DB7344C002C353E /* Debug */,
-				8F644D222DB7344C002C353E /* Release */,
+				8F644D6C2DB73C27002C353E /* Debug */,
+				8F644D6D2DB73C27002C353E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 8F644D0D2DB7344A002C353E /* Project object */;
+	rootObject = 8F644D582DB73C25002C353E /* Project object */;
 }

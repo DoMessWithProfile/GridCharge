@@ -9,11 +9,22 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Text("Hello, world!")
+        NavigationStack {
+            Text("GRIDCHARGE")
+                .font(.largeTitle)
+                .fontWeight(.bold)
+            NavigationLink(destination: ContentView()){
+                T_ButtonView(buttonText: "A")
+            }
+            NavigationLink(destination: ContentView()){
+                T_ButtonView(buttonText: "B")
+            }
+            NavigationLink(destination: ContentView()){
+                T_ButtonView(buttonText: "C")
+            }
         }
         .padding()
-    }   
+    }
 }
 
 #Preview {

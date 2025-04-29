@@ -1,0 +1,1685 @@
+//  Upcoming_Chargers.JSON
+//  GridCharge
+//
+//  Created by joshua chelashaw on 29/4/2025.
+
+//Data sourced from NSW EV Chargers Spreadsheet from: https://opendata.transport.nsw.gov.au/data/dataset/ev-charging-locations
+//Sourced on 29 April 2025
+//Referencing 'Upcoming Fast Chargers'
+
+[
+ {
+   "ObjId": 1,
+   "Site Address": "59 Tudor St, Hamilton NSW 2303, Australia",
+   "Applicant": "Ampol Australia Energy Pty Ltd",
+   "Charging_bays": 4,
+   "Charger_capacities": "One 335kW charger will service every two bays at this station.",
+   "lat": -32.9248179,
+   "lng": 151.7518848
+ },
+ {
+   "ObjId": 2,
+   "Site Address": "M1 North Bound Freeway, Wyong NSW, 2259",
+   "Applicant": "Ampol Australia Energy Pty Ltd",
+   "Charging_bays": 10,
+   "Charger_capacities": "One 335kW charger will service every two bays at this station.",
+   "lat": -33.2788484,
+   "lng": 151.4055382
+ },
+ {
+   "ObjId": 3,
+   "Site Address": "12 Bay Village Rd, Bateau Bay NSW 2261, Australia",
+   "Applicant": "Ampol Australia Energy Pty Ltd",
+   "Charging_bays": 10,
+   "Charger_capacities": "One 335kW charger will service every two bays at this station.",
+   "lat": -33.3761478,
+   "lng": 151.4736688
+ },
+ {
+   "ObjId": 4,
+   "Site Address": "M4 MotorwayWestbound,EasternCreek, New South Wales, 2766",
+   "Applicant": "Ampol Australia Energy Pty Ltd",
+   "Charging_bays": 10,
+   "Charger_capacities": "One 335kW charger will service every two bays at this station.",
+   "lat": -33.7966292,
+   "lng": 150.8487996
+ },
+ {
+   "ObjId": 5,
+   "Site Address": "1 Rockdale Plaza Dr, Rockdale NSW 2216, Australia",
+   "Applicant": "Ampol Australia Energy Pty Ltd",
+   "Charging_bays": 8,
+   "Charger_capacities": "One 335kW charger will service every two bays at this station.",
+   "lat": -33.9578641,
+   "lng": 151.1399945
+ },
+ {
+   "ObjId": 6,
+   "Site Address": "271 Queen St, Campbelltown NSW 2560, Australia",
+   "Applicant": "Ampol Australia Energy Pty Ltd",
+   "Charging_bays": 10,
+   "Charger_capacities": "One 335kW charger will service every two bays at this station.",
+   "lat": -34.0682928,
+   "lng": 150.8098231
+ },
+ {
+   "ObjId": 8,
+   "Site Address": "177 Macquarie St, Dubbo NSW 2830, Australia",
+   "Applicant": "Ampol Australia Energy Pty Ltd",
+   "Charging_bays": 4,
+   "Charger_capacities": "One 335kW charger will service every two bays at this station.",
+   "lat": -32.2502378,
+   "lng": 148.5999219
+ },
+ {
+   "ObjId": 9,
+   "Site Address": "1403 Princes Hwy, Heathcote NSW 2233, Australia",
+   "Applicant": "Ampol Australia Energy Pty Ltd",
+   "Charging_bays": 4,
+   "Charger_capacities": "One 335kW charger will service every two bays at this station.",
+   "lat": -34.0904416,
+   "lng": 151.0039066
+ },
+ {
+   "ObjId": 10,
+   "Site Address": "36 Parkes Rd, Forbes NSW 2871, Australia",
+   "Applicant": "Ampol Australia Energy Pty Ltd",
+   "Charging_bays": 4,
+   "Charger_capacities": "One 335kW charger will service every two bays at this station.",
+   "lat": -33.3706092,
+   "lng": 148.0180315
+ },
+ {
+   "ObjId": 11,
+   "Site Address": "217 Auburn St, Goulburn NSW 2580, Australia",
+   "Applicant": "Ampol Australia Energy Pty Ltd",
+   "Charging_bays": 6,
+   "Charger_capacities": "One 335kW charger will service every two bays at this station.",
+   "lat": -34.752476,
+   "lng": 149.7211451
+ },
+ {
+   "ObjId": 12,
+   "Site Address": "Albury St, Holbrook NSW 2644, Australia",
+   "Applicant": "Ampol Australia Energy Pty Ltd",
+   "Charging_bays": 4,
+   "Charger_capacities": "One 335kW charger will service every two bays at this station.",
+   "lat": -35.7231693,
+   "lng": 147.3143159
+ },
+ {
+   "ObjId": 13,
+   "Site Address": "2 Alison Rd, Randwick NSW 2031, Australia",
+   "Applicant": "Ampol Australia Energy Pty Ltd",
+   "Charging_bays": 4,
+   "Charger_capacities": "One 335kW charger will service every two bays at this station.",
+   "lat": -33.9066063,
+   "lng": 151.2320332
+ },
+ {
+   "ObjId": 14,
+   "Site Address": "737 Anzac Pde, Maroubra NSW 2035, Australia",
+   "Applicant": "Ampol Australia Energy Pty Ltd",
+   "Charging_bays": 8,
+   "Charger_capacities": "One 335kW charger will service every two bays at this station.",
+   "lat": -33.9401323,
+   "lng": 151.2376921
+ },
+ {
+   "ObjId": 15,
+   "Site Address": "227 Summer St, Orange NSW 2800, Australia",
+   "Applicant": "Ampol Australia Energy Pty Ltd",
+   "Charging_bays": 6,
+   "Charger_capacities": "One 335kW charger will service every two bays at this station.",
+   "lat": -33.2828439,
+   "lng": 149.1002549
+ },
+ {
+   "ObjId": 16,
+   "Site Address": "12 Hume Hwy, Pheasants Nest NSW 2574, Australia",
+   "Applicant": "Ampol Australia Energy Pty Ltd",
+   "Charging_bays": 6,
+   "Charger_capacities": "One 335kW charger will service every two bays at this station.",
+   "lat": -33.9164121,
+   "lng": 150.9204251
+ },
+ {
+   "ObjId": 17,
+   "Site Address": "Hume Hwy, Pheasants Nest NSW 2574, Australia",
+   "Applicant": "Ampol Australia Energy Pty Ltd",
+   "Charging_bays": 6,
+   "Charger_capacities": "One 335kW charger will service every two bays at this station.",
+   "lat": -34.28248981,
+   "lng": 150.6370642
+ },
+ {
+   "ObjId": 18,
+   "Site Address": "1285-1289 Canterbury Rd, Punchbowl NSW 2196, Australia",
+   "Applicant": "Ampol Australia Energy Pty Ltd",
+   "Charging_bays": 4,
+   "Charger_capacities": "One 335kW charger will service every two bays at this station.",
+   "lat": -33.9314597,
+   "lng": 151.0596341
+ },
+ {
+   "ObjId": 19,
+   "Site Address": "56 John St, Singleton NSW 2330, Australia",
+   "Applicant": "Ampol Australia Energy Pty Ltd",
+   "Charging_bays": 4,
+   "Charger_capacities": "One 335kW charger will service every two bays at this station.",
+   "lat": -32.5676452,
+   "lng": 151.1638101
+ },
+ {
+   "ObjId": 20,
+   "Site Address": "422 Pacific Hwy, Artarmon NSW 2064, Australia",
+   "Applicant": "BP Australia PTY LTD",
+   "Charging_bays": 4,
+   "Charger_capacities": "This site will have one 360kW charging unit to service two bays and one 150kW charging unit to service two bays.",
+   "lat": -33.8114056,
+   "lng": 151.175596
+ },
+ {
+   "ObjId": 21,
+   "Site Address": "214 Sydney Rd, Kelso NSW 2795, Australia",
+   "Applicant": "BP Australia PTY LTD",
+   "Charging_bays": 4,
+   "Charger_capacities": "This site will have one 360kW charging unit to service two bays and one 150kW charging unit to service two bays.",
+   "lat": -33.4191636,
+   "lng": 149.6076819
+ },
+ {
+   "ObjId": 22,
+   "Site Address": " 134 Seven Hills Rd, Baulkham Hills NSW 2153, Australia",
+   "Applicant": "BP Australia PTY LTD",
+   "Charging_bays": 4,
+   "Charger_capacities": "This site will have one 360kW charging unit to service two bays and one 150kW charging unit to service two bays.",
+   "lat": -33.7616125,
+   "lng": 150.9740938
+ },
+ {
+   "ObjId": 23,
+   "Site Address": "444 West Botany St, Rockdale NSW 2216, Australia",
+   "Applicant": "BP Australia PTY LTD",
+   "Charging_bays": 4,
+   "Charger_capacities": "This site will have one 360kW charging unit to service two bays and one 150kW charging unit to service two bays.",
+   "lat": -33.95986742,
+   "lng": 151.1457236
+ },
+ {
+   "ObjId": 24,
+   "Site Address": "481 Pacific Hwy, Wyoming NSW 2250, Australia",
+   "Applicant": "BP Australia PTY LTD",
+   "Charging_bays": 4,
+   "Charger_capacities": "This site will have one 360kW charging unit to service two bays and one 150kW charging unit to service two bays.",
+   "lat": -33.4080029,
+   "lng": 151.3511185
+ },
+ {
+   "ObjId": 25,
+   "Site Address": "Cnr Cumberland Hwy & Cabramatta Rd W, Cabramatta NSW 2166, Australia",
+   "Applicant": "BP Australia PTY LTD",
+   "Charging_bays": 4,
+   "Charger_capacities": "This site will have one 360kW charging unit to service two bays and one 150kW charging unit to service two bays.",
+   "lat": -33.8993725,
+   "lng": 150.9191077
+ },
+ {
+   "ObjId": 26,
+   "Site Address": "712 Pennant Hills Rd, Carlingford NSW 2118, Australia",
+   "Applicant": "BP Australia PTY LTD",
+   "Charging_bays": 4,
+   "Charger_capacities": "This site will have one 360kW charging unit to service two bays and one 150kW charging unit to service two bays.",
+   "lat": -33.7637531,
+   "lng": 151.0473629
+ },
+ {
+   "ObjId": 27,
+   "Site Address": "149 Great Western Hwy, Mays Hill NSW 2145, Australia",
+   "Applicant": "BP Australia PTY LTD",
+   "Charging_bays": 4,
+   "Charger_capacities": "This site will have one 360kW charging unit to service two bays and one 150kW charging unit to service two bays.",
+   "lat": -33.8193849,
+   "lng": 150.9893102
+ },
+ {
+   "ObjId": 28,
+   "Site Address": "1233 Victoria Rd, West Ryde NSW 2114, Australia",
+   "Applicant": "BP Australia PTY LTD",
+   "Charging_bays": 4,
+   "Charger_capacities": "This site will have one 360kW charging unit to service two bays and one 150kW charging unit to service two bays.",
+   "lat": -33.8067305,
+   "lng": 151.0708812
+ },
+ {
+   "ObjId": 29,
+   "Site Address": "1234 Princes Hwy, Engadine NSW 2233, Australia",
+   "Applicant": "BP Australia PTY LTD",
+   "Charging_bays": 4,
+   "Charger_capacities": "This site will have one 360kW charging unit to service two bays and one 150kW charging unit to service two bays.",
+   "lat": -34.0773764,
+   "lng": 151.011183
+ },
+ {
+   "ObjId": 30,
+   "Site Address": "13 Southey St, Jerilderie NSW 2716, Australia",
+   "Applicant": "BP Australia PTY LTD",
+   "Charging_bays": 4,
+   "Charger_capacities": "This site will have one 360kW charging unit to service two bays and one 150kW charging unit to service two bays.",
+   "lat": -35.3552251,
+   "lng": 145.7224171
+ },
+ {
+   "ObjId": 31,
+   "Site Address": "156 Prospect Hwy, Seven Hills NSW 2147, Australia",
+   "Applicant": "BP Australia PTY LTD",
+   "Charging_bays": 4,
+   "Charger_capacities": "This site will have one 360kW charging unit to service two bays and one 150kW charging unit to service two bays.",
+   "lat": -33.769198,
+   "lng": 150.9416014
+ },
+ {
+   "ObjId": 32,
+   "Site Address": "7 Northwood Rd, Longueville NSW 2066, Australia",
+   "Applicant": "BP Australia PTY LTD",
+   "Charging_bays": 4,
+   "Charger_capacities": "This site will have one 360kW charging unit to service two bays and one 150kW charging unit to service two bays.",
+   "lat": -33.824457,
+   "lng": 151.172717
+ },
+ {
+   "ObjId": 33,
+   "Site Address": "76 Glossop St, North St Marys NSW 2760, Australia",
+   "Applicant": "BP Australia PTY LTD",
+   "Charging_bays": 4,
+   "Charger_capacities": "This site will have one 360kW charging unit to service two bays and one 150kW charging unit to service two bays.",
+   "lat": -33.7601,
+   "lng": 150.7816
+ },
+ {
+   "ObjId": 34,
+   "Site Address": " 362 Macquarie St, South Windsor NSW 2756, Australia",
+   "Applicant": "BP Australia PTY LTD",
+   "Charging_bays": 4,
+   "Charger_capacities": "This site will have one 360kW charging unit to service two bays and one 150kW charging unit to service two bays.",
+   "lat": -33.6248393,
+   "lng": 150.8004409
+ },
+ {
+   "ObjId": 35,
+   "Site Address": "1 Tasman Rd, Gumly Gumly NSW 2652, Australia",
+   "Applicant": "BP Australia PTY LTD",
+   "Charging_bays": 4,
+   "Charger_capacities": "This site will have one 360kW charging unit to service two bays and one 150kW charging unit to service two bays.",
+   "lat": -35.1262153,
+   "lng": 147.4208819
+ },
+ {
+   "ObjId": 36,
+   "Site Address": "197 Beardy St, Armidale NSW 2350, Australia",
+   "Applicant": "Fast Cities Australia Pty Ltd",
+   "Charging_bays": 4,
+   "Charger_capacities": "Two chargers will be provided to service four bays concurrently. Two charging bays will be rated at 175kW per bay (+/- 20%). Two charging bays will be rated at a minimum of 350kW per bay (+/-15%). ",
+   "lat": -30.51220476,
+   "lng": 151.6647084
+ },
+ {
+   "ObjId": 37,
+   "Site Address": "124 Corner Princes Highway and Port Hacking Rd, Sylvania NSW 2224, Australia",
+   "Applicant": "Fast Cities Australia Pty Ltd",
+   "Charging_bays": 6,
+   "Charger_capacities": "Two chargers will be provided to service four bays concurrently. Two charging bays will be rated at 175kW per bay (+/- 20%). Two charging bays will be rated at a minimum of 350kW per bay (+/-15%). ",
+   "lat": -34.0079119,
+   "lng": 151.1057425
+ },
+ {
+   "ObjId": 38,
+   "Site Address": "152 Church St, Glen Innes NSW 2370, Australia",
+   "Applicant": "Fast Cities Australia Pty Ltd",
+   "Charging_bays": 4,
+   "Charger_capacities": "Two chargers will be provided to service four bays concurrently. Two charging bays will be rated at 175kW per bay (+/- 20%). Two charging bays will be rated at a minimum of 350kW per bay (+/-15%). ",
+   "lat": -29.7381427,
+   "lng": 151.7376761
+ },
+ {
+   "ObjId": 39,
+   "Site Address": "80 Princes Hwy, Narooma NSW 2546, Australia",
+   "Applicant": "Fast Cities Australia Pty Ltd",
+   "Charging_bays": 4,
+   "Charger_capacities": "Two chargers will be provided to service four bays concurrently. Two charging bays will be rated at 175kW per bay (+/- 20%). Two charging bays will be rated at a minimum of 350kW per bay (+/-15%). ",
+   "lat": -36.2169752,
+   "lng": 150.1277033
+ },
+ {
+   "ObjId": 40,
+   "Site Address": "King St, Coolongolook, NSW, 2423 ",
+   "Applicant": "Fast Cities Australia Pty Ltd",
+   "Charging_bays": 4,
+   "Charger_capacities": "Two chargers will be provided to service four bays concurrently. Two charging bays will be rated at 175kW per bay (+/- 20%). Two charging bays will be rated at a minimum of 350kW per bay (+/-15%). ",
+   "lat": -32.2188348,
+   "lng": 152.3220956
+ },
+ {
+   "ObjId": 41,
+   "Site Address": "502/504 Peel St, Tamworth NSW 2340, Australia",
+   "Applicant": "Fast Cities Australia Pty Ltd",
+   "Charging_bays": 4,
+   "Charger_capacities": "Two chargers will be provided to service four bays concurrently. Two charging bays will be rated at 175kW per bay (+/- 20%). Two charging bays will be rated at a minimum of 350kW per bay (+/-15%). ",
+   "lat": -31.0970389,
+   "lng": 150.9361899
+ },
+ {
+   "ObjId": 42,
+   "Site Address": "85 South St, Ulladulla NSW 2539, Australia",
+   "Applicant": "Fast Cities Australia Pty Ltd",
+   "Charging_bays": 4,
+   "Charger_capacities": "Two chargers will be provided to service four bays concurrently. Two charging bays will be rated at 175kW per bay (+/- 20%). Two charging bays will be rated at a minimum of 350kW per bay (+/-15%). ",
+   "lat": -35.3595695,
+   "lng": 150.475396
+ },
+ {
+   "ObjId": 43,
+   "Site Address": "250 Sydney Rd, Kelso NSW 2795, Australia",
+   "Applicant": "NRMA",
+   "Charging_bays": 4,
+   "Charger_capacities": "Two chargers will be provided to service four bays concurrently. Two charging bays will be rated at 175kW per bay (+/- 20%). Two charging bays will be rated at a minimum of 350kW per bay (+/-15%). ",
+   "lat": -33.41885933,
+   "lng": 149.6271068
+ },
+ {
+   "ObjId": 44,
+   "Site Address": "4 Commercial Rd, Rouse Hill NSW 2155, Australia",
+   "Applicant": "NRMA",
+   "Charging_bays": 4,
+   "Charger_capacities": "Two chargers will be provided to service four bays concurrently. Two charging bays will be rated at 175kW per bay (+/- 20%). Two charging bays will be rated at a minimum of 350kW per bay (+/-15%). ",
+   "lat": -33.6863741,
+   "lng": 150.9230744
+ },
+ {
+   "ObjId": 45,
+   "Site Address": "220 Taren Point Rd, Caringbah NSW 2229, Australia",
+   "Applicant": "NRMA",
+   "Charging_bays": 4,
+   "Charger_capacities": "Two chargers will be provided to service four bays concurrently. Two charging bays will be rated at 175kW per bay (+/- 20%). Two charging bays will be rated at a minimum of 350kW per bay (+/-15%). ",
+   "lat": -34.0295487,
+   "lng": 151.1209819
+ },
+ {
+   "ObjId": 46,
+   "Site Address": "1985 Camden Valley Way, Prestons NSW 2170, Australia",
+   "Applicant": "NRMA",
+   "Charging_bays": 4,
+   "Charger_capacities": "Two chargers will be provided to service four bays concurrently. Two charging bays will be rated at 175kW per bay (+/- 20%). Two charging bays will be rated at a minimum of 350kW per bay (+/-15%). ",
+   "lat": -33.9520882,
+   "lng": 150.855437
+ },
+ {
+   "ObjId": 47,
+   "Site Address": "106 Vale St, Cooma NSW 2630, Australia",
+   "Applicant": "NRMA",
+   "Charging_bays": 4,
+   "Charger_capacities": "Two chargers will be provided to service four bays concurrently. Two charging bays will be rated at 175kW per bay (+/- 20%). Two charging bays will be rated at a minimum of 350kW per bay (+/-15%). ",
+   "lat": -36.2370012,
+   "lng": 149.1260172
+ },
+ {
+   "ObjId": 48,
+   "Site Address": "82 Mulgoa Rd, Jamisontown NSW 2750, Australia",
+   "Applicant": "NRMA",
+   "Charging_bays": 4,
+   "Charger_capacities": "Two chargers will be provided to service four bays concurrently. Two charging bays will be rated at 175kW per bay (+/- 20%). Two charging bays will be rated at a minimum of 350kW per bay (+/-15%). ",
+   "lat": -33.7646656,
+   "lng": 150.6824264
+ },
+ {
+   "ObjId": 49,
+   "Site Address": "29 Perry St, Euston NSW 2737, Australia",
+   "Applicant": "NRMA",
+   "Charging_bays": 4,
+   "Charger_capacities": "Two chargers will be provided to service four bays concurrently. Two charging bays will be rated at 175kW per bay (+/- 20%). Two charging bays will be rated at a minimum of 350kW per bay (+/-15%). ",
+   "lat": -34.5765963,
+   "lng": 142.7428195
+ },
+ {
+   "ObjId": 50,
+   "Site Address": "Watson St, Molong NSW 2866, Australia",
+   "Applicant": "NRMA",
+   "Charging_bays": 4,
+   "Charger_capacities": "Two chargers will be provided to service four bays concurrently. Two charging bays will be rated at 175kW per bay (+/- 20%). Two charging bays will be rated at a minimum of 350kW per bay (+/-15%). ",
+   "lat": -33.0962463,
+   "lng": 148.8703135
+ },
+ {
+   "ObjId": 51,
+   "Site Address": "1 Munster St, Port Macquarie NSW 2444, Australia",
+   "Applicant": "NRMA",
+   "Charging_bays": 4,
+   "Charger_capacities": "Two chargers will be provided to service four bays concurrently. Two charging bays will be rated at 175kW per bay (+/- 20%). Two charging bays will be rated at a minimum of 350kW per bay (+/-15%). ",
+   "lat": -31.4275162,
+   "lng": 152.9105133
+ },
+ {
+   "ObjId": 52,
+   "Site Address": "121 Crawford St, Queanbeyan NSW 2620, Australia",
+   "Applicant": "NRMA",
+   "Charging_bays": 4,
+   "Charger_capacities": "Two chargers will be provided to service four bays concurrently. Two charging bays will be rated at 175kW per bay (+/- 20%). Two charging bays will be rated at a minimum of 350kW per bay (+/-15%). ",
+   "lat": -35.3492798,
+   "lng": 149.23065
+ },
+ {
+   "ObjId": 53,
+   "Site Address": "43 Tweed Coast Rd, Bogangar NSW 2488, Australia",
+   "Applicant": "NRMA",
+   "Charging_bays": 4,
+   "Charger_capacities": "Two chargers will be provided to service four bays concurrently. Two charging bays will be rated at 175kW per bay (+/- 20%). Two charging bays will be rated at a minimum of 350kW per bay (+/-15%). ",
+   "lat": -28.3320249,
+   "lng": 153.5691562
+ },
+ {
+   "ObjId": 54,
+   "Site Address": "525 David St, Albury NSW 2640, Australia",
+   "Applicant": "Tesla Motors Australia, Pty Ltd",
+   "Charging_bays": 15,
+   "Charger_capacities": "Each charging bay will have a rated output of at least 250kW, with 2+ bays having a rated output of 350kW. ",
+   "lat": -36.0801872,
+   "lng": 146.9192527
+ },
+ {
+   "ObjId": 55,
+   "Site Address": "49-59 O'Riordan St, Alexandria NSW 2015, Australia",
+   "Applicant": "Tesla Motors Australia, Pty Ltd",
+   "Charging_bays": 6,
+   "Charger_capacities": "Each charging bay will have a rated output of at least 250kW, with 2+ bays having a rated output of 350kW. ",
+   "lat": -33.9141611,
+   "lng": 151.1948556
+ },
+ {
+   "ObjId": 56,
+   "Site Address": "Jessie St, Armidale NSW 2350, Australia",
+   "Applicant": "Tesla Motors Australia, Pty Ltd",
+   "Charging_bays": 4,
+   "Charger_capacities": "Each charging bay will have a rated output of at least 250kW, with 2+ bays having a rated output of 350kW. ",
+   "lat": -30.51297852,
+   "lng": 151.6635439
+ },
+ {
+   "ObjId": 57,
+   "Site Address": "265 Parramatta Rd, Auburn NSW 2144, Australia",
+   "Applicant": "Tesla Motors Australia, Pty Ltd",
+   "Charging_bays": 6,
+   "Charger_capacities": "Each charging bay will have a rated output of at least 250kW, with 2+ bays having a rated output of 350kW. ",
+   "lat": -33.8377201,
+   "lng": 151.0280802
+ },
+ {
+   "ObjId": 58,
+   "Site Address": "84 Kerr St, Ballina NSW 2478, Australia",
+   "Applicant": "Tesla Motors Australia, Pty Ltd",
+   "Charging_bays": 12,
+   "Charger_capacities": "Each charging bay will have a rated output of at least 250kW, with 2+ bays having a rated output of 350kW. ",
+   "lat": -28.8596965,
+   "lng": 153.5591493
+ },
+ {
+   "ObjId": 59,
+   "Site Address": "1 Perry St, Batemans Bay NSW 2536, Australia",
+   "Applicant": "Tesla Motors Australia, Pty Ltd",
+   "Charging_bays": 6,
+   "Charger_capacities": "Each charging bay will have a rated output of at least 250kW, with 2+ bays having a rated output of 350kW. ",
+   "lat": -35.7073463,
+   "lng": 150.175802
+ },
+ {
+   "ObjId": 60,
+   "Site Address": "176 Auckland St, Bega NSW 2550, Australia",
+   "Applicant": "Tesla Motors Australia, Pty Ltd",
+   "Charging_bays": 6,
+   "Charger_capacities": "Each charging bay will have a rated output of at least 250kW, with 2+ bays having a rated output of 350kW. ",
+   "lat": -36.6779701,
+   "lng": 149.8404382
+ },
+ {
+   "ObjId": 61,
+   "Site Address": "Blue Gum Rd, Jesmond NSW 2299, Australia",
+   "Applicant": "Tesla Motors Australia, Pty Ltd",
+   "Charging_bays": 6,
+   "Charger_capacities": "Each charging bay will have a rated output of at least 250kW, with 2+ bays having a rated output of 350kW. ",
+   "lat": -32.8980296,
+   "lng": 151.6918902
+ },
+ {
+   "ObjId": 62,
+   "Site Address": "5 Charlton St, Woy Woy NSW 2256, Australia",
+   "Applicant": "Tesla Motors Australia, Pty Ltd",
+   "Charging_bays": 12,
+   "Charger_capacities": "Each charging bay will have a rated output of at least 250kW, with 2+ bays having a rated output of 350kW. ",
+   "lat": -33.4884791,
+   "lng": 151.3226386
+ },
+ {
+   "ObjId": 63,
+   "Site Address": "71 Spring St, Bondi Junction NSW 2022, Australia",
+   "Applicant": "Tesla Motors Australia, Pty Ltd",
+   "Charging_bays": 6,
+   "Charger_capacities": "Each charging bay will have a rated output of at least 250kW, with 2+ bays having a rated output of 350kW. ",
+   "lat": -33.8925239,
+   "lng": 151.2478264
+ },
+ {
+   "ObjId": 64,
+   "Site Address": "1 Art Gallery Rd, Campbelltown NSW 2560, Australia",
+   "Applicant": "Tesla Motors Australia, Pty Ltd",
+   "Charging_bays": 9,
+   "Charger_capacities": "Each charging bay will have a rated output of at least 250kW, with 2+ bays having a rated output of 350kW. ",
+   "lat": -34.07280739,
+   "lng": 150.8091418
+ },
+ {
+   "ObjId": 65,
+   "Site Address": "345 Victoria Ave, Chatswood NSW 2067, Australia",
+   "Applicant": "Tesla Motors Australia, Pty Ltd",
+   "Charging_bays": 9,
+   "Charger_capacities": "Each charging bay will have a rated output of at least 250kW, with 2+ bays having a rated output of 350kW. ",
+   "lat": -33.7945647,
+   "lng": 151.18613
+ },
+ {
+   "ObjId": 66,
+   "Site Address": "211 Pacific Hwy, Coffs Harbour NSW 2450, Australia",
+   "Applicant": "Tesla Motors Australia, Pty Ltd",
+   "Charging_bays": 15,
+   "Charger_capacities": "Each charging bay will have a rated output of at least 250kW, with 2+ bays having a rated output of 350kW. ",
+   "lat": -30.30829002,
+   "lng": 153.1019758
+ },
+ {
+   "ObjId": 67,
+   "Site Address": "19 Princes Hwy, Figtree NSW 2525, Australia",
+   "Applicant": "Tesla Motors Australia, Pty Ltd",
+   "Charging_bays": 6,
+   "Charger_capacities": "Each charging bay will have a rated output of at least 250kW, with 2+ bays having a rated output of 350kW. ",
+   "lat": -34.4366153,
+   "lng": 150.8632982
+ },
+ {
+   "ObjId": 68,
+   "Site Address": "1 Bay St, Jindabyne NSW 2627, Australia",
+   "Applicant": "Tesla Motors Australia, Pty Ltd",
+   "Charging_bays": 6,
+   "Charger_capacities": "Each charging bay will have a rated output of at least 250kW, with 2+ bays having a rated output of 350kW. ",
+   "lat": -36.4223723,
+   "lng": 148.6287558
+ },
+ {
+   "ObjId": 69,
+   "Site Address": "Hope St, Blaxland NSW 2774, Australia",
+   "Applicant": "Tesla Motors Australia, Pty Ltd",
+   "Charging_bays": 6,
+   "Charger_capacities": "Each charging bay will have a rated output of at least 250kW, with 2+ bays having a rated output of 350kW. ",
+   "lat": -33.7452292,
+   "lng": 150.6101288
+ },
+ {
+   "ObjId": 70,
+   "Site Address": "15666 Hume Hwy, Marulan NSW 2579, Australia",
+   "Applicant": "Tesla Motors Australia, Pty Ltd",
+   "Charging_bays": 15,
+   "Charger_capacities": "Each charging bay will have a rated output of at least 250kW, with 2+ bays having a rated output of 350kW. ",
+   "lat": -34.7193791,
+   "lng": 149.9951914
+ },
+ {
+   "ObjId": 71,
+   "Site Address": "1 Jondaryan Ave, Griffith NSW 2680, Australia",
+   "Applicant": "Tesla Motors Australia, Pty Ltd",
+   "Charging_bays": 6,
+   "Charger_capacities": "Each charging bay will have a rated output of at least 250kW, with 2+ bays having a rated output of 350kW. ",
+   "lat": -34.2891433,
+   "lng": 146.050738
+ },
+ {
+   "ObjId": 72,
+   "Site Address": "407 Moppett St, Hay NSW 2711, Australia",
+   "Applicant": "Tesla Motors Australia, Pty Ltd",
+   "Charging_bays": 6,
+   "Charger_capacities": "Each charging bay will have a rated output of at least 250kW, with 2+ bays having a rated output of 350kW. ",
+   "lat": -34.5083374,
+   "lng": 144.842864
+ },
+ {
+   "ObjId": 73,
+   "Site Address": "279 Condamine St, Manly Vale NSW 2093, Australia",
+   "Applicant": "Tesla Motors Australia, Pty Ltd",
+   "Charging_bays": 6,
+   "Charger_capacities": "Each charging bay will have a rated output of at least 250kW, with 2+ bays having a rated output of 350kW. ",
+   "lat": -33.7857715,
+   "lng": 151.2664574
+ },
+ {
+   "ObjId": 74,
+   "Site Address": "2 Central Ave, Eveleigh NSW 2015, Australia",
+   "Applicant": "Tesla Motors Australia, Pty Ltd",
+   "Charging_bays": 6,
+   "Charger_capacities": "Each charging bay will have a rated output of at least 250kW, with 2+ bays having a rated output of 350kW. ",
+   "lat": -33.89558829,
+   "lng": 151.1957595
+ },
+ {
+   "ObjId": 75,
+   "Site Address": "72-78 Brook St, Muswellbrook NSW 2333, Australia",
+   "Applicant": "Tesla Motors Australia, Pty Ltd",
+   "Charging_bays": 6,
+   "Charger_capacities": "Each charging bay will have a rated output of at least 250kW, with 2+ bays having a rated output of 350kW. ",
+   "lat": -32.2632046,
+   "lng": 150.8908563
+ },
+ {
+   "ObjId": 76,
+   "Site Address": "103 Tibbereena St, Narrabri NSW 2390, Australia",
+   "Applicant": "Tesla Motors Australia, Pty Ltd",
+   "Charging_bays": 6,
+   "Charger_capacities": "Each charging bay will have a rated output of at least 250kW, with 2+ bays having a rated output of 350kW. ",
+   "lat": -30.3237194,
+   "lng": 149.7807558
+ },
+ {
+   "ObjId": 77,
+   "Site Address": "74 Benjamin Lee Dr, Raymond Terrace NSW 2324, Australia",
+   "Applicant": "Tesla Motors Australia, Pty Ltd",
+   "Charging_bays": 15,
+   "Charger_capacities": "Each charging bay will have a rated output of at least 250kW, with 2+ bays having a rated output of 350kW. ",
+   "lat": -32.7608565,
+   "lng": 151.7750902
+ },
+ {
+   "ObjId": 78,
+   "Site Address": "260 Peisley St, Orange NSW 2800, Australia",
+   "Applicant": "Tesla Motors Australia, Pty Ltd",
+   "Charging_bays": 6,
+   "Charger_capacities": "Each charging bay will have a rated output of at least 250kW, with 2+ bays having a rated output of 350kW. ",
+   "lat": -33.28036642,
+   "lng": 149.1045685
+ },
+ {
+   "ObjId": 79,
+   "Site Address": "Peak Hill Rd, Parkes NSW 2870, Australia",
+   "Applicant": "Tesla Motors Australia, Pty Ltd",
+   "Charging_bays": 6,
+   "Charger_capacities": "Each charging bay will have a rated output of at least 250kW, with 2+ bays having a rated output of 350kW. ",
+   "lat": -33.1208795,
+   "lng": 148.1745229
+ },
+ {
+   "ObjId": 80,
+   "Site Address": "North Ter, Bankstown NSW 2200, Australia",
+   "Applicant": "Tesla Motors Australia, Pty Ltd",
+   "Charging_bays": 6,
+   "Charger_capacities": "Each charging bay will have a rated output of at least 250kW, with 2+ bays having a rated output of 350kW. ",
+   "lat": -33.9172635,
+   "lng": 151.0388392
+ },
+ {
+   "ObjId": 81,
+   "Site Address": "249 Sheridan St, Gundagai NSW 2722, Australia",
+   "Applicant": "Tesla Motors Australia, Pty Ltd",
+   "Charging_bays": 12,
+   "Charger_capacities": "Each charging bay will have a rated output of at least 250kW, with 2+ bays having a rated output of 350kW. ",
+   "lat": -35.0628786,
+   "lng": 148.1018724
+ },
+ {
+   "ObjId": 82,
+   "Site Address": "46 Wynter St, Taree NSW 2430, Australia",
+   "Applicant": "Tesla Motors Australia, Pty Ltd",
+   "Charging_bays": 12,
+   "Charger_capacities": "Each charging bay will have a rated output of at least 250kW, with 2+ bays having a rated output of 350kW. ",
+   "lat": -31.9091286,
+   "lng": 152.4602752
+ },
+ {
+   "ObjId": 83,
+   "Site Address": "162 Rouse St, Tenterfield NSW 2372, Australia",
+   "Applicant": "Tesla Motors Australia, Pty Ltd",
+   "Charging_bays": 4,
+   "Charger_capacities": "Each charging bay will have a rated output of at least 250kW, with 2+ bays having a rated output of 350kW. ",
+   "lat": -29.0565237,
+   "lng": 152.0181884
+ },
+ {
+   "ObjId": 84,
+   "Site Address": "Wagga Wagga, NSW, 2650",
+   "Applicant": "Tesla Motors Australia, Pty Ltd",
+   "Charging_bays": 6,
+   "Charger_capacities": "Each charging bay will have a rated output of at least 250kW, with 2+ bays having a rated output of 350kW. ",
+   "lat": -35.13038031,
+   "lng": 147.341831
+ },
+ {
+   "ObjId": 85,
+   "Site Address": "68 Lead St, Yass NSW 2582, Australia",
+   "Applicant": "Tesla Motors Australia, Pty Ltd",
+   "Charging_bays": 12,
+   "Charger_capacities": "Each charging bay will have a rated output of at least 250kW, with 2+ bays having a rated output of 350kW. ",
+   "lat": -34.8436517,
+   "lng": 148.9141404
+ },
+ {
+   "ObjId": 86,
+   "Site Address": "218 Katoomba St, Katoomba NSW 2780, Australia",
+   "Applicant": "Zeus Renewables Pty Ltd",
+   "Charging_bays": 4,
+   "Charger_capacities": "EVSE constructed at the site will consist of two Tritium chargers, one 350kW PK350 and one 150kW PKM150. Each charger has two bays.",
+   "lat": -33.7177144,
+   "lng": 150.3112842
+ },
+ {
+   "ObjId": 1,
+   "Site Address": "1 Rider Blvd, Rhodes NSW 2138, Australia",
+   "Applicant": "Ampcharge",
+   "Charging_bays": 8,
+   "Charger_capacities": " The rated capacity of all chargers will be a minimum of 300kW ( HYC300), With the HYC400 capable of up to 400kW.",
+   "lat": -33.8351248,
+   "lng": 151.084473
+ },
+ {
+   "ObjId": 2,
+   "Site Address": "10 Park St, Mona Vale NSW 2103, Australia",
+   "Applicant": "Ampcharge",
+   "Charging_bays": 6,
+   "Charger_capacities": " The rated capacity of all chargers will be a minimum of 300kW ( HYC300), With the HYC400 capable of up to 400kW.",
+   "lat": -33.6759177,
+   "lng": 151.3053635
+ },
+ {
+   "ObjId": 3,
+   "Site Address": "19 Roseby St Drummoyne NSW 2047 Australia",
+   "Applicant": "Ampcharge",
+   "Charging_bays": 8,
+   "Charger_capacities": " The rated capacity of all chargers will be a minimum of 300kW ( HYC300), With the HYC400 capable of up to 400kW.",
+   "lat": -33.8555291,
+   "lng": 151.1621109
+ },
+ {
+   "ObjId": 4,
+   "Site Address": "542 Parramatta Rd, Ashfield NSW 2131, Australia",
+   "Applicant": "Ampcharge",
+   "Charging_bays": 4,
+   "Charger_capacities": " The rated capacity of all chargers will be a minimum of 300kW ( HYC300), With the HYC400 capable of up to 400kW.",
+   "lat": -33.8755483,
+   "lng": 151.1284638
+ },
+ {
+   "ObjId": 5,
+   "Site Address": "6 Castle St, Castle Hill NSW 2154, Australia",
+   "Applicant": "Ampcharge",
+   "Charging_bays": 6,
+   "Charger_capacities": " The rated capacity of all chargers will be a minimum of 300kW ( HYC300), With the HYC400 capable of up to 400kW.",
+   "lat": -33.7301746,
+   "lng": 151.0064188
+ },
+ {
+   "ObjId": 6,
+   "Site Address": "Blue St North Sydney NSW 2060 Australia",
+   "Applicant": "Ampcharge",
+   "Charging_bays": 8,
+   "Charger_capacities": " The rated capacity of all chargers will be a minimum of 300kW ( HYC300), With the HYC400 capable of up to 400kW.",
+   "lat": -33.840949,
+   "lng": 151.2074446
+ },
+ {
+   "ObjId": 7,
+   "Site Address": "M4 Motorway, Eastern Creek NSW 2766, Australia",
+   "Applicant": "Ampcharge",
+   "Charging_bays": 10,
+   "Charger_capacities": " The rated capacity of all chargers will be a minimum of 300kW ( HYC300), With the HYC400 capable of up to 400kW.",
+   "lat": -33.7966292,
+   "lng": 150.8487996
+ },
+ {
+   "ObjId": 8,
+   "Site Address": "Bp Boambee, CNR PACIFIC HWY AND SAWTELL ROAD, BOAMBEE NSW 2450, Australia",
+   "Applicant": "BP",
+   "Charging_bays": 4,
+   "Charger_capacities": "2 bays can be serviced by the 175kW EV Charging station and 2 bays can be serviced by the 300kW EV Charging station",
+   "lat": -30.3435365,
+   "lng": 153.0849796
+ },
+ {
+   "ObjId": 9,
+   "Site Address": "Bp Bonnyrigg, CNR COWPASTURE & NTH LIVERPOOL RDS, Bonnyrigg NSW 2177, Australia",
+   "Applicant": "BP",
+   "Charging_bays": 4,
+   "Charger_capacities": "2 bays can be serviced by the 175kW EV Charging station and 2 bays can be serviced by the 300kW EV Charging station",
+   "lat": -33.8930618,
+   "lng": 150.8891259
+ },
+ {
+   "ObjId": 10,
+   "Site Address": "Bp Dundas, 256 Kissing Point Rd, Dundas Valley NSW 2117, Australia",
+   "Applicant": "BP",
+   "Charging_bays": 4,
+   "Charger_capacities": "2 bays can be serviced by the 175kW EV Charging station and 2 bays can be serviced by the 300kW EV Charging station",
+   "lat": -33.7989253,
+   "lng": 151.0543765
+ },
+ {
+   "ObjId": 11,
+   "Site Address": "Bp Guildford (NSW), 257 Guildford Rd, Guildford NSW 2161, Australia",
+   "Applicant": "BP",
+   "Charging_bays": 4,
+   "Charger_capacities": "2 bays can be serviced by the 175kW EV Charging station and 2 bays can be serviced by the 300kW EV Charging station",
+   "lat": -33.8544,
+   "lng": 150.989
+ },
+ {
+   "ObjId": 12,
+   "Site Address": "Bp Kennedy Drive, CNR KENNEDY DVE & DUCAT ST, Tweed Heads NSW 2485, Australia",
+   "Applicant": "BP",
+   "Charging_bays": 4,
+   "Charger_capacities": "2 bays can be serviced by the 175kW EV Charging station and 2 bays can be serviced by the 300kW EV Charging station",
+   "lat": -28.18573,
+   "lng": 153.52601
+ },
+ {
+   "ObjId": 13,
+   "Site Address": "Bp Marsden Park, 851 Richmond Road, Marsden Park NSW 2765, Australia",
+   "Applicant": "BP",
+   "Charging_bays": 4,
+   "Charger_capacities": "2 bays can be serviced by the 175kW EV Charging station and 2 bays can be serviced by the 300kW EV Charging station",
+   "lat": -33.7195283,
+   "lng": 150.8449026
+ },
+ {
+   "ObjId": 14,
+   "Site Address": "Bp Mona Vale, 1721 Pittwater Rd, Mona Vale NSW 2103, Australia",
+   "Applicant": "BP",
+   "Charging_bays": 4,
+   "Charger_capacities": "2 bays can be serviced by the 175kW EV Charging station and 2 bays can be serviced by the 300kW EV Charging station",
+   "lat": -33.680459,
+   "lng": 151.302493
+ },
+ {
+   "ObjId": 15,
+   "Site Address": "Bp Mortdale, 21 Boundary Rd, Mortdale NSW 2223, Australia",
+   "Applicant": "BP",
+   "Charging_bays": 4,
+   "Charger_capacities": "2 bays can be serviced by the 175kW EV Charging station and 2 bays can be serviced by the 300kW EV Charging station",
+   "lat": -33.970669,
+   "lng": 151.073689
+ },
+ {
+   "ObjId": 16,
+   "Site Address": "Bp Normanhurst, 155 Pennant Hills Rd, Normanhurst NSW 2076, Australia",
+   "Applicant": "BP",
+   "Charging_bays": 4,
+   "Charger_capacities": "2 bays can be serviced by the 175kW EV Charging station and 2 bays can be serviced by the 300kW EV Charging station",
+   "lat": -33.7245,
+   "lng": 151.0901
+ },
+ {
+   "ObjId": 17,
+   "Site Address": "Bp Potts Hill Truckstop, 155-157 Rockwood Road, Yagoona NSW 2199, Australia",
+   "Applicant": "BP",
+   "Charging_bays": 4,
+   "Charger_capacities": "2 bays can be serviced by the 175kW EV Charging station and 2 bays can be serviced by the 300kW EV Charging station",
+   "lat": -33.8953812,
+   "lng": 151.0366997
+ },
+ {
+   "ObjId": 18,
+   "Site Address": "Bp Rozelle, Cnr VIC Rd & Evans St, Rozelle NSW 2039, Australia",
+   "Applicant": "BP",
+   "Charging_bays": 4,
+   "Charger_capacities": "2 bays can be serviced by the 175kW EV Charging station and 2 bays can be serviced by the 300kW EV Charging station",
+   "lat": -33.8653,
+   "lng": 151.1716
+ },
+ {
+   "ObjId": 19,
+   "Site Address": "Bp Tighes Hill, 110 Elizabeth St, Tighes Hill NSW 2297, Australia",
+   "Applicant": "BP",
+   "Charging_bays": 4,
+   "Charger_capacities": "2 bays can be serviced by the 175kW EV Charging station and 2 bays can be serviced by the 300kW EV Charging station",
+   "lat": -32.9068975,
+   "lng": 151.7590522
+ },
+ {
+   "ObjId": 20,
+   "Site Address": "Bp Young, Cnr Zouch and Edward Streets, Young NSW 2594, Australia",
+   "Applicant": "BP",
+   "Charging_bays": 4,
+   "Charger_capacities": "2 bays can be serviced by the 175kW EV Charging station and 2 bays can be serviced by the 300kW EV Charging station",
+   "lat": -34.3134008,
+   "lng": 148.2979356
+ },
+ {
+   "ObjId": 21,
+   "Site Address": "Charter Hall Carnes Hill Marketplace, Corner Cowpasture & Kurrajong Roads, Horningsea Park NSW 2171, Australia",
+   "Applicant": "BP",
+   "Charging_bays": 8,
+   "Charger_capacities": "2 bays can be serviced by the 175kW EV Charging station and 2 bays can be serviced by the 300kW EV Charging station.",
+   "lat": -33.9373818,
+   "lng": 150.8450395
+ },
+ {
+   "ObjId": 22,
+   "Site Address": "Charter Hall Lake Macquarie, 46 Wilson Road, Mount Hutton NSW 2290, Australia",
+   "Applicant": "BP",
+   "Charging_bays": 8,
+   "Charger_capacities": "2 bays can be serviced by the 175kW EV Charging station and 2 bays can be serviced by the 300kW EV Charging station.",
+   "lat": -32.9836613,
+   "lng": 151.6731423
+ },
+ {
+   "ObjId": 23,
+   "Site Address": "Charter Hall Rutherford Marketplace, 1 Hillview St, Rutherford NSW 2320, Australia",
+   "Applicant": "BP",
+   "Charging_bays": 8,
+   "Charger_capacities": "2 bays can be serviced by the 175kW EV Charging station and 2 bays can be serviced by the 300kW EV Charging station.",
+   "lat": -32.7156085,
+   "lng": 151.5265817
+ },
+ {
+   "ObjId": 24,
+   "Site Address": "Hungry Jacks Lismore, 48 Ballina Rd, Lismore NSW 2480, Australia",
+   "Applicant": "BP",
+   "Charging_bays": 4,
+   "Charger_capacities": "2 bays can be serviced by the 175kW EV Charging station and 2 bays can be serviced by the 300kW EV Charging station",
+   "lat": -28.8138931,
+   "lng": 153.2795937
+ },
+ {
+   "ObjId": 25,
+   "Site Address": "1 Kullaiba Rd, Kotara NSW 2289, Australia",
+   "Applicant": "Fast Cities Australia (Evie Networks)",
+   "Charging_bays": 4,
+   "Charger_capacities": "Each charging station will be equipped with 2 Tritium PKM400 modular ultra-fast chargers. All 4 bays will charge up to 400kW.",
+   "lat": -32.9392623,
+   "lng": 151.7096647
+ },
+ {
+   "ObjId": 26,
+   "Site Address": "1 Leicester St, Chester Hill NSW 2162, Australia",
+   "Applicant": "Fast Cities Australia (Evie Networks)",
+   "Charging_bays": 4,
+   "Charger_capacities": "Each charging station will be equipped with 2 Tritium PKM400 modular ultra-fast chargers. All 4 bays will charge up to 400kW.",
+   "lat": -33.8824031,
+   "lng": 151.0008372
+ },
+ {
+   "ObjId": 27,
+   "Site Address": "120 Fairford Rd, Padstow NSW 2211, Australia",
+   "Applicant": "Fast Cities Australia (Evie Networks)",
+   "Charging_bays": 4,
+   "Charger_capacities": "Each charging station will be equipped with 2 Tritium PKM400 modular ultra-fast chargers. All 4 bays will charge up to 400kW.",
+   "lat": -33.9439754,
+   "lng": 151.035082
+ },
+ {
+   "ObjId": 28,
+   "Site Address": "13 Wandella Rd, Miranda NSW 2228, Australia",
+   "Applicant": "Fast Cities Australia (Evie Networks)",
+   "Charging_bays": 4,
+   "Charger_capacities": "Each charging station will be equipped with 2 Tritium PKM400 modular ultra-fast chargers. All 4 bays will charge up to 400kW.",
+   "lat": -34.0320622,
+   "lng": 151.1000907
+ },
+ {
+   "ObjId": 29,
+   "Site Address": "166 Mona Vale Rd, St Ives NSW 2075, Australia",
+   "Applicant": "Fast Cities Australia (Evie Networks)",
+   "Charging_bays": 6,
+   "Charger_capacities": "Each charging station will be equipped with 2 Tritium PKM400 modular ultra-fast chargers. All 4 bays will charge up to 400kW.",
+   "lat": -33.7298085,
+   "lng": 151.1590724
+ },
+ {
+   "ObjId": 30,
+   "Site Address": "17 Smith St, Chatswood NSW 2067, Australia",
+   "Applicant": "Fast Cities Australia (Evie Networks)",
+   "Charging_bays": 4,
+   "Charger_capacities": "Each charging station will be equipped with 2 Tritium PKM400 modular ultra-fast chargers. All 4 bays will charge up to 400kW.",
+   "lat": -33.7862615,
+   "lng": 151.1982009
+ },
+ {
+   "ObjId": 31,
+   "Site Address": "2 Castle St, Castle Hill NSW 2154, Australia",
+   "Applicant": "Fast Cities Australia (Evie Networks)",
+   "Charging_bays": 4,
+   "Charger_capacities": "Each charging station will be equipped with 2 Tritium PKM400 modular ultra-fast chargers. All 4 bays will charge up to 400kW.",
+   "lat": -33.7317813,
+   "lng": 151.0054643
+ },
+ {
+   "ObjId": 32,
+   "Site Address": "20 Blamey St, Revesby NSW 2212, Australia",
+   "Applicant": "Fast Cities Australia (Evie Networks)",
+   "Charging_bays": 4,
+   "Charger_capacities": "Each charging station will be equipped with 2 Tritium PKM400 modular ultra-fast chargers. All 4 bays will charge up to 400kW.",
+   "lat": -33.9530207,
+   "lng": 151.0149436
+ },
+ {
+   "ObjId": 33,
+   "Site Address": "205 Old Hume Hwy, Mittagong NSW 2575, Australia",
+   "Applicant": "Fast Cities Australia (Evie Networks)",
+   "Charging_bays": 4,
+   "Charger_capacities": "Each charging station will be equipped with 2 Tritium PKM400 modular ultra-fast chargers. All 4 bays will charge up to 400kW.",
+   "lat": -34.447062,
+   "lng": 150.4368979
+ },
+ {
+   "ObjId": 34,
+   "Site Address": "215 Condamine St, Balgowlah NSW 2093, Australia",
+   "Applicant": "Fast Cities Australia (Evie Networks)",
+   "Charging_bays": 4,
+   "Charger_capacities": "Each charging station will be equipped with 2 Tritium PKM400 modular ultra-fast chargers. All 4 bays will charge up to 400kW.",
+   "lat": -33.7934187,
+   "lng": 151.2647982
+ },
+ {
+   "ObjId": 35,
+   "Site Address": "225 Forest Rd, Hurstville NSW 2220, Australia",
+   "Applicant": "Fast Cities Australia (Evie Networks)",
+   "Charging_bays": 4,
+   "Charger_capacities": "Each charging station will be equipped with 2 Tritium PKM400 modular ultra-fast chargers. All 4 bays will charge up to 400kW.",
+   "lat": -33.9671563,
+   "lng": 151.1029346
+ },
+ {
+   "ObjId": 36,
+   "Site Address": "235 New South Head Rd, Edgecliff NSW 2027, Australia",
+   "Applicant": "Fast Cities Australia (Evie Networks)",
+   "Charging_bays": 4,
+   "Charger_capacities": "Each charging station will be equipped with 2 Tritium PKM400 modular ultra-fast chargers. All 4 bays will charge up to 400kW.",
+   "lat": -33.8793654,
+   "lng": 151.2365664
+ },
+ {
+   "ObjId": 37,
+   "Site Address": "238-262 Bunnerong Rd, Hillsdale NSW 2036, Australia",
+   "Applicant": "Fast Cities Australia (Evie Networks)",
+   "Charging_bays": 4,
+   "Charger_capacities": "Each charging station will be equipped with 2 Tritium PKM400 modular ultra-fast chargers. All 4 bays will charge up to 400kW.",
+   "lat": -33.9518585,
+   "lng": 151.2310486
+ },
+ {
+   "ObjId": 38,
+   "Site Address": "240 Hillsborough Rd, Warners Bay NSW 2282, Australia",
+   "Applicant": "Fast Cities Australia (Evie Networks)",
+   "Charging_bays": 4,
+   "Charger_capacities": "Each charging station will be equipped with 2 Tritium PKM400 modular ultra-fast chargers. All 4 bays will charge up to 400kW.",
+   "lat": -32.9638259,
+   "lng": 151.6620598
+ },
+ {
+   "ObjId": 39,
+   "Site Address": "245/259 Pittwater Rd, Manly NSW 2095, Australia",
+   "Applicant": "Fast Cities Australia (Evie Networks)",
+   "Charging_bays": 4,
+   "Charger_capacities": "Each charging station will be equipped with 2 Tritium PKM400 modular ultra-fast chargers. All 4 bays will charge up to 400kW.",
+   "lat": -33.787031,
+   "lng": 151.2812746
+ },
+ {
+   "ObjId": 40,
+   "Site Address": "25 Oaks Ave, Dee Why NSW 2099, Australia",
+   "Applicant": "Fast Cities Australia (Evie Networks)",
+   "Charging_bays": 4,
+   "Charger_capacities": "Each charging station will be equipped with 2 Tritium PKM400 modular ultra-fast chargers. All 4 bays will charge up to 400kW.",
+   "lat": -33.7540141,
+   "lng": 151.2873061
+ },
+ {
+   "ObjId": 41,
+   "Site Address": "26 Bridge Rd, Belmore NSW 2192, Australia",
+   "Applicant": "Fast Cities Australia (Evie Networks)",
+   "Charging_bays": 4,
+   "Charger_capacities": "Each charging station will be equipped with 2 Tritium PKM400 modular ultra-fast chargers. All 4 bays will charge up to 400kW.",
+   "lat": -33.9179842,
+   "lng": 151.0872319
+ },
+ {
+   "ObjId": 42,
+   "Site Address": "273 Fowler Rd, Illawong NSW 2234, Australia",
+   "Applicant": "Fast Cities Australia (Evie Networks)",
+   "Charging_bays": 4,
+   "Charger_capacities": "Each charging station will be equipped with 2 Tritium PKM400 modular ultra-fast chargers. All 4 bays will charge up to 400kW.",
+   "lat": -33.9971466,
+   "lng": 151.042368
+ },
+ {
+   "ObjId": 43,
+   "Site Address": "328 North Rocks Rd, North Rocks NSW 2151, Australia",
+   "Applicant": "Fast Cities Australia (Evie Networks)",
+   "Charging_bays": 4,
+   "Charger_capacities": "Each charging station will be equipped with 2 Tritium PKM400 modular ultra-fast chargers. All 4 bays will charge up to 400kW.",
+   "lat": -33.7689262,
+   "lng": 151.02792
+ },
+ {
+   "ObjId": 44,
+   "Site Address": "41 Church St, Mudgee NSW 2850, Australia",
+   "Applicant": "Fast Cities Australia (Evie Networks)",
+   "Charging_bays": 4,
+   "Charger_capacities": "Each charging station will be equipped with 2 Tritium PKM400 modular ultra-fast chargers. All 4 bays will charge up to 400kW.",
+   "lat": -32.592332,
+   "lng": 149.5889639
+ },
+ {
+   "ObjId": 45,
+   "Site Address": "42 Railway Pde, Burwood NSW 2134, Australia",
+   "Applicant": "Fast Cities Australia (Evie Networks)",
+   "Charging_bays": 4,
+   "Charger_capacities": "Each charging station will be equipped with 2 Tritium PKM400 modular ultra-fast chargers. All 4 bays will charge up to 400kW.",
+   "lat": -33.8776546,
+   "lng": 151.1022914
+ },
+ {
+   "ObjId": 46,
+   "Site Address": "44 Hume St Crows Nest NSW 2065 Australia",
+   "Applicant": "Fast Cities Australia (Evie Networks)",
+   "Charging_bays": 8,
+   "Charger_capacities": "Each charging station will be equipped with 4 Tritium PKM400 modular ultra-fast chargers. All 8 bays will charge up to 400kW.",
+   "lat": -33.8244404,
+   "lng": 151.1998787
+ },
+ {
+   "ObjId": 47,
+   "Site Address": "47 Princes Hwy Wolli Creek NSW 2205 Australia",
+   "Applicant": "Fast Cities Australia (Evie Networks)",
+   "Charging_bays": 8,
+   "Charger_capacities": "Each charging station will be equipped with 4 Tritium PKM400 modular ultra-fast chargers. All 8 bays will charge up to 400kW.",
+   "lat": -33.9309816,
+   "lng": 151.1540317
+ },
+ {
+   "ObjId": 48,
+   "Site Address": "634-726 Princes Hwy, Tempe NSW 2044, Australia",
+   "Applicant": "Fast Cities Australia (Evie Networks)",
+   "Charging_bays": 8,
+   "Charger_capacities": "Each charging station will be equipped with 4 Tritium PKM400 modular ultra-fast chargers. All 8 bays will charge up to 400kW.",
+   "lat": -33.9205155,
+   "lng": 151.1680627
+ },
+ {
+   "ObjId": 49,
+   "Site Address": "658 Terrigal Dr, Erina NSW 2250, Australia",
+   "Applicant": "Fast Cities Australia (Evie Networks)",
+   "Charging_bays": 4,
+   "Charger_capacities": "Each charging station will be equipped with 2 Tritium PKM400 modular ultra-fast chargers. All 4 bays will charge up to 400kW.",
+   "lat": -33.4365631,
+   "lng": 151.3921689
+ },
+ {
+   "ObjId": 50,
+   "Site Address": "70 Preddys Rd, Bexley NSW 2207, Australia",
+   "Applicant": "Fast Cities Australia (Evie Networks)",
+   "Charging_bays": 4,
+   "Charger_capacities": "Each charging station will be equipped with 2 Tritium PKM400 modular ultra-fast chargers. All 4 bays will charge up to 400kW.",
+   "lat": -33.9494601,
+   "lng": 151.1150388
+ },
+ {
+   "ObjId": 51,
+   "Site Address": "Avenue of Europe, Newington NSW 2127, Australia",
+   "Applicant": "Fast Cities Australia (Evie Networks)",
+   "Charging_bays": 4,
+   "Charger_capacities": "Each charging station will be equipped with 2 Tritium PKM400 modular ultra-fast chargers. All 4 bays will charge up to 400kW.",
+   "lat": -33.8343177,
+   "lng": 151.056414
+ },
+ {
+   "ObjId": 52,
+   "Site Address": "Camden Valley Way & Somerset Avenue, Narellan NSW 2567, Australia",
+   "Applicant": "Fast Cities Australia (Evie Networks)",
+   "Charging_bays": 4,
+   "Charger_capacities": "Each charging station will be equipped with 2 Tritium PKM400 modular ultra-fast chargers. All 4 bays will charge up to 400kW.",
+   "lat": -33.9957228,
+   "lng": 150.7861984
+ },
+ {
+   "ObjId": 53,
+   "Site Address": "Campbell Pde Bondi Beach NSW 2026 Australia",
+   "Applicant": "Fast Cities Australia (Evie Networks)",
+   "Charging_bays": 8,
+   "Charger_capacities": "Each charging station will be equipped with 4 Tritium PKM400 modular ultra-fast chargers. All 8 bays will charge up to 400kW.",
+   "lat": -33.8897295,
+   "lng": 151.2797592
+ },
+ {
+   "ObjId": 54,
+   "Site Address": "Cnr Devlin St &, Blaxland Rd, Ryde NSW 2112, Australia",
+   "Applicant": "Fast Cities Australia (Evie Networks)",
+   "Charging_bays": 4,
+   "Charger_capacities": "Each charging station will be equipped with 2 Tritium PKM400 modular ultra-fast chargers. All 4 bays will charge up to 400kW.",
+   "lat": -33.8117042,
+   "lng": 151.1044474
+ },
+ {
+   "ObjId": 55,
+   "Site Address": "Cnr Swallow & Peppertree Drive, Erskine Park NSW 2759, Australia",
+   "Applicant": "Fast Cities Australia (Evie Networks)",
+   "Charging_bays": 4,
+   "Charger_capacities": "Each charging station will be equipped with 2 Tritium PKM400 modular ultra-fast chargers. All 4 bays will charge up to 400kW.",
+   "lat": -33.80397,
+   "lng": 150.79887
+ },
+ {
+   "ObjId": 56,
+   "Site Address": "Corner Miller St & Amherst St, Cammeray NSW 2062, Australia",
+   "Applicant": "Fast Cities Australia (Evie Networks)",
+   "Charging_bays": 4,
+   "Charger_capacities": "Each charging station will be equipped with 2 Tritium PKM400 modular ultra-fast chargers. All 4 bays will charge up to 400kW.",
+   "lat": -33.82275,
+   "lng": 151.21017
+ },
+ {
+   "ObjId": 57,
+   "Site Address": "Corner Mimosa and, Greenfield Rd, St Johns Park NSW 2176, Australia",
+   "Applicant": "Fast Cities Australia (Evie Networks)",
+   "Charging_bays": 4,
+   "Charger_capacities": "Each charging station will be equipped with 2 Tritium PKM400 modular ultra-fast chargers. All 4 bays will charge up to 400kW.",
+   "lat": -33.8721821,
+   "lng": 150.8894172
+ },
+ {
+   "ObjId": 58,
+   "Site Address": "Molly Morgan Dr, East Maitland NSW 2323, Australia",
+   "Applicant": "Fast Cities Australia (Evie Networks)",
+   "Charging_bays": 4,
+   "Charger_capacities": "Each charging station will be equipped with 2 Tritium PKM400 modular ultra-fast chargers. All 4 bays will charge up to 400kW.",
+   "lat": -32.7629142,
+   "lng": 151.5943148
+ },
+ {
+   "ObjId": 59,
+   "Site Address": "Pitt St Merrylands NSW 2160 Australia",
+   "Applicant": "Fast Cities Australia (Evie Networks)",
+   "Charging_bays": 8,
+   "Charger_capacities": "Each charging station will be equipped with 4 Tritium PKM400 modular ultra-fast chargers. All 8 bays will charge up to 400kW.",
+   "lat": -33.826863,
+   "lng": 150.9942199
+ },
+ {
+   "ObjId": 60,
+   "Site Address": "29 Church St, Maitland NSW 2320, Australia",
+   "Applicant": "NRMA",
+   "Charging_bays": 4,
+   "Charger_capacities": "Each charging bay will have a minimum of 400kW with the rated capacity of 350kW and 175kW chargers",
+   "lat": -32.732981,
+   "lng": 151.5535599
+ },
+ {
+   "ObjId": 61,
+   "Site Address": "37-39 Bong Bong Street, Dapto NSW 2023, Australia",
+   "Applicant": "NRMA",
+   "Charging_bays": 4,
+   "Charger_capacities": "Each charging bay will have a minimum of 400kW with the rated capacity of 350kW and 175kW chargers",
+   "lat": -34.4940356,
+   "lng": 150.7915413
+ },
+ {
+   "ObjId": 62,
+   "Site Address": "Alexander St Crows Nest NSW 2065 Australia",
+   "Applicant": "NRMA",
+   "Charging_bays": 8,
+   "Charger_capacities": "Each charging bay will have a minimum of 600kW with the rated minimum capacity of 350kW and 175kW chargers",
+   "lat": -33.8254711,
+   "lng": 151.2024328
+ },
+ {
+   "ObjId": 63,
+   "Site Address": "Clarence St, Moss Vale NSW 2577, Australia",
+   "Applicant": "NRMA",
+   "Charging_bays": 4,
+   "Charger_capacities": "Each charging bay will have a minimum of 400kW with the rated capacity of 350kW and 175kW chargers",
+   "lat": -34.548287,
+   "lng": 150.3736928
+ },
+ {
+   "ObjId": 64,
+   "Site Address": "14 Anzac Ave Fairfield NSW 2165 Australia",
+   "Applicant": "Tesla",
+   "Charging_bays": 12,
+   "Charger_capacities": "Tesla Supercharger hardware, delivering  325kW+ to each charging stall",
+   "lat": -33.8729153,
+   "lng": 150.9587919
+ },
+ {
+   "ObjId": 65,
+   "Site Address": "143 Terralong St, Kiama NSW 2533, Australia",
+   "Applicant": "Tesla",
+   "Charging_bays": 10,
+   "Charger_capacities": "Tesla Supercharger hardware, delivering  325kW+ to each charging stall",
+   "lat": -34.6669565,
+   "lng": 150.8502144
+ },
+ {
+   "ObjId": 66,
+   "Site Address": "45 Sydney St, Tarcutta NSW 2652, Australia",
+   "Applicant": "Tesla",
+   "Charging_bays": 10,
+   "Charger_capacities": "Tesla Supercharger hardware, delivering  325kW+ to each charging stall",
+   "lat": -35.2763435,
+   "lng": 147.7391752
+ },
+ {
+   "ObjId": 67,
+   "Site Address": "491 Masonite Rd, Heatherbrae NSW 2324, Australia",
+   "Applicant": "Tesla",
+   "Charging_bays": 10,
+   "Charger_capacities": "Tesla Supercharger hardware, delivering  325kW+ to each charging stall",
+   "lat": -32.7829979,
+   "lng": 151.7375668
+ },
+ {
+   "ObjId": 68,
+   "Site Address": "Ewingsdale Rd, Byron Bay NSW 2481, Australia",
+   "Applicant": "Tesla",
+   "Charging_bays": 10,
+   "Charger_capacities": "Tesla Supercharger hardware, delivering  325kW+ to each charging stall",
+   "lat": -28.6379908,
+   "lng": 153.5846081
+ },
+ {
+   "ObjId": 69,
+   "Site Address": "Grafton St, Coffs Harbour NSW 2450, Australia",
+   "Applicant": "Tesla",
+   "Charging_bays": 15,
+   "Charger_capacities": "Tesla Supercharger hardware, delivering  325kW+ to each charging stall",
+   "lat": -30.2955762,
+   "lng": 153.1146113
+ },
+ {
+   "ObjId": 70,
+   "Site Address": "Ozone St, Chinderah NSW 2487, Australia",
+   "Applicant": "Tesla",
+   "Charging_bays": 10,
+   "Charger_capacities": "Tesla Supercharger hardware, delivering  325kW+ to each charging stall",
+   "lat": -28.2444054,
+   "lng": 153.5574467
+ },
+ {
+   "ObjId": 71,
+   "Site Address": "University of Wollongong, Northfields Avenue, Wollongong NSW 2522, Australia",
+   "Applicant": "University of Wollongong",
+   "Charging_bays": 6,
+   "Charger_capacities": "900kW of DC fast chargers consisting of two 360 kW chargers with dual plugs and one 180kW charger with dual plugs, and two 20kW AC charger plugs providing a total of 940kW charging capacity",
+   "lat": -34.4079569,
+   "lng": 150.877135
+ },
+ {
+   "ObjId": 72,
+   "Site Address": "1 Macquarie Pl, Haywards Bay NSW 2530, Australia",
+   "Applicant": "Viva Energy",
+   "Charging_bays": 4,
+   "Charger_capacities": "2 bays can be serviced by 350kW (CCS2) charging station and 2 bays can be services by 150kW (CCS2) charging station",
+   "lat": -34.5412709,
+   "lng": 150.7855617
+ },
+ {
+   "ObjId": 73,
+   "Site Address": "113 Audley St, Narrandera NSW 2700, Australia",
+   "Applicant": "Viva Energy",
+   "Charging_bays": 4,
+   "Charger_capacities": "2 bays can be serviced by 350kW (CCS2) charging station and 2 bays can be services by 150kW (CCS2) charging station",
+   "lat": -34.747519,
+   "lng": 146.5501729
+ },
+ {
+   "ObjId": 74,
+   "Site Address": "137 Kingsgrove Rd, Kingsgrove NSW 2208, Australia",
+   "Applicant": "Viva Energy",
+   "Charging_bays": 4,
+   "Charger_capacities": "2 bays can be serviced by 350kW (CCS2) charging station and 2 bays can be services by 150kW (CCS2) charging station",
+   "lat": -33.9327823,
+   "lng": 151.0990996
+ },
+ {
+   "ObjId": 75,
+   "Site Address": "164 Williams St, Broken Hill NSW 2880, Australia",
+   "Applicant": "Viva Energy",
+   "Charging_bays": 4,
+   "Charger_capacities": "2 bays can be serviced by 350kW (CCS2) charging station and 2 bays can be services by 150kW (CCS2) charging station",
+   "lat": -31.9515484,
+   "lng": 141.4537889
+ },
+ {
+   "ObjId": 76,
+   "Site Address": "179-181 Mona Vale Rd, St Ives NSW 2075, Australia",
+   "Applicant": "Viva Energy",
+   "Charging_bays": 4,
+   "Charger_capacities": "2 bays can be serviced by 350kW (CCS2) charging station and 2 bays can be services by 150kW (CCS2) charging station",
+   "lat": -33.731227,
+   "lng": 151.1575703
+ },
+ {
+   "ObjId": 77,
+   "Site Address": "190 Princes Hwy, South Nowra NSW 2541, Australia",
+   "Applicant": "Viva Energy",
+   "Charging_bays": 4,
+   "Charger_capacities": "2 bays can be serviced by 350kW (CCS2) charging station and 2 bays can be services by 150kW (CCS2) charging station",
+   "lat": -34.9158698,
+   "lng": 150.6042208
+ },
+ {
+   "ObjId": 78,
+   "Site Address": "213 Parramatta Rd, Five Dock NSW 2046, Australia",
+   "Applicant": "Viva Energy",
+   "Charging_bays": 4,
+   "Charger_capacities": "2 bays can be serviced by 350kW (CCS2) charging station and 2 bays can be services by 150kW (CCS2) charging station",
+   "lat": -33.8696192,
+   "lng": 151.1146067
+ },
+ {
+   "ObjId": 79,
+   "Site Address": "241 Waterworth Dr, Mount Annan NSW 2567, Australia",
+   "Applicant": "Viva Energy",
+   "Charging_bays": 4,
+   "Charger_capacities": "2 bays can be serviced by 350kW (CCS2) charging station and 2 bays can be services by 150kW (CCS2) charging station",
+   "lat": -34.0494504,
+   "lng": 150.7603168
+ },
+ {
+   "ObjId": 80,
+   "Site Address": "2-6 John St, Coonabarabran NSW 2357, Australia",
+   "Applicant": "Viva Energy",
+   "Charging_bays": 4,
+   "Charger_capacities": "2 bays can be serviced by 350kW (CCS2) charging station and 2 bays can be services by 150kW (CCS2) charging station",
+   "lat": -31.2770603,
+   "lng": 149.278355
+ },
+ {
+   "ObjId": 81,
+   "Site Address": "26/30 King St, Warrawong NSW 2502, Australia",
+   "Applicant": "Viva Energy",
+   "Charging_bays": 4,
+   "Charger_capacities": "2 bays can be serviced by 350kW (CCS2) charging station and 2 bays can be services by 150kW (CCS2) charging station",
+   "lat": -34.4827956,
+   "lng": 150.8869332
+ },
+ {
+   "ObjId": 82,
+   "Site Address": "277 Princes Hwy, Carlton NSW 2218, Australia",
+   "Applicant": "Viva Energy",
+   "Charging_bays": 4,
+   "Charger_capacities": "2 bays can be serviced by 350kW (CCS2) charging station and 2 bays can be services by 150kW (CCS2) charging station",
+   "lat": -33.9748325,
+   "lng": 151.1272474
+ },
+ {
+   "ObjId": 83,
+   "Site Address": "34 Wharf St, Tweed Heads NSW 2485, Australia",
+   "Applicant": "Viva Energy",
+   "Charging_bays": 4,
+   "Charger_capacities": "2 bays can be serviced by 350kW (CCS2) charging station and 2 bays can be services by 150kW (CCS2) charging station",
+   "lat": -28.1732617,
+   "lng": 153.5431984
+ },
+ {
+   "ObjId": 84,
+   "Site Address": "369 Pennant Hills Rd, Pennant Hills NSW 2120, Australia",
+   "Applicant": "Viva Energy",
+   "Charging_bays": 4,
+   "Charger_capacities": "2 bays can be serviced by 350kW (CCS2) charging station and 2 bays can be services by 150kW (CCS2) charging station",
+   "lat": -33.7386213,
+   "lng": 151.0737702
+ },
+ {
+   "ObjId": 85,
+   "Site Address": "386 Pennant Hills Rd, Pennant Hills NSW 2120, Australia",
+   "Applicant": "Viva Energy",
+   "Charging_bays": 4,
+   "Charger_capacities": "2 bays can be serviced by 350kW (CCS2) charging station and 2 bays can be services by 150kW (CCS2) charging station",
+   "lat": -33.7393164,
+   "lng": 151.0679014
+ },
+ {
+   "ObjId": 86,
+   "Site Address": "4 Balo St, Moree NSW 2400, Australia",
+   "Applicant": "Viva Energy",
+   "Charging_bays": 4,
+   "Charger_capacities": "2 bays can be serviced by 350kW (CCS2) charging station and 2 bays can be services by 150kW (CCS2) charging station",
+   "lat": -29.4608182,
+   "lng": 149.8419975
+ },
+ {
+   "ObjId": 87,
+   "Site Address": "48 Gardeners Rd, Kingsford NSW 2032, Australia",
+   "Applicant": "Viva Energy",
+   "Charging_bays": 4,
+   "Charger_capacities": "2 bays can be serviced by 350kW (CCS2) charging station and 2 bays can be services by 150kW (CCS2) charging station",
+   "lat": -33.9250362,
+   "lng": 151.2257445
+ },
+ {
+   "ObjId": 88,
+   "Site Address": "4974 Pacific Hwy, Halfway Creek NSW 2460, Australia",
+   "Applicant": "Viva Energy",
+   "Charging_bays": 4,
+   "Charger_capacities": "2 bays can be serviced by 350kW (CCS2) charging station and 2 bays can be services by 150kW (CCS2) charging station",
+   "lat": -29.9348834,
+   "lng": 153.0947952
+ },
+ {
+   "ObjId": 89,
+   "Site Address": "593 Main Rd, Glendale NSW 2285, Australia",
+   "Applicant": "Viva Energy",
+   "Charging_bays": 4,
+   "Charger_capacities": "2 bays can be serviced by 350kW (CCS2) charging station and 2 bays can be services by 150kW (CCS2) charging station",
+   "lat": -32.9270808,
+   "lng": 151.638061
+ },
+ {
+   "ObjId": 90,
+   "Site Address": "611 Great Western Hwy, Eastern Creek NSW 2766, Australia",
+   "Applicant": "Viva Energy",
+   "Charging_bays": 4,
+   "Charger_capacities": "2 bays can be serviced by 350kW (CCS2) charging station and 2 bays can be services by 150kW (CCS2) charging station",
+   "lat": -33.7926872,
+   "lng": 150.8707492
+ },
+ {
+   "ObjId": 91,
+   "Site Address": "63 Maud St, Mayfield West NSW 2304, Australia",
+   "Applicant": "Viva Energy",
+   "Charging_bays": 4,
+   "Charger_capacities": "2 bays can be serviced by 350kW (CCS2) charging station and 2 bays can be services by 150kW (CCS2) charging station",
+   "lat": -32.893696,
+   "lng": 151.7220716
+ },
+ {
+   "ObjId": 92,
+   "Site Address": "665-671 Warringah Rd, Forestville NSW 2087, Australia",
+   "Applicant": "Viva Energy",
+   "Charging_bays": 4,
+   "Charger_capacities": "2 bays can be serviced by 350kW (CCS2) charging station and 2 bays can be services by 150kW (CCS2) charging station",
+   "lat": -33.7603233,
+   "lng": 151.2186117
+ },
+ {
+   "ObjId": 93,
+   "Site Address": "797 Pacific Hwy, Belmont South NSW 2280, Australia",
+   "Applicant": "Viva Energy",
+   "Charging_bays": 4,
+   "Charger_capacities": "2 bays can be serviced by 350kW (CCS2) charging station and 2 bays can be services by 150kW (CCS2) charging station",
+   "lat": -33.0509682,
+   "lng": 151.6552891
+ },
+ {
+   "ObjId": 94,
+   "Site Address": "867-869 South Dowling St, Waterloo NSW 2017, Australia",
+   "Applicant": "Viva Energy",
+   "Charging_bays": 4,
+   "Charger_capacities": "2 bays can be serviced by 350kW (CCS2) charging station and 2 bays can be services by 150kW (CCS2) charging station",
+   "lat": -33.9017062,
+   "lng": 151.214429
+ },
+ {
+   "ObjId": 95,
+   "Site Address": "88 Victoria Rd, North Parramatta NSW 2151, Australia",
+   "Applicant": "Viva Energy",
+   "Charging_bays": 4,
+   "Charger_capacities": "2 bays can be serviced by 350kW (CCS2) charging station and 2 bays can be services by 150kW (CCS2) charging station",
+   "lat": -33.8087285,
+   "lng": 151.0124787
+ },
+ {
+   "ObjId": 96,
+   "Site Address": "9-11 Roberts Rd, Greenacre NSW 2190, Australia",
+   "Applicant": "Viva Energy",
+   "Charging_bays": 4,
+   "Charger_capacities": "2 bays can be serviced by 350kW (CCS2) charging station and 2 bays can be services by 150kW (CCS2) charging station",
+   "lat": -33.8943853,
+   "lng": 151.0667287
+ },
+ {
+   "ObjId": 97,
+   "Site Address": "96 Wicks Rd, North Ryde NSW 2113, Australia",
+   "Applicant": "Viva Energy",
+   "Charging_bays": 4,
+   "Charger_capacities": "2 bays can be serviced by 350kW (CCS2) charging station and 2 bays can be services by 150kW (CCS2) charging station",
+   "lat": -33.7939924,
+   "lng": 151.1269164
+ },
+ {
+   "ObjId": 98,
+   "Site Address": "Crn Avoca Dr & Bungoona Rd, Kincumber NSW 2251, Australia",
+   "Applicant": "Viva Energy",
+   "Charging_bays": 4,
+   "Charger_capacities": "2 bays can be serviced by 350kW (CCS2) charging station and 2 bays can be services by 150kW (CCS2) charging station",
+   "lat": -33.46753,
+   "lng": 151.3801
+ },
+ {
+   "ObjId": 99,
+   "Site Address": "Crn Cowpasture Road & Green Valley Rd, Green Valley NSW 2168, Australia",
+   "Applicant": "Viva Energy",
+   "Charging_bays": 4,
+   "Charger_capacities": "2 bays can be serviced by 350kW (CCS2) charging station and 2 bays can be services by 150kW (CCS2) charging station",
+   "lat": -33.8929448,
+   "lng": 150.8580157
+ },
+ {
+   "ObjId": 100,
+   "Site Address": "Crn Mid Western Hwy & Nicholson Ln, West Wyalong NSW 2671, Australia",
+   "Applicant": "Viva Energy",
+   "Charging_bays": 4,
+   "Charger_capacities": "2 bays can be serviced by 350kW (CCS2) charging station and 2 bays can be services by 150kW (CCS2) charging station",
+   "lat": -33.9221846,
+   "lng": 147.2006745
+ },
+ {
+   "ObjId": 101,
+   "Site Address": "Crn Old Hume Hwy & Balaclava St, Mittagong NSW 2575, Australia",
+   "Applicant": "Viva Energy",
+   "Charging_bays": 4,
+   "Charger_capacities": "2 bays can be serviced by 350kW (CCS2) charging station and 2 bays can be services by 150kW (CCS2) charging station",
+   "lat": -34.3332904,
+   "lng": 150.5586493
+ }
+]

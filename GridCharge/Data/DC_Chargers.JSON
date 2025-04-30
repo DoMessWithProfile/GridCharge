@@ -1,0 +1,4295 @@
+//  DC_Chargers.JSON
+//  GridCharge
+//
+//  Created by joshua chelashaw on 29/4/2025.
+
+//Data sourced from NSW EV Chargers Spreadsheet from: https://opendata.transport.nsw.gov.au/data/dataset/ev-charging-locations
+//Sourced on 29 April 2025
+//Referencing 'Fast Chargers'
+
+[
+ {
+   "ObjId": 1,
+   "Station name": "No 2 Sportsground Park",
+   "Station address": " Smith Street, Newcastle West, 2302",
+   "Opening hours": "",
+   "Operator": "Chargefox",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "60kW",
+   "CHAdeMO": 0,
+   "CCS": {
+      "SAE": 2
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -32.930158,
+   "Longitude": 151.7606332
+},
+ {
+   "ObjId": 2,
+   "Station name": "Albury Waste Management Centre",
+   "Station address": "565 Mudge Street, Hamilton Valley, 2641",
+   "Opening hours": "7AM - 5PM weekdays 9AM - 4PM weekends",
+   "Operator": "Chargefox",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "50kW",
+   "CHAdeMO": 1,
+   "CCS": {
+      "SAE": 1
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -36.028496,
+   "Longitude": 146.8958713
+},
+ {
+   "ObjId": 3,
+   "Station name": "NRMA - Ballina",
+   "Station address": "44 Bangalow Road, Ballina, 2478",
+   "Opening hours": "Open 24/7",
+   "Operator": "Chargefox",
+   "Number of station": 2,
+   "Number of plugs": 4,
+   "Charger rating": "50kW - 350kW",
+   "CHAdeMO": 1,
+   "CCS": {
+      "SAE": 3
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -28.85761,
+   "Longitude": 153.5616904
+},
+ {
+   "ObjId": 4,
+   "Station name": "NRMA - Coffs Harbour",
+   "Station address": " Pacific Hwy, North Boambee Valley, 2450",
+   "Opening hours": "Open 24/7",
+   "Operator": "Chargefox",
+   "Number of station": 1,
+   "Number of plugs": 4,
+   "Charger rating": "350kW",
+   "CHAdeMO": 2,
+   "CCS": {
+      "SAE": 2
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -30.317745,
+   "Longitude": 153.0898181
+},
+ {
+   "ObjId": 5,
+   "Station name": "NRMA - Sydney",
+   "Station address": "4 Defries Avenue, Zetland, 2017",
+   "Opening hours": "6:00 AM - 12:00 AM",
+   "Operator": "Chargefox",
+   "Number of station": 2,
+   "Number of plugs": 4,
+   "Charger rating": "50kW - 350kW",
+   "CHAdeMO": 1,
+   "CCS": {
+      "SAE": 3
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.905521,
+   "Longitude": 151.2128
+},
+ {
+   "ObjId": 6,
+   "Station name": "NRMA - Gundagai",
+   "Station address": "31 Annie Pyers Drive, Gundagai, 2722",
+   "Opening hours": "Open 24/7",
+   "Operator": "Chargefox",
+   "Number of station": 2,
+   "Number of plugs": 4,
+   "Charger rating": "50kW",
+   "CHAdeMO": 1,
+   "CCS": {
+      "SAE": 3
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -35.002352,
+   "Longitude": 148.1102642
+},
+ {
+   "ObjId": 7,
+   "Station name": "NRMA - Port Macquarie",
+   "Station address": "1067 Oxley Highway, Thrumster, 2444",
+   "Opening hours": "Open 24/7",
+   "Operator": "Chargefox",
+   "Number of station": 2,
+   "Number of plugs": 4,
+   "Charger rating": "180kW",
+   "CHAdeMO": 1,
+   "CCS": {
+      "SAE": 3
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -31.463941,
+   "Longitude": 152.8219487
+},
+ {
+   "ObjId": 8,
+   "Station name": "NRMA - Karuah",
+   "Station address": "403 Tarean Road, Karuah, 2324",
+   "Opening hours": "Open 24/7",
+   "Operator": "Chargefox",
+   "Number of station": 2,
+   "Number of plugs": 4,
+   "Charger rating": "50kW - 350kW",
+   "CHAdeMO": 1,
+   "CCS": {
+      "SAE": 3
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -32.65385,
+   "Longitude": 151.9625799
+},
+ {
+   "ObjId": 9,
+   "Station name": "NRMA - Cooma",
+   "Station address": " Yulin Avenue, Cooma, 2630",
+   "Opening hours": "Open 24/7",
+   "Operator": "Chargefox",
+   "Number of station": 2,
+   "Number of plugs": 4,
+   "Charger rating": "50kW - 350kW",
+   "CHAdeMO": 1,
+   "CCS": {
+      "SAE": 3
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -36.219283,
+   "Longitude": 149.133225
+},
+ {
+   "ObjId": 10,
+   "Station name": "NRMA - Goulburn",
+   "Station address": "53 Sydney Road, Goulburn, 2580",
+   "Opening hours": "Open 24/7",
+   "Operator": "Chargefox",
+   "Number of station": 2,
+   "Number of plugs": 6,
+   "Charger rating": "50kW - 350kW",
+   "CHAdeMO": 3,
+   "CCS": {
+      "SAE": 3
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -34.747962,
+   "Longitude": 149.7496447
+},
+ {
+   "ObjId": 11,
+   "Station name": "NRMA - Shell Cove",
+   "Station address": " Harbour Boulevard, Shell Cove, 2529",
+   "Opening hours": "Open 24/7",
+   "Operator": "Chargefox",
+   "Number of station": 1,
+   "Number of plugs": 4,
+   "Charger rating": "350kW",
+   "CHAdeMO": 2,
+   "CCS": {
+      "SAE": 2
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -34.588599,
+   "Longitude": 150.8661125
+},
+ {
+   "ObjId": 12,
+   "Station name": "Audi Centre Sydney",
+   "Station address": "895 South Dowling Street, Zetland, 2017",
+   "Opening hours": "Open 24/7",
+   "Operator": "Chargefox",
+   "Number of station": 1,
+   "Number of plugs": 1,
+   "Charger rating": "165kW",
+   "CHAdeMO": 0,
+   "CCS": {
+      "SAE": 1
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.907015,
+   "Longitude": 151.2130187
+},
+ {
+   "ObjId": 13,
+   "Station name": "Mirvac South Eveleigh",
+   "Station address": "2 Central Avenue, Eveleigh, 2015",
+   "Opening hours": "5am - 11:30pm",
+   "Operator": "Chargefox",
+   "Number of station": 2,
+   "Number of plugs": 4,
+   "Charger rating": "50kW",
+   "CHAdeMO": 2,
+   "CCS": {
+      "SAE": 2
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.895581,
+   "Longitude": 151.1958121
+},
+ {
+   "ObjId": 14,
+   "Station name": "Berowra Tennis Centre",
+   "Station address": "6 Boundary Street, Berowra, 2081",
+   "Opening hours": "",
+   "Operator": "Chargefox",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "75kW",
+   "CHAdeMO": 0,
+   "CCS": {
+      "SAE": 2
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.621379,
+   "Longitude": 151.1494479
+},
+ {
+   "ObjId": 15,
+   "Station name": "Byron Bay Library",
+   "Station address": " Lawson Street, Byron Bay, 2481",
+   "Opening hours": "",
+   "Operator": "Chargefox",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "50kW",
+   "CHAdeMO": 1,
+   "CCS": {
+      "SAE": 1
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -28.643224,
+   "Longitude": 153.615692
+},
+ {
+   "ObjId": 16,
+   "Station name": "Lismore City Council",
+   "Station address": "44 Molesworth Street, Lismore, 2480",
+   "Opening hours": "Open 24/7",
+   "Operator": "Chargefox",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "75kW",
+   "CHAdeMO": 1,
+   "CCS": {
+      "SAE": 1
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -28.806548,
+   "Longitude": 153.2786369
+},
+ {
+   "ObjId": 17,
+   "Station name": "The Heffron Centre",
+   "Station address": "439 Bunnerong Road, Maroubra, 2035",
+   "Opening hours": "Open 24/7",
+   "Operator": "Chargefox",
+   "Number of station": 4,
+   "Number of plugs": 8,
+   "Charger rating": "25kW",
+   "CHAdeMO": 4,
+   "CCS": {
+      "SAE": 4
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.951003,
+   "Longitude": 151.2320639
+},
+ {
+   "ObjId": 18,
+   "Station name": "ENGIE - Warriewood Square",
+   "Station address": "12 Jacksons Road, Warriewood, 2102",
+   "Opening hours": "",
+   "Operator": "Chargefox",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "120kW",
+   "CHAdeMO": 0,
+   "CCS": {
+      "SAE": 2
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.695602,
+   "Longitude": 151.2962879
+},
+ {
+   "ObjId": 19,
+   "Station name": "ENGIE - Chatswood Chase",
+   "Station address": "345 Victoria Avenue, Chatswood, 2067",
+   "Opening hours": "",
+   "Operator": "Chargefox",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "120kW",
+   "CHAdeMO": 0,
+   "CCS": {
+      "SAE": 2
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.794005,
+   "Longitude": 151.1865994
+},
+ {
+   "ObjId": 20,
+   "Station name": "ENGIE - Roselands Shopping Centre",
+   "Station address": "24 Roselands Drive, Roselands, 2196",
+   "Opening hours": "Closes 6pm",
+   "Operator": "Chargefox",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "120kW",
+   "CHAdeMO": 0,
+   "CCS": {
+      "SAE": 2
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.935008,
+   "Longitude": 151.069206
+},
+ {
+   "ObjId": 21,
+   "Station name": "ENGIE - Lake Haven Centre",
+   "Station address": " Lake Haven Drive, Lake Haven, 2263",
+   "Opening hours": "Open 24/7",
+   "Operator": "Chargefox",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "120kW",
+   "CHAdeMO": 0,
+   "CCS": {
+      "SAE": 2
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.240884,
+   "Longitude": 151.5036157
+},
+ {
+   "ObjId": 22,
+   "Station name": "Soldiers Point Marina",
+   "Station address": " Sunset Boulevard, Soldiers Point, 2317",
+   "Opening hours": "Open 24/7",
+   "Operator": "Chargefox",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "24kW",
+   "CHAdeMO": 1,
+   "CCS": {
+      "SAE": 1
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -32.701388,
+   "Longitude": 152.0626458
+},
+ {
+   "ObjId": 23,
+   "Station name": "ENGIE - Greenway Wetherill Park",
+   "Station address": "1183-1187 The Horsley Drive, Wetherill Park, 2164",
+   "Opening hours": "",
+   "Operator": "Chargefox",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "120kW",
+   "CHAdeMO": 0,
+   "CCS": {
+      "SAE": 2
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.850403,
+   "Longitude": 150.8984016
+},
+ {
+   "ObjId": 24,
+   "Station name": "ENGIE - DFO Homebush",
+   "Station address": "3-5 Underwood Road, Homebush, 2140",
+   "Opening hours": "10am- 7pm",
+   "Operator": "Chargefox",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "120kW",
+   "CHAdeMO": 0,
+   "CCS": {
+      "SAE": 2
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.855193,
+   "Longitude": 151.0771984
+},
+ {
+   "ObjId": 25,
+   "Station name": "Pennant Hills Toyota",
+   "Station address": "330 Pennant Hills Road, Pennant Hills, 2120",
+   "Opening hours": "",
+   "Operator": "Chargefox",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "50kW",
+   "CHAdeMO": 0,
+   "CCS": {
+      "SAE": 2
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.736621,
+   "Longitude": 151.0743388
+},
+ {
+   "ObjId": 26,
+   "Station name": "KFC - Goulburn South",
+   "Station address": "179-183 Hume Street, Goulburn, 2580",
+   "Opening hours": "Open 24/7",
+   "Operator": "Chargefox",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "80kW",
+   "CHAdeMO": 0,
+   "CCS": {
+      "SAE": 2
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -34.771921,
+   "Longitude": 149.6924162
+},
+ {
+   "ObjId": 27,
+   "Station name": "Woolworths North Parramatta",
+   "Station address": "1-9 North Rocks Road, North Rocks, 2151",
+   "Opening hours": "",
+   "Operator": "Chargefox",
+   "Number of station": 1,
+   "Number of plugs": 4,
+   "Charger rating": "200kW",
+   "CHAdeMO": 0,
+   "CCS": {
+      "SAE": 4
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.792866,
+   "Longitude": 150.9995553
+},
+ {
+   "ObjId": 28,
+   "Station name": "Genesis Health Care",
+   "Station address": "38 Camden Road, Campbelltown, 2560",
+   "Opening hours": "Open 24/7",
+   "Operator": "Chargefox",
+   "Number of station": 1,
+   "Number of plugs": 4,
+   "Charger rating": "100kW",
+   "CHAdeMO": 1,
+   "CCS": {
+      "SAE": 3
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -34.071284,
+   "Longitude": 150.8061644
+},
+ {
+   "ObjId": 29,
+   "Station name": "Ampol Foodary St Ives",
+   "Station address": "164 Mona Vale Rd, St Ives NSW 2075, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "AmpCharge",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "150 kW",
+   "CHAdeMO": 1,
+   "CCS": {
+      "SAE": 1
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.7306437,
+   "Longitude": 151.1571089
+},
+ {
+   "ObjId": 30,
+   "Station name": "Ampol Foodary Gosford West (Eastbound)",
+   "Station address": "71 Central Coast Highway, West Gosford",
+   "Opening hours": "Open 24/7",
+   "Operator": "AmpCharge",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "150 kW",
+   "CHAdeMO": 1,
+   "CCS": {
+      "SAE": 1
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.427468,
+   "Longitude": 151.321293
+},
+ {
+   "ObjId": 31,
+   "Station name": "Ampol Foodary Marsden Park",
+   "Station address": "875 Richmond Rd, Marsden Park NSW 2765, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "AmpCharge",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "150 kW",
+   "CHAdeMO": 1,
+   "CCS": {
+      "SAE": 1
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.71606446,
+   "Longitude": 150.8443544
+},
+ {
+   "ObjId": 32,
+   "Station name": "Ampol Foodary Northmead",
+   "Station address": "98-100 Windsor Rd, Northmead NSW 2152, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "AmpCharge",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "150 kW",
+   "CHAdeMO": 1,
+   "CCS": {
+      "SAE": 1
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.787777,
+   "Longitude": 150.994685
+},
+ {
+   "ObjId": 33,
+   "Station name": "Ampol Foodary Edmondson Park ",
+   "Station address": "2072 Camden Valley Way, Edmondson Park NSW 2174, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "AmpCharge",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "150 kW",
+   "CHAdeMO": 1,
+   "CCS": {
+      "SAE": 1
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.95554925,
+   "Longitude": 150.865275
+},
+ {
+   "ObjId": 34,
+   "Station name": "Ampol Foodary Hazelbrook",
+   "Station address": "198-199 Great Western Hwy, Hazelbrook NSW 2779, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "AmpCharge",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "150 kW",
+   "CHAdeMO": 1,
+   "CCS": {
+      "SAE": 1
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.72104211,
+   "Longitude": 150.452198
+},
+ {
+   "ObjId": 35,
+   "Station name": "Ampol Foodary Waitara",
+   "Station address": "59-61 Pacific Hwy Waitara 2077",
+   "Opening hours": "Open 24/7",
+   "Operator": "AmpCharge",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "150 kW",
+   "CHAdeMO": 1,
+   "CCS": {
+      "SAE": 1
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.710683,
+   "Longitude": 151.102535
+},
+ {
+   "ObjId": 36,
+   "Station name": "Ampol Foodary Brownsville ",
+   "Station address": "342 Kanahooka Rd, Brownsville NSW 2530, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "AmpCharge",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "150 kW",
+   "CHAdeMO": 1,
+   "CCS": {
+      "SAE": 1
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -34.48575434,
+   "Longitude": 150.8064239
+},
+ {
+   "ObjId": 37,
+   "Station name": "Ampol Lakemba ",
+   "Station address": "81 Wangee Rd, Lakemba NSW 2195, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "AmpCharge",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "150 kW",
+   "CHAdeMO": 1,
+   "CCS": {
+      "SAE": 1
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.91158022,
+   "Longitude": 151.0733967
+},
+ {
+   "ObjId": 38,
+   "Station name": "Ampol Foodary Wollongong North",
+   "Station address": "9 Flinders St, Wollongong NSW 2500, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "AmpCharge",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "150 kW",
+   "CHAdeMO": 1,
+   "CCS": {
+      "SAE": 1
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -34.41516516,
+   "Longitude": 150.8931358
+},
+ {
+   "ObjId": 39,
+   "Station name": "Ampol Foodary Alexandria",
+   "Station address": "133 Wyndham St Cnr Mcevoy St, Alexandria, NSW, 2015, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "AmpCharge",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "150 kW",
+   "CHAdeMO": 0,
+   "CCS": {
+      "SAE": 2
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.90214,
+   "Longitude": 151.20003
+},
+ {
+   "ObjId": 40,
+   "Station name": "Ampol Foodary Pheasants Nest Southbound",
+   "Station address": "South Bound, Hume Hwy, Pheasants Nest NSW 2574, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "AmpCharge",
+   "Number of station": 3,
+   "Number of plugs": 9,
+   "Charger rating": "150kW (300kW upgrade coming soon)",
+   "CHAdeMO": 3,
+   "CCS": {
+      "SAE": 6
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -34.28254012,
+   "Longitude": 150.6397707
+},
+ {
+   "ObjId": 41,
+   "Station name": "Ampol Foodary Pheasants Nest Northbound ",
+   "Station address": "Lots 1 & 2 Hume Hwy, Pheasants Nest, NSW, 2574",
+   "Opening hours": "Open 24/7",
+   "Operator": "AmpCharge",
+   "Number of station": 3,
+   "Number of plugs": 9,
+   "Charger rating": "50 kW (300kW upgrade coming soon)",
+   "CHAdeMO": 3,
+   "CCS": {
+      "SAE": 6
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -34.28321378,
+   "Longitude": 150.6364411
+},
+ {
+   "ObjId": 42,
+   "Station name": "Ampol Foodary Penrith",
+   "Station address": "153 Coreen Ave, Penrith NSW 2750, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "AmpCharge",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "150 kW",
+   "CHAdeMO": 1,
+   "CCS": {
+      "SAE": 1
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.74299278,
+   "Longitude": 150.6929624
+},
+ {
+   "ObjId": 43,
+   "Station name": "Ampol Foodary Werrington",
+   "Station address": "Cnr Dunheved Rd & Henry Lawson Dr, Werrington NSW 2747, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "AmpCharge",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "150 kW",
+   "CHAdeMO": 1,
+   "CCS": {
+      "SAE": 1
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.74597888,
+   "Longitude": 150.7407894
+},
+ {
+   "ObjId": 44,
+   "Station name": "Ampol Foodary Glenbrook",
+   "Station address": "78 Great Western Hwy, Glenbrook NSW 2773, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "AmpCharge",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "150 kW",
+   "CHAdeMO": 1,
+   "CCS": {
+      "SAE": 1
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.76539099,
+   "Longitude": 150.6214957
+},
+ {
+   "ObjId": 45,
+   "Station name": "BP Marulan Northbound",
+   "Station address": "8 George St, Marulan NSW 2579, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "bp pulse",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "75 kW",
+   "CHAdeMO": 1,
+   "CCS": {
+      "SAE": 1
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -34.719342,
+   "Longitude": 149.995591
+},
+ {
+   "ObjId": 46,
+   "Station name": "BP Marulan Southbound",
+   "Station address": "15597 Hume Hwy, Marulan NSW 2579, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "bp pulse",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "75 kW",
+   "CHAdeMO": 1,
+   "CCS": {
+      "SAE": 1
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -34.718458,
+   "Longitude": 150.000639
+},
+ {
+   "ObjId": 47,
+   "Station name": "BP Ingleburn",
+   "Station address": "89 Williamson Road, MacDonald Rd, Ingleburn NSW 2565, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "bp pulse",
+   "Number of station": 2,
+   "Number of plugs": 4,
+   "Charger rating": "75 kW",
+   "CHAdeMO": 0,
+   "CCS": {
+      "SAE": 4
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.98873226,
+   "Longitude": 150.8592698
+},
+ {
+   "ObjId": 48,
+   "Station name": "BP Macarthur",
+   "Station address": "2a Blaxland Rd, Campbelltown NSW 2560, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "bp pulse",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "75 kW",
+   "CHAdeMO": 0,
+   "CCS": {
+      "SAE": 2
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -34.05317082,
+   "Longitude": 150.8236398
+},
+ {
+   "ObjId": 49,
+   "Station name": "BP Pulse Kellyville ",
+   "Station address": "19-23 Windsor Rd, Kellyville NSW 2155, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "bp pulse",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "75 kW",
+   "CHAdeMO": 0,
+   "CCS": {
+      "SAE": 2
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.71278368,
+   "Longitude": 150.9591265
+},
+ {
+   "ObjId": 50,
+   "Station name": "BP Revesby",
+   "Station address": "Milperra Rd AUS AU, The River Rd, Revesby NSW 2212, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "bp pulse",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "75 kW",
+   "CHAdeMO": 1,
+   "CCS": {
+      "SAE": 1
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.93878937,
+   "Longitude": 151.0177765
+},
+ {
+   "ObjId": 51,
+   "Station name": "bp Penrith ",
+   "Station address": "2213 Castlereagh Rd, Penrith NSW 2750, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "bp pulse",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "75 kW",
+   "CHAdeMO": 0,
+   "CCS": {
+      "SAE": 2
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.74356323,
+   "Longitude": 150.6923182
+},
+ {
+   "ObjId": 52,
+   "Station name": "BP Rosehill",
+   "Station address": "113 Hassall St, Rosehill NSW 2142, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "bp pulse",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "75 kW",
+   "CHAdeMO": 0,
+   "CCS": {
+      "SAE": 2
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.81967545,
+   "Longitude": 151.0212402
+},
+ {
+   "ObjId": 53,
+   "Station name": "BP Seven Hills",
+   "Station address": "26 Abbott Rd, Seven Hills NSW 2147, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "bp pulse",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "75 kW",
+   "CHAdeMO": 0,
+   "CCS": {
+      "SAE": 2
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.7671723,
+   "Longitude": 150.9518457
+},
+ {
+   "ObjId": 54,
+   "Station name": "BP Balgowlah",
+   "Station address": "485 Sydney Rd, Balgowlah NSW 2093, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "bp pulse",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "75 kW",
+   "CHAdeMO": 0,
+   "CCS": {
+      "SAE": 2
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.79550801,
+   "Longitude": 151.2558549
+},
+ {
+   "ObjId": 55,
+   "Station name": "BP Tumbi Umbi",
+   "Station address": "Cnr Mingara Dr & Wyong Rd, Tumbi Umbi NSW 2261",
+   "Opening hours": "Open 24/7",
+   "Operator": "bp pulse",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "75 kW",
+   "CHAdeMO": 1,
+   "CCS": {
+      "SAE": 1
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.36288685,
+   "Longitude": 151.4445016
+},
+ {
+   "ObjId": 56,
+   "Station name": "BP Sydenham",
+   "Station address": "339 Princes Hwy, St Peters NSW 2044, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "bp pulse",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "75 kW",
+   "CHAdeMO": 0,
+   "CCS": {
+      "SAE": 2
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.91611507,
+   "Longitude": 151.1728932
+},
+ {
+   "ObjId": 57,
+   "Station name": "BP Asquith",
+   "Station address": "462 Pacific Hwy, Asquith NSW 2077, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "bp pulse",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "75 kW",
+   "CHAdeMO": 0,
+   "CCS": {
+      "SAE": 2
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.68999427,
+   "Longitude": 151.1061347
+},
+ {
+   "ObjId": 58,
+   "Station name": "BP Fairy Meadow",
+   "Station address": "Northgate Ctr, 224/224 Princes Hwy, Fairy Meadow NSW 2519, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "bp pulse",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "75 kW",
+   "CHAdeMO": 0,
+   "CCS": {
+      "SAE": 2
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -34.40330246,
+   "Longitude": 150.8914438
+},
+ {
+   "ObjId": 59,
+   "Station name": "BP Heatherbrae",
+   "Station address": "269 Pacific Hwy, Heatherbrae NSW 2324, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "bp pulse",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "75 kW",
+   "CHAdeMO": 1,
+   "CCS": {
+      "SAE": 1
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -32.78334894,
+   "Longitude": 151.7370322
+},
+ {
+   "ObjId": 60,
+   "Station name": "BP Eastern Creek",
+   "Station address": "1 Wallgrove Rd, Eastern Creek NSW 2766, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "bp pulse",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "75 kW",
+   "CHAdeMO": 0,
+   "CCS": {
+      "SAE": 2
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.81100481,
+   "Longitude": 150.8496208
+},
+ {
+   "ObjId": 61,
+   "Station name": "BP Wiley Park",
+   "Station address": "24-42 King Georges Rd, Wiley Park NSW 2195, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "bp pulse",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "75 kW",
+   "CHAdeMO": 0,
+   "CCS": {
+      "SAE": 2
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.91957312,
+   "Longitude": 151.0669475
+},
+ {
+   "ObjId": 62,
+   "Station name": "bp Nambucca Heads",
+   "Station address": "5 Boggy Creek Rd, Valla NSW 2448, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "bp pulse",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "75 kW",
+   "CHAdeMO": 1,
+   "CCS": {
+      "SAE": 1
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -30.62671183,
+   "Longitude": 152.9724759
+},
+ {
+   "ObjId": 63,
+   "Station name": "bp Coffs Harbour",
+   "Station address": "136 Pacific Hwy, Coffs Harbour NSW 2450, Australia",
+   "Opening hours": "",
+   "Operator": "bp pulse",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "75 kW",
+   "CHAdeMO": 0,
+   "CCS": {
+      "SAE": 2
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -30.291502,
+   "Longitude": 153.118159
+},
+ {
+   "ObjId": 64,
+   "Station name": "BP Ballina Travel Centre",
+   "Station address": "AUS AU, 41 Bruxner Wy, West Ballina NSW 2478, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "bp pulse",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "75 kW",
+   "CHAdeMO": 0,
+   "CCS": {
+      "SAE": 2
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -28.86186233,
+   "Longitude": 153.5167396
+},
+ {
+   "ObjId": 65,
+   "Station name": "bp Mosman",
+   "Station address": "42 Avenue Rd, Mosman NSW 2088, Australia",
+   "Opening hours": "Mon-Sat: 6:00 AM - 10:00 PM Sun: 7:30 AM - 10:00 PM",
+   "Operator": "bp pulse",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "75 kW",
+   "CHAdeMO": 0,
+   "CCS": {
+      "SAE": 2
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.83198283,
+   "Longitude": 151.2373957
+},
+ {
+   "ObjId": 66,
+   "Station name": "bp Naremburn",
+   "Station address": "169 Willoughby Rd, Naremburn NSW 2065, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "bp pulse",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "75 kW",
+   "CHAdeMO": 0,
+   "CCS": {
+      "SAE": 2
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.820156,
+   "Longitude": 151.201349
+},
+ {
+   "ObjId": 67,
+   "Station name": "bp Beresfield",
+   "Station address": "Lot 201 John Renshaw Drive Lot 201, Beresfield NSW 2322, Australia",
+   "Opening hours": "",
+   "Operator": "bp pulse",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "75 kW",
+   "CHAdeMO": 1,
+   "CCS": {
+      "SAE": 1
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -32.81183617,
+   "Longitude": 151.6395096
+},
+ {
+   "ObjId": 68,
+   "Station name": "Dan Murphy's Batemans Bay",
+   "Station address": "51/53A Orient St, Batemans Bay NSW 2536, Australia",
+   "Opening hours": "",
+   "Operator": "Evie Networks",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "50 kW",
+   "CHAdeMO": 0,
+   "CCS": {
+      "SAE": 2
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -35.709928,
+   "Longitude": 150.177723
+},
+ {
+   "ObjId": 69,
+   "Station name": "Village Centre Batemans Bay ",
+   "Station address": "1 Perry St, Batemans Bay NSW 2536, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "Evie Networks",
+   "Number of station": 2,
+   "Number of plugs": 4,
+   "Charger rating": "75 kW",
+   "CHAdeMO": 0,
+   "CCS": {
+      "SAE": 4
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -35.706983,
+   "Longitude": 150.176006
+},
+ {
+   "ObjId": 70,
+   "Station name": "Ampol Tarcutta",
+   "Station address": "32 Sydney St, Tarcutta NSW 2652, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "Evie Networks",
+   "Number of station": 1,
+   "Number of plugs": 4,
+   "Charger rating": "184 - 350 kW",
+   "CHAdeMO": 2,
+   "CCS": {
+      "SAE": 2
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -35.27714453,
+   "Longitude": 147.7360793
+},
+ {
+   "ObjId": 71,
+   "Station name": "Murrumbateman Country Inn",
+   "Station address": "2 Hercules St, Murrumbateman NSW 2582, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "Evie Networks",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "50 kW",
+   "CHAdeMO": 1,
+   "CCS": {
+      "SAE": 1
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -34.96936,
+   "Longitude": 149.03
+},
+ {
+   "ObjId": 72,
+   "Station name": "Sutton Forest West",
+   "Station address": "13125 Hume Hwy, Sutton Forest NSW 2577, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "Evie Networks",
+   "Number of station": 2,
+   "Number of plugs": 8,
+   "Charger rating": "184 - 350 kW",
+   "CHAdeMO": 4,
+   "CCS": {
+      "SAE": 4
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -34.607216,
+   "Longitude": 150.225169
+},
+ {
+   "ObjId": 73,
+   "Station name": "Lawson Car Park",
+   "Station address": "4-6 New St, Lawson NSW 2783, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "Evie Networks",
+   "Number of station": 2,
+   "Number of plugs": 4,
+   "Charger rating": "50 kW",
+   "CHAdeMO": 2,
+   "CCS": {
+      "SAE": 2
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.720695,
+   "Longitude": 150.429727
+},
+ {
+   "ObjId": 74,
+   "Station name": "Taree South Service Centre",
+   "Station address": "201 Manning River Dr, Glenthorne NSW 2430, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "Evie Networks",
+   "Number of station": 1,
+   "Number of plugs": 4,
+   "Charger rating": "184 - 350 kW",
+   "CHAdeMO": 2,
+   "CCS": {
+      "SAE": 2
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -31.94335335,
+   "Longitude": 152.4706623
+},
+ {
+   "ObjId": 75,
+   "Station name": "Coles Underground Parking",
+   "Station address": "227 Railway Terrace, Schofields NSW 2762, Australia",
+   "Opening hours": "Mon - Sat 6am - 12am Sun 7am - 10pm",
+   "Operator": "Evie Networks",
+   "Number of station": 2,
+   "Number of plugs": 4,
+   "Charger rating": "50 kW",
+   "CHAdeMO": 2,
+   "CCS": {
+      "SAE": 2
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.705677,
+   "Longitude": 150.876075
+},
+ {
+   "ObjId": 76,
+   "Station name": "Dapto Mall",
+   "Station address": "Moombara St, Dapto NSW 2530, Australia",
+   "Opening hours": "5:50am - 10pm",
+   "Operator": "Evie Networks",
+   "Number of station": 2,
+   "Number of plugs": 4,
+   "Charger rating": "50 kW",
+   "CHAdeMO": 2,
+   "CCS": {
+      "SAE": 2
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -34.494604,
+   "Longitude": 150.795725
+},
+ {
+   "ObjId": 77,
+   "Station name": "Ampol Cameron Park",
+   "Station address": "119 Stenhouse Dr, Cameron Park NSW 2285, Australia",
+   "Opening hours": "",
+   "Operator": "Evie Networks",
+   "Number of station": 1,
+   "Number of plugs": 4,
+   "Charger rating": "184 - 350 kW",
+   "CHAdeMO": 2,
+   "CCS": {
+      "SAE": 2
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -32.89664822,
+   "Longitude": 151.5971676
+},
+ {
+   "ObjId": 78,
+   "Station name": "HomeCo Belrose",
+   "Station address": "4-6 Niangala Close, Belrose NSW 2085, Australia",
+   "Opening hours": "Mon - Wed, Fri - Sat 7am - 6pm; Thu 7am - 9pm; Sun 8am- 7pm",
+   "Operator": "Evie Networks",
+   "Number of station": 2,
+   "Number of plugs": 4,
+   "Charger rating": "50 kW",
+   "CHAdeMO": 2,
+   "CCS": {
+      "SAE": 2
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.703313,
+   "Longitude": 151.213158
+},
+ {
+   "ObjId": 79,
+   "Station name": "Hungry Jack's Cabramatta",
+   "Station address": "401 Cabramatta Rd W, Cabramatta NSW 2166, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "Evie Networks",
+   "Number of station": 2,
+   "Number of plugs": 4,
+   "Charger rating": "50 kW",
+   "CHAdeMO": 2,
+   "CCS": {
+      "SAE": 2
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.898778,
+   "Longitude": 150.919791
+},
+ {
+   "ObjId": 80,
+   "Station name": "Casula Mall",
+   "Station address": "1 Ingham Dr, Casula NSW 2170, Australia",
+   "Opening hours": "",
+   "Operator": "Evie Networks",
+   "Number of station": 2,
+   "Number of plugs": 4,
+   "Charger rating": "50 kW",
+   "CHAdeMO": 2,
+   "CCS": {
+      "SAE": 2
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.948829,
+   "Longitude": 150.90027
+},
+ {
+   "ObjId": 81,
+   "Station name": "HomeCo Castle Hill",
+   "Station address": "18 Victoria Avenue, Castle Hill NSW 2154, Australia",
+   "Opening hours": "Mon/Tue/Wed/Fri 9am - 6pm Thu 9am - 8:30pm Sat 9am - 5:30pm Sun 10am - 5:30pm",
+   "Operator": "Evie Networks",
+   "Number of station": 2,
+   "Number of plugs": 4,
+   "Charger rating": "50 kW",
+   "CHAdeMO": 2,
+   "CCS": {
+      "SAE": 2
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.727803,
+   "Longitude": 150.976049
+},
+ {
+   "ObjId": 82,
+   "Station name": "Ampol Woolworths MetroGo Seven Hills",
+   "Station address": "38 Abbott Rd, Seven Hills 2147, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "Evie Networks",
+   "Number of station": 1,
+   "Number of plugs": 12,
+   "Charger rating": "184 - 350 kW",
+   "CHAdeMO": 6,
+   "CCS": {
+      "SAE": 6
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.767133,
+   "Longitude": 150.95486
+},
+ {
+   "ObjId": 83,
+   "Station name": "Red Rooster Guildford",
+   "Station address": "322 Woodville Road Guildford, NSW 2161, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "Evie Networks",
+   "Number of station": 2,
+   "Number of plugs": 4,
+   "Charger rating": "50 kW",
+   "CHAdeMO": 2,
+   "CCS": {
+      "SAE": 2
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.8521028,
+   "Longitude": 150.9955836
+},
+ {
+   "ObjId": 84,
+   "Station name": "Shell Jamisontown",
+   "Station address": "221 Wolseley St, Jamisontown NSW 2750, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "Evie Networks",
+   "Number of station": 1,
+   "Number of plugs": 4,
+   "Charger rating": "184 - 350 kW",
+   "CHAdeMO": 2,
+   "CCS": {
+      "SAE": 2
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.770295,
+   "Longitude": 150.673823
+},
+ {
+   "ObjId": 85,
+   "Station name": "Allambie Grove Business Park",
+   "Station address": "25 Frenchs Forest Rd E Frenchs Forest, NSW 2086",
+   "Opening hours": "",
+   "Operator": "Evie Networks",
+   "Number of station": 2,
+   "Number of plugs": 4,
+   "Charger rating": "150 kW",
+   "CHAdeMO": 0,
+   "CCS": {
+      "SAE": 4
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.75133669,
+   "Longitude": 151.2434692
+},
+ {
+   "ObjId": 86,
+   "Station name": "Leichhardt Marketplace",
+   "Station address": "128 Flood Street, Leichhardt NSW 2040, Australia",
+   "Opening hours": "6:30 AM - 10:30 PM",
+   "Operator": "Evie Networks",
+   "Number of station": 3,
+   "Number of plugs": 6,
+   "Charger rating": "50 - 75 kW",
+   "CHAdeMO": 1,
+   "CCS": {
+      "SAE": 5
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.88518,
+   "Longitude": 151.148629
+},
+ {
+   "ObjId": 87,
+   "Station name": "Eastgate Bondi Junction",
+   "Station address": "71/91 Spring St, Bondi Junction 2022, Australia",
+   "Opening hours": "Monday - Sunday 05:00 - 23:30",
+   "Operator": "Evie Networks",
+   "Number of station": 2,
+   "Number of plugs": 4,
+   "Charger rating": "50 kW",
+   "CHAdeMO": 2,
+   "CCS": {
+      "SAE": 2
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.892645,
+   "Longitude": 151.248167
+},
+ {
+   "ObjId": 88,
+   "Station name": "Royal Randwick",
+   "Station address": "73 Belmore Road, Randwick NSW 2031, Australia",
+   "Opening hours": "6:00am - 10:00pm",
+   "Operator": "Evie Networks",
+   "Number of station": 2,
+   "Number of plugs": 4,
+   "Charger rating": "50 kW",
+   "CHAdeMO": 2,
+   "CCS": {
+      "SAE": 2
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.915171,
+   "Longitude": 151.241129
+},
+ {
+   "ObjId": 89,
+   "Station name": "Ashfield Mall",
+   "Station address": "260A Liverpool Road, Ashfield, NSW 2131",
+   "Opening hours": "6am - 11pm",
+   "Operator": "Evie Networks",
+   "Number of station": 2,
+   "Number of plugs": 4,
+   "Charger rating": "50 kW",
+   "CHAdeMO": 2,
+   "CCS": {
+      "SAE": 2
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.889564,
+   "Longitude": 151.123599
+},
+ {
+   "ObjId": 90,
+   "Station name": "Civic Plaza 88 Christie",
+   "Station address": "88 Christie St, St Leonards NSW 2065, Australia",
+   "Opening hours": "6am - 1am",
+   "Operator": "Evie Networks",
+   "Number of station": 2,
+   "Number of plugs": 4,
+   "Charger rating": "50 kW",
+   "CHAdeMO": 2,
+   "CCS": {
+      "SAE": 2
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.82378797,
+   "Longitude": 151.1951941
+},
+ {
+   "ObjId": 91,
+   "Station name": "HomeCo Bankstown",
+   "Station address": "9-49 Chapel Road, Bankstown NSW 2200, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "Evie Networks",
+   "Number of station": 2,
+   "Number of plugs": 4,
+   "Charger rating": "50 kW",
+   "CHAdeMO": 2,
+   "CCS": {
+      "SAE": 2
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.931975,
+   "Longitude": 151.030127
+},
+ {
+   "ObjId": 92,
+   "Station name": "BP Ashfield",
+   "Station address": "586A Parramatta Rd, Croydon NSW 2132, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "Evie Networks",
+   "Number of station": 2,
+   "Number of plugs": 4,
+   "Charger rating": "50 kW",
+   "CHAdeMO": 2,
+   "CCS": {
+      "SAE": 2
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.874062,
+   "Longitude": 151.126746
+},
+ {
+   "ObjId": 93,
+   "Station name": "Queen Street Carpark (Dorhauer Lane)",
+   "Station address": "Dorhauer Lane, Woollahra Sydney, NSW 2025, Australia",
+   "Opening hours": "",
+   "Operator": "Evie Networks",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "75 kW",
+   "CHAdeMO": 0,
+   "CCS": {
+      "SAE": 2
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.88847211,
+   "Longitude": 151.2375874
+},
+ {
+   "ObjId": 94,
+   "Station name": "Ikea Tempe ",
+   "Station address": "634-726 Princes Hwy, Tempe NSW 2044",
+   "Opening hours": "Weekdays: 8:00 AM - 10:00 PM Weekends: 8:00 AM - 8:00 PM",
+   "Operator": "Evie Networks",
+   "Number of station": 2,
+   "Number of plugs": 4,
+   "Charger rating": "150 kW",
+   "CHAdeMO": 0,
+   "CCS": {
+      "SAE": 4
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.92288364,
+   "Longitude": 151.1652088
+},
+ {
+   "ObjId": 95,
+   "Station name": "Northbridge Plaza",
+   "Station address": "9 Eastern Valley Way (or 16 Harden Avenue) Northbridge NSW",
+   "Opening hours": "Open 24/7",
+   "Operator": "Evie Networks",
+   "Number of station": 2,
+   "Number of plugs": 4,
+   "Charger rating": "50 kW",
+   "CHAdeMO": 2,
+   "CCS": {
+      "SAE": 2
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.809326,
+   "Longitude": 151.208848
+},
+ {
+   "ObjId": 96,
+   "Station name": "Wollongong Central - Regent St Entrance",
+   "Station address": "Regent St, Wollongong NSW 2500, Australia",
+   "Opening hours": "6:00AM - 12:00AM",
+   "Operator": "Evie Networks",
+   "Number of station": 2,
+   "Number of plugs": 4,
+   "Charger rating": "50 kW",
+   "CHAdeMO": 2,
+   "CCS": {
+      "SAE": 2
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -34.423975,
+   "Longitude": 150.892316
+},
+ {
+   "ObjId": 97,
+   "Station name": "Marrickville Metro Shopping Centre",
+   "Station address": "34 Victoria Rd, Marrickville NSW 2204, Australia",
+   "Opening hours": "",
+   "Operator": "Evie Networks",
+   "Number of station": 2,
+   "Number of plugs": 4,
+   "Charger rating": "50 kW",
+   "CHAdeMO": 2,
+   "CCS": {
+      "SAE": 2
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.907982,
+   "Longitude": 151.170899
+},
+ {
+   "ObjId": 98,
+   "Station name": "The Canopy Lane Cove",
+   "Station address": "2 Rosenthal Ave, Lane Cove NSW 2066, Australia",
+   "Opening hours": "6AM to 1AM",
+   "Operator": "Evie Networks",
+   "Number of station": 2,
+   "Number of plugs": 4,
+   "Charger rating": "50 kW",
+   "CHAdeMO": 2,
+   "CCS": {
+      "SAE": 2
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.813936,
+   "Longitude": 151.169298
+},
+ {
+   "ObjId": 99,
+   "Station name": "Caddens Corner",
+   "Station address": "82a O'Connell St, Kingswood NSW 2747, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "Evie Networks",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "50 kW",
+   "CHAdeMO": 1,
+   "CCS": {
+      "SAE": 1
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.7693,
+   "Longitude": 150.735413
+},
+ {
+   "ObjId": 100,
+   "Station name": "Raglan St West Car Park",
+   "Station address": "188 Raglan St, Mosman NSW 2088, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "Evie Networks",
+   "Number of station": 2,
+   "Number of plugs": 4,
+   "Charger rating": "50 kW",
+   "CHAdeMO": 2,
+   "CCS": {
+      "SAE": 2
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.830986,
+   "Longitude": 151.243556
+},
+ {
+   "ObjId": 101,
+   "Station name": "Mosman Civic",
+   "Station address": "6 Myahgah Rd, Mosman NSW 2088, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "Evie Networks",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "50 kW",
+   "CHAdeMO": 1,
+   "CCS": {
+      "SAE": 1
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.825551,
+   "Longitude": 151.241426
+},
+ {
+   "ObjId": 102,
+   "Station name": "BP Caringbah",
+   "Station address": "Captain Cook Dr and, Cawarra Rd, Caringbah NSW 2229, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "Evie Networks",
+   "Number of station": 2,
+   "Number of plugs": 4,
+   "Charger rating": "50 kW",
+   "CHAdeMO": 2,
+   "CCS": {
+      "SAE": 2
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -34.03282054,
+   "Longitude": 151.1248971
+},
+ {
+   "ObjId": 103,
+   "Station name": "Dan Murphy's Swansea",
+   "Station address": "36 Josephson St, Swansea NSW 2281, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "Evie Networks",
+   "Number of station": 2,
+   "Number of plugs": 4,
+   "Charger rating": "50 kW",
+   "CHAdeMO": 2,
+   "CCS": {
+      "SAE": 2
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.088721,
+   "Longitude": 151.637587
+},
+ {
+   "ObjId": 104,
+   "Station name": "Macquarie Centre (2)",
+   "Station address": "105Ã107 Waterloo Rd, Macquarie Park NSW 2113, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "Evie Networks",
+   "Number of station": 2,
+   "Number of plugs": 4,
+   "Charger rating": "50 kW",
+   "CHAdeMO": 2,
+   "CCS": {
+      "SAE": 2
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.776893,
+   "Longitude": 151.122247
+},
+ {
+   "ObjId": 105,
+   "Station name": "Ampol Foodary Macksville",
+   "Station address": "24 Cooper St, Macksville NSW 2447, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "Evie Networks",
+   "Number of station": 1,
+   "Number of plugs": 4,
+   "Charger rating": "184 - 350 kW",
+   "CHAdeMO": 2,
+   "CCS": {
+      "SAE": 2
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -30.7102492,
+   "Longitude": 152.9197659
+},
+ {
+   "ObjId": 106,
+   "Station name": "Shell Tyndale",
+   "Station address": "2848 Big River Way, Tyndale NSW 2460, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "Evie Networks",
+   "Number of station": 1,
+   "Number of plugs": 4,
+   "Charger rating": "184 - 350 kW",
+   "CHAdeMO": 2,
+   "CCS": {
+      "SAE": 2
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -29.561181,
+   "Longitude": 153.149407
+},
+ {
+   "ObjId": 107,
+   "Station name": "HomeCo Highlands",
+   "Station address": "205 Old Hume Hwy, Mittagong NSW 2575, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "Evie Networks",
+   "Number of station": 2,
+   "Number of plugs": 4,
+   "Charger rating": "150 kW",
+   "CHAdeMO": 0,
+   "CCS": {
+      "SAE": 4
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -34.44673164,
+   "Longitude": 150.4370159
+},
+ {
+   "ObjId": 108,
+   "Station name": "Marketfair Campbelltown",
+   "Station address": "4 Tindall St, Campbelltown NSW 2560, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "Evie Networks",
+   "Number of station": 2,
+   "Number of plugs": 4,
+   "Charger rating": "60 - 150 kW",
+   "CHAdeMO": 1,
+   "CCS": {
+      "SAE": 3
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -34.07204458,
+   "Longitude": 150.8051165
+},
+ {
+   "ObjId": 109,
+   "Station name": "Kogarah Town Centre",
+   "Station address": "Kogarah Town Centre, 1-9 Railway Parade, Kogarah NSW 2217, Australia",
+   "Opening hours": "7:00 AM - 10:00 PM",
+   "Operator": "Evie Networks",
+   "Number of station": 2,
+   "Number of plugs": 4,
+   "Charger rating": "60 - 150 kW",
+   "CHAdeMO": 1,
+   "CCS": {
+      "SAE": 3
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.96168115,
+   "Longitude": 151.1325903
+},
+ {
+   "ObjId": 110,
+   "Station name": "Bakehouse Quarter Carpark",
+   "Station address": "3 George St, North Strathfield NSW 2137, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "Evie Networks",
+   "Number of station": 3,
+   "Number of plugs": 6,
+   "Charger rating": "62 - 75 kW",
+   "CHAdeMO": 1,
+   "CCS": {
+      "SAE": 5
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.86390159,
+   "Longitude": 151.0894518
+},
+ {
+   "ObjId": 111,
+   "Station name": "HomeCo. Prestons ",
+   "Station address": "1985 Camden Valley Way, Prestons NSW 2170, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "Evie Networks",
+   "Number of station": 2,
+   "Number of plugs": 4,
+   "Charger rating": "150 kW",
+   "CHAdeMO": 0,
+   "CCS": {
+      "SAE": 4
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.95227277,
+   "Longitude": 150.8557289
+},
+ {
+   "ObjId": 112,
+   "Station name": "HomeCo. Warners Bay",
+   "Station address": "240 Hillsborough Rd, Warners Bay NSW 2282, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "Evie Networks",
+   "Number of station": 2,
+   "Number of plugs": 4,
+   "Charger rating": "60 - 150 kW",
+   "CHAdeMO": 1,
+   "CCS": {
+      "SAE": 3
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -32.96354505,
+   "Longitude": 151.6617414
+},
+ {
+   "ObjId": 113,
+   "Station name": "Sydney Motorsport Park (1)",
+   "Station address": "Sydney Motorsport Park, Ferrers Rd, Eastern Creek NSW 2766, Australia",
+   "Opening hours": "",
+   "Operator": "Evie Networks",
+   "Number of station": 2,
+   "Number of plugs": 4,
+   "Charger rating": "150 kW",
+   "CHAdeMO": 0,
+   "CCS": {
+      "SAE": 4
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.80443343,
+   "Longitude": 150.8703586
+},
+ {
+   "ObjId": 114,
+   "Station name": "Seven Hills Plaza",
+   "Station address": "224 Prospect Hwy, Seven Hills NSW 2147, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "Evie Networks",
+   "Number of station": 2,
+   "Number of plugs": 4,
+   "Charger rating": "150 kW",
+   "CHAdeMO": 0,
+   "CCS": {
+      "SAE": 4
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.77578997,
+   "Longitude": 150.9330864
+},
+ {
+   "ObjId": 115,
+   "Station name": "Hornsby Dural Street Council Carpark",
+   "Station address": "1-3 Dural Street, Hornsby NSW 2077, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "Evie Networks",
+   "Number of station": 2,
+   "Number of plugs": 4,
+   "Charger rating": "50 kW",
+   "CHAdeMO": 1,
+   "CCS": {
+      "SAE": 3
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.70276181,
+   "Longitude": 151.0964792
+},
+ {
+   "ObjId": 116,
+   "Station name": "10 Elizabeth St Carpark",
+   "Station address": "10 Elizabeth St, Bathurst NSW 2795, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "Evie Networks",
+   "Number of station": 2,
+   "Number of plugs": 4,
+   "Charger rating": "60 - 150 kW",
+   "CHAdeMO": 1,
+   "CCS": {
+      "SAE": 3
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.41415869,
+   "Longitude": 149.5834276
+},
+ {
+   "ObjId": 117,
+   "Station name": "Dee Why Marketplace (2)",
+   "Station address": "Shop 4/27-33 Oaks Ave, Dee Why NSW 2099, Australia",
+   "Opening hours": "7:00 AM - 10:30 PM",
+   "Operator": "Evie Networks",
+   "Number of station": 2,
+   "Number of plugs": 4,
+   "Charger rating": "150 kW",
+   "CHAdeMO": 0,
+   "CCS": {
+      "SAE": 4
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.75442135,
+   "Longitude": 151.2873331
+},
+ {
+   "ObjId": 118,
+   "Station name": "Wilcannia Hospital",
+   "Station address": "1 - 7 Ross St, Wilcannia NSW 2836, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "NRMA",
+   "Number of station": 2,
+   "Number of plugs": 4,
+   "Charger rating": "50 kW",
+   "CHAdeMO": 2,
+   "CCS": {
+      "SAE": 2
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -31.557629,
+   "Longitude": 143.386007
+},
+ {
+   "ObjId": 119,
+   "Station name": "Broken Hill",
+   "Station address": "Kintore Headframe Car Park, 51 Bromide St, Broken Hill, NSW 2880, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "NRMA",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "50 kW",
+   "CHAdeMO": 1,
+   "CCS": {
+      "SAE": 1
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -31.959618,
+   "Longitude": 141.45957
+},
+ {
+   "ObjId": 120,
+   "Station name": "Moppett St Car Park",
+   "Station address": "406 Moppett St, Hay NSW 2711, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "NRMA",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "50 kW",
+   "CHAdeMO": 1,
+   "CCS": {
+      "SAE": 1
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -34.508903,
+   "Longitude": 144.842785
+},
+ {
+   "ObjId": 121,
+   "Station name": "Balranald Discovery Centre",
+   "Station address": "85 Market St, Balranald NSW 2715, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "NRMA",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "50 kW",
+   "CHAdeMO": 1,
+   "CCS": {
+      "SAE": 1
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -34.639541,
+   "Longitude": 143.564708
+},
+ {
+   "ObjId": 122,
+   "Station name": "Moama Bowling Club",
+   "Station address": "7 Blair St, Moama NSW 2731, Australia",
+   "Opening hours": "Sun - Thu 10am - 1am, Fri - Sat 10am - 2am",
+   "Operator": "Chargebay",
+   "Number of station": 2,
+   "Number of plugs": 4,
+   "Charger rating": "50 kW",
+   "CHAdeMO": 2,
+   "CCS": {
+      "SAE": 2
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -36.113509,
+   "Longitude": 144.757766
+},
+ {
+   "ObjId": 123,
+   "Station name": "Kiewa St Car Park Rooftop",
+   "Station address": "441 Kiewa St, Albury NSW 2640, Australia",
+   "Opening hours": "6:00 AM - 10:00 PM",
+   "Operator": "NRMA",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "50 kW",
+   "CHAdeMO": 1,
+   "CCS": {
+      "SAE": 1
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -36.083744,
+   "Longitude": 146.914742
+},
+ {
+   "ObjId": 124,
+   "Station name": "Church St Car Park",
+   "Station address": "81 Gipps St, Bega NSW 2550, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "NRMA",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "50 kW",
+   "CHAdeMO": 1,
+   "CCS": {
+      "SAE": 1
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -36.672876,
+   "Longitude": 149.843349
+},
+ {
+   "ObjId": 125,
+   "Station name": "Submarine Park",
+   "Station address": "7 Prospect St, Holbrook NSW 2644, Australia",
+   "Opening hours": "10:00 AM - 4:00 PM",
+   "Operator": "NRMA",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "50 kW",
+   "CHAdeMO": 1,
+   "CCS": {
+      "SAE": 1
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -35.717574,
+   "Longitude": 147.317769
+},
+ {
+   "ObjId": 126,
+   "Station name": "Snowy River Ave Car Park",
+   "Station address": "Corner of Snowy River Avenue and, Kalkite St, Jindabyne NSW 2627",
+   "Opening hours": "Open 24/7",
+   "Operator": "NRMA",
+   "Number of station": 2,
+   "Number of plugs": 4,
+   "Charger rating": "50 kW",
+   "CHAdeMO": 2,
+   "CCS": {
+      "SAE": 2
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -36.415952,
+   "Longitude": 148.619803
+},
+ {
+   "ObjId": 127,
+   "Station name": "Batemans Bay Regional Arts Aquatic & Leisure Centre",
+   "Station address": "12 Vesper St, Batemans Bay NSW 2536, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "NRMA",
+   "Number of station": 2,
+   "Number of plugs": 4,
+   "Charger rating": "75 kW",
+   "CHAdeMO": 2,
+   "CCS": {
+      "SAE": 2
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -35.709671,
+   "Longitude": 150.173821
+},
+ {
+   "ObjId": 128,
+   "Station name": "Batemans Bay Beach Road",
+   "Station address": "2A Beach Rd, Batemans Bay NSW 2536, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "NRMA",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "50 kW",
+   "CHAdeMO": 1,
+   "CCS": {
+      "SAE": 1
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -35.708511,
+   "Longitude": 150.175387
+},
+ {
+   "ObjId": 129,
+   "Station name": "Cobar",
+   "Station address": "3 Broomfield St, Cobar NSW 2835, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "NRMA",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "50 kW",
+   "CHAdeMO": 1,
+   "CCS": {
+      "SAE": 1
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -31.498839,
+   "Longitude": 145.837612
+},
+ {
+   "ObjId": 130,
+   "Station name": "Dandaloo St Parking Lot",
+   "Station address": "18 Dandaloo St, Nyngan NSW 2825, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "NRMA",
+   "Number of station": 2,
+   "Number of plugs": 4,
+   "Charger rating": "75 kW",
+   "CHAdeMO": 2,
+   "CCS": {
+      "SAE": 2
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -31.564331,
+   "Longitude": 147.197013
+},
+ {
+   "ObjId": 131,
+   "Station name": "Neilly St Car Park",
+   "Station address": "26 Neilly St, Walgett NSW 2832, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "NRMA",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "75 kW",
+   "CHAdeMO": 1,
+   "CCS": {
+      "SAE": 1
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -30.020699,
+   "Longitude": 148.117705
+},
+ {
+   "ObjId": 132,
+   "Station name": "Coonabarabran Visitors Centre",
+   "Station address": "Coonabarabran Coach Stop, Coonabarabran NSW 2357, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "NRMA",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "50 kW",
+   "CHAdeMO": 1,
+   "CCS": {
+      "SAE": 1
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -31.278606,
+   "Longitude": 149.279192
+},
+ {
+   "ObjId": 133,
+   "Station name": "Skillman's Lane Car Park",
+   "Station address": "Skillman's Lane, Coonamble NSW 2829, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "NRMA",
+   "Number of station": 2,
+   "Number of plugs": 4,
+   "Charger rating": "50 kW",
+   "CHAdeMO": 2,
+   "CCS": {
+      "SAE": 2
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -30.95278,
+   "Longitude": 148.387913
+},
+ {
+   "ObjId": 134,
+   "Station name": "Mitchell St Bourke",
+   "Station address": "15c Mitchell St, Bourke NSW 2840, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "NRMA",
+   "Number of station": 2,
+   "Number of plugs": 4,
+   "Charger rating": "75 kW",
+   "CHAdeMO": 2,
+   "CCS": {
+      "SAE": 2
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -30.088397,
+   "Longitude": 145.935014
+},
+ {
+   "ObjId": 135,
+   "Station name": "Brewarrina Visitor Information & Exhibition Centre",
+   "Station address": "50 Bathurst St, Brewarrina NSW 2839, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "NRMA",
+   "Number of station": 2,
+   "Number of plugs": 4,
+   "Charger rating": "75 kW",
+   "CHAdeMO": 2,
+   "CCS": {
+      "SAE": 2
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -29.960719,
+   "Longitude": 146.857749
+},
+ {
+   "ObjId": 136,
+   "Station name": "Narrandera Park",
+   "Station address": "31 Twynam St, Narrandera NSW 2700, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "NRMA",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "50 kW",
+   "CHAdeMO": 1,
+   "CCS": {
+      "SAE": 1
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -34.746497,
+   "Longitude": 146.550076
+},
+ {
+   "ObjId": 137,
+   "Station name": "Parkes Swimming Pool",
+   "Station address": "27 Dalton St, Parkes NSW 2870, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "NRMA",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "50 kW",
+   "CHAdeMO": 1,
+   "CCS": {
+      "SAE": 1
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.1372177,
+   "Longitude": 148.1726205
+},
+ {
+   "ObjId": 138,
+   "Station name": "Club Mudgee Car Park",
+   "Station address": "99 Mortimer St, Mudgee NSW 2850, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "NRMA",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "50 kW",
+   "CHAdeMO": 1,
+   "CCS": {
+      "SAE": 1
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -32.59372361,
+   "Longitude": 149.5862369
+},
+ {
+   "ObjId": 139,
+   "Station name": "Cowra Art Gallery",
+   "Station address": "77 Darling St, Cowra NSW 2794, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "NRMA",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "50 kW",
+   "CHAdeMO": 1,
+   "CCS": {
+      "SAE": 1
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.834112,
+   "Longitude": 148.694404
+},
+ {
+   "ObjId": 140,
+   "Station name": "Shire St Parking",
+   "Station address": "13-15 Shire St, West Wyalong NSW 2671, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "NRMA",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "50 kW",
+   "CHAdeMO": 1,
+   "CCS": {
+      "SAE": 1
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.923735,
+   "Longitude": 147.203554
+},
+ {
+   "ObjId": 141,
+   "Station name": "Temora Shire Council ",
+   "Station address": "Car park, Little Hoskins St, Temora NSW 2666",
+   "Opening hours": "Open 24/7",
+   "Operator": "NRMA",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "50 kW",
+   "CHAdeMO": 1,
+   "CCS": {
+      "SAE": 1
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -34.446266,
+   "Longitude": 147.534441
+},
+ {
+   "ObjId": 142,
+   "Station name": "Luke Park",
+   "Station address": "33 Powell St, Jerilderie NSW 2716, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "NRMA",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "50 kW",
+   "CHAdeMO": 1,
+   "CCS": {
+      "SAE": 1
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -35.35488488,
+   "Longitude": 145.7250808
+},
+ {
+   "ObjId": 143,
+   "Station name": "Lovell St Car Park",
+   "Station address": "88 Lovell St, Young NSW 2594, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "NRMA",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "50 kW",
+   "CHAdeMO": 1,
+   "CCS": {
+      "SAE": 1
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -34.311716,
+   "Longitude": 148.295039
+},
+ {
+   "ObjId": 144,
+   "Station name": "Orange Civic Centre Car Park",
+   "Station address": "151A Byng St, Orange NSW 2800, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "NRMA",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "50 kW",
+   "CHAdeMO": 1,
+   "CCS": {
+      "SAE": 1
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.281443,
+   "Longitude": 149.102781
+},
+ {
+   "ObjId": 145,
+   "Station name": "Jugiong Playground & Swimming Pool",
+   "Station address": "319 Riverside Dr, Jugiong NSW 2726, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "NRMA",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "50 kW",
+   "CHAdeMO": 1,
+   "CCS": {
+      "SAE": 1
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -34.82345,
+   "Longitude": 148.325444
+},
+ {
+   "ObjId": 146,
+   "Station name": "Middy's Wagga Wagga East ",
+   "Station address": "176 Hammond Ave, East Wagga Wagga NSW 2650, Australia",
+   "Opening hours": "Weekdays: 7am - 5pm Saturdays: 8am - 12pm",
+   "Operator": "Everty",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "25kW",
+   "CHAdeMO": 1,
+   "CCS": {
+      "SAE": 1
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -35.1237268,
+   "Longitude": 147.398997
+},
+ {
+   "ObjId": 147,
+   "Station name": "Wagga Wagga Cross St Car Park",
+   "Station address": "8/24 Cross St, Wagga Wagga, NSW 2650",
+   "Opening hours": "",
+   "Operator": "NRMA",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "50 kW",
+   "CHAdeMO": 1,
+   "CCS": {
+      "SAE": 1
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -35.108358,
+   "Longitude": 147.37355
+},
+ {
+   "ObjId": 148,
+   "Station name": "Yass Banjo Paterson Park",
+   "Station address": "81 Meehan St, Yass NSW 2582, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "NRMA",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "50 kW",
+   "CHAdeMO": 1,
+   "CCS": {
+      "SAE": 1
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -34.841228,
+   "Longitude": 148.912485
+},
+ {
+   "ObjId": 149,
+   "Station name": "Western Plains Cultural Centre",
+   "Station address": "76 Wingewarra St, Dubbo NSW 2830, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "NRMA",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "50 kW",
+   "CHAdeMO": 1,
+   "CCS": {
+      "SAE": 1
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -32.2494,
+   "Longitude": 148.609389
+},
+ {
+   "ObjId": 150,
+   "Station name": "Bathurst Visitor Information Centre",
+   "Station address": "1 Kendall Ave, Bathurst NSW 2795, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "NRMA",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "50 kW",
+   "CHAdeMO": 1,
+   "CCS": {
+      "SAE": 1
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.419102,
+   "Longitude": 149.586752
+},
+ {
+   "ObjId": 151,
+   "Station name": "Kelly St Car Park",
+   "Station address": "116 Liverpool St, Scone NSW 2337, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "NRMA",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "50 kW",
+   "CHAdeMO": 1,
+   "CCS": {
+      "SAE": 1
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -32.050429,
+   "Longitude": 150.866672
+},
+ {
+   "ObjId": 152,
+   "Station name": "Hunter Valley Gardens Car Park",
+   "Station address": "Hunter Valley Gardens carpark, 2090 Broke Rd, Pokolbin NSW 2320, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "NRMA",
+   "Number of station": 2,
+   "Number of plugs": 4,
+   "Charger rating": "50 kW",
+   "CHAdeMO": 2,
+   "CCS": {
+      "SAE": 2
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -32.773429,
+   "Longitude": 151.298271
+},
+ {
+   "ObjId": 153,
+   "Station name": "Mittagong RSL Car Park",
+   "Station address": "9 Bessemer St, Mittagong NSW 2575, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "NRMA",
+   "Number of station": 3,
+   "Number of plugs": 6,
+   "Charger rating": "50 - 150 kW",
+   "CHAdeMO": 1,
+   "CCS": {
+      "SAE": 5
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -34.450088,
+   "Longitude": 150.442458
+},
+ {
+   "ObjId": 154,
+   "Station name": "Berry Bowling Club",
+   "Station address": "140 Queen St, Berry NSW 2535, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "NRMA",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "50 kW",
+   "CHAdeMO": 1,
+   "CCS": {
+      "SAE": 1
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -34.775594,
+   "Longitude": 150.701087
+},
+ {
+   "ObjId": 155,
+   "Station name": "Lake Macquarie Visitor Information Centre",
+   "Station address": "228 Pacific Hwy, Swansea NSW 2281, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "Everty",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "25 kW",
+   "CHAdeMO": 1,
+   "CCS": {
+      "SAE": 1
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.091852,
+   "Longitude": 151.637364
+},
+ {
+   "ObjId": 156,
+   "Station name": "Lithgow Workies Club",
+   "Station address": "3-7 Tank St, Lithgow NSW 2790, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "NRMA",
+   "Number of station": 2,
+   "Number of plugs": 4,
+   "Charger rating": "50 kW",
+   "CHAdeMO": 2,
+   "CCS": {
+      "SAE": 2
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.478006,
+   "Longitude": 150.161124
+},
+ {
+   "ObjId": 157,
+   "Station name": "Nabiac Park",
+   "Station address": "35 Nabiac Street, Nabiac NSW 2312, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "NRMA",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "50 kW",
+   "CHAdeMO": 1,
+   "CCS": {
+      "SAE": 1
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -32.099071,
+   "Longitude": 152.381574
+},
+ {
+   "ObjId": 158,
+   "Station name": "Walton Lane Car Park",
+   "Station address": "5 Walton Lane, Picton NSW 2571, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "NRMA",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "50 kW",
+   "CHAdeMO": 1,
+   "CCS": {
+      "SAE": 1
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -34.168301,
+   "Longitude": 150.611002
+},
+ {
+   "ObjId": 159,
+   "Station name": "Toronto Commercial Centre Carpark",
+   "Station address": "7 Pemell St, Toronto NSW 2283, Australia",
+   "Opening hours": "",
+   "Operator": "Exploren",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "40 kW",
+   "CHAdeMO": 0,
+   "CCS": {
+      "SAE": 2
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.01436532,
+   "Longitude": 151.5957632
+},
+ {
+   "ObjId": 160,
+   "Station name": "Wallsend Car Park",
+   "Station address": "76 Cowper St, Wallsend NSW 2287, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "NRMA",
+   "Number of station": 2,
+   "Number of plugs": 4,
+   "Charger rating": "50 kW",
+   "CHAdeMO": 2,
+   "CCS": {
+      "SAE": 2
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -32.902721,
+   "Longitude": 151.669767
+},
+ {
+   "ObjId": 161,
+   "Station name": "Sungrow Power Australia Warehouse",
+   "Station address": "91 Victoria St, Smithfield NSW 2164, Australia",
+   "Opening hours": "9am - 5:30",
+   "Operator": "Everty",
+   "Number of station": 1,
+   "Number of plugs": 1,
+   "Charger rating": "30 kW",
+   "CHAdeMO": 0,
+   "CCS": {
+      "SAE": 1
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.8511379,
+   "Longitude": 150.934316
+},
+ {
+   "ObjId": 162,
+   "Station name": "Darley St Parking",
+   "Station address": "10 Darley St, Forestville NSW 2087, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "JOLT",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "25 kW",
+   "CHAdeMO": 1,
+   "CCS": {
+      "SAE": 1
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.762097,
+   "Longitude": 151.214184
+},
+ {
+   "ObjId": 163,
+   "Station name": "Treacy St Parking",
+   "Station address": "Treacy St, Hurstville NSW 2220, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "JOLT",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "25 kW",
+   "CHAdeMO": 1,
+   "CCS": {
+      "SAE": 1
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.967847,
+   "Longitude": 151.106052
+},
+ {
+   "ObjId": 164,
+   "Station name": "Dowling St Parking",
+   "Station address": "30 Dowling Street, Freshwater",
+   "Opening hours": "Open 24/7",
+   "Operator": "JOLT",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "25 kW",
+   "CHAdeMO": 1,
+   "CCS": {
+      "SAE": 1
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.778944,
+   "Longitude": 151.283883
+},
+ {
+   "ObjId": 165,
+   "Station name": "Richmond Road",
+   "Station address": "19 Richmond Rd, Homebush West NSW 2140, Homebush West 2140",
+   "Opening hours": "Open 24/7",
+   "Operator": "JOLT",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "25 kW",
+   "CHAdeMO": 1,
+   "CCS": {
+      "SAE": 1
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.866056,
+   "Longitude": 151.064444
+},
+ {
+   "ObjId": 166,
+   "Station name": "Sydney Olympic Park",
+   "Station address": "9 Murray Rose Ave, Sydney Olympic Park NSW 2127, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "NRMA",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "50 kW",
+   "CHAdeMO": 0,
+   "CCS": {
+      "SAE": 2
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.84603863,
+   "Longitude": 151.0698039
+},
+ {
+   "ObjId": 167,
+   "Station name": "Winbourne Rd Parking",
+   "Station address": "87 Winbourne Rd, Brookvale NSW 2100, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "JOLT",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "25 kW",
+   "CHAdeMO": 1,
+   "CCS": {
+      "SAE": 1
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.7620831,
+   "Longitude": 151.2725704
+},
+ {
+   "ObjId": 168,
+   "Station name": "Oaks Ave, Dee Why",
+   "Station address": "4-16 Oaks Ave, Dee Why NSW 2099, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "JOLT",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "25 kW",
+   "CHAdeMO": 1,
+   "CCS": {
+      "SAE": 1
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.753704,
+   "Longitude": 151.287004
+},
+ {
+   "ObjId": 169,
+   "Station name": "Beecroft Village Plaza",
+   "Station address": "107 Beecroft Rd, Beecroft NSW 2119",
+   "Opening hours": "Open 24/7",
+   "Operator": "JOLT",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "25 kW",
+   "CHAdeMO": 1,
+   "CCS": {
+      "SAE": 1
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.75046555,
+   "Longitude": 151.0650469
+},
+ {
+   "ObjId": 170,
+   "Station name": "Stanley St Parking",
+   "Station address": "28 Stanley St, Peakhurst NSW 2210, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "JOLT",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "25 kW",
+   "CHAdeMO": 1,
+   "CCS": {
+      "SAE": 1
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.962184,
+   "Longitude": 151.063572
+},
+ {
+   "ObjId": 171,
+   "Station name": "133 Liverpool Road",
+   "Station address": "133 Liverpool Road, Burwood NSW 2134, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "JOLT",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "25 kW",
+   "CHAdeMO": 1,
+   "CCS": {
+      "SAE": 1
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.887273,
+   "Longitude": 151.099333
+},
+ {
+   "ObjId": 172,
+   "Station name": "Brighton St, Croydon Park",
+   "Station address": "110 Brighton St, Croydon Park NSW 2133, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "JOLT",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "25 kW",
+   "CHAdeMO": 1,
+   "CCS": {
+      "SAE": 1
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.894755,
+   "Longitude": 151.10969
+},
+ {
+   "ObjId": 173,
+   "Station name": "Cook St Parking",
+   "Station address": "22 Cook st, Mortdale NSW 2223, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "JOLT",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "25 kW",
+   "CHAdeMO": 1,
+   "CCS": {
+      "SAE": 1
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.970228,
+   "Longitude": 151.080159
+},
+ {
+   "ObjId": 174,
+   "Station name": "Letitia St & Frederick St Parking",
+   "Station address": "20 Letitia St, Oatley NSW 2223, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "JOLT",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "25 kW",
+   "CHAdeMO": 1,
+   "CCS": {
+      "SAE": 1
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.981597,
+   "Longitude": 151.081572
+},
+ {
+   "ObjId": 175,
+   "Station name": "Goodwood St Parking",
+   "Station address": "110 Anzac Parade, Kensington NSW 2033, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "JOLT",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "25 kW",
+   "CHAdeMO": 1,
+   "CCS": {
+      "SAE": 1
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.907121,
+   "Longitude": 151.224119
+},
+ {
+   "ObjId": 176,
+   "Station name": "Anzac Parade Car Park",
+   "Station address": "827 Anzac Parade, Maroubra NSW 2035, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "JOLT",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "25 kW",
+   "CHAdeMO": 1,
+   "CCS": {
+      "SAE": 1
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.943551,
+   "Longitude": 151.239711
+},
+ {
+   "ObjId": 177,
+   "Station name": "Morgan St Parking",
+   "Station address": "Morgan St, Beverly Hills NSW 2209, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "JOLT",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "25 kW",
+   "CHAdeMO": 1,
+   "CCS": {
+      "SAE": 1
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.949251,
+   "Longitude": 151.081229
+},
+ {
+   "ObjId": 178,
+   "Station name": "Broadarrow Rd Parking",
+   "Station address": "42 Broad Arrow Rd, Narwee NSW 2209, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "JOLT",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "25 kW",
+   "CHAdeMO": 1,
+   "CCS": {
+      "SAE": 1
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.948425,
+   "Longitude": 151.071068
+},
+ {
+   "ObjId": 179,
+   "Station name": "Stewart St East Car Park",
+   "Station address": "17 Stewart St, Wollongong NSW 2500, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "NRMA",
+   "Number of station": 2,
+   "Number of plugs": 4,
+   "Charger rating": "75 - 175 kW",
+   "CHAdeMO": 2,
+   "CCS": {
+      "SAE": 2
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -34.428268,
+   "Longitude": 150.90015
+},
+ {
+   "ObjId": 180,
+   "Station name": "Spencer St & Regatta Rd Parking",
+   "Station address": "2A Regatta Rd, Five Dock NSW 2046, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "JOLT",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "25 kW",
+   "CHAdeMO": 1,
+   "CCS": {
+      "SAE": 1
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.869534,
+   "Longitude": 151.116173
+},
+ {
+   "ObjId": 181,
+   "Station name": "Beauchamp Rd Parking",
+   "Station address": "151 Beauchamp Rd, Matraville NSW, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "JOLT",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "25 kW",
+   "CHAdeMO": 1,
+   "CCS": {
+      "SAE": 1
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.95632342,
+   "Longitude": 151.2265971
+},
+ {
+   "ObjId": 182,
+   "Station name": "JOLT Perry St ",
+   "Station address": "550 Bunnerong Rd, Matraville NSW 2036, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "JOLT",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "25 kW",
+   "CHAdeMO": 1,
+   "CCS": {
+      "SAE": 1
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.96104423,
+   "Longitude": 151.2309394
+},
+ {
+   "ObjId": 183,
+   "Station name": "Everton Park",
+   "Station address": "Everton Park, 26 Everton Rd, Strathfield NSW 2135, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "JOLT",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "25 kW",
+   "CHAdeMO": 1,
+   "CCS": {
+      "SAE": 1
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.872106,
+   "Longitude": 151.095801
+},
+ {
+   "ObjId": 184,
+   "Station name": "Park Ave Parking",
+   "Station address": "30 Park Ave, Burwood NSW 2134, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "JOLT",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "25 kW",
+   "CHAdeMO": 1,
+   "CCS": {
+      "SAE": 1
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.873878,
+   "Longitude": 151.10192
+},
+ {
+   "ObjId": 185,
+   "Station name": "Lagoon St Carpark",
+   "Station address": "9 Lagoon St, Narrabeen NSW 2101",
+   "Opening hours": "Open 24/7",
+   "Operator": "JOLT",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "25 kW",
+   "CHAdeMO": 1,
+   "CCS": {
+      "SAE": 1
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.7138449,
+   "Longitude": 151.2984042
+},
+ {
+   "ObjId": 186,
+   "Station name": "Ocean St, Narrabeen",
+   "Station address": "5/16 Ocean St, Narrabeen NSW 2101, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "JOLT",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "25 kW",
+   "CHAdeMO": 1,
+   "CCS": {
+      "SAE": 1
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.71941463,
+   "Longitude": 151.2986382
+},
+ {
+   "ObjId": 187,
+   "Station name": "Bunnings Caringbah",
+   "Station address": "Koonya Cct, Caringbah NSW 2229, Australia",
+   "Opening hours": "6am - 9pm",
+   "Operator": "Exploren",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "50 kW",
+   "CHAdeMO": 1,
+   "CCS": {
+      "SAE": 1
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -34.02815,
+   "Longitude": 151.121855
+},
+ {
+   "ObjId": 188,
+   "Station name": "Motor Traders' Association of New South Wales",
+   "Station address": "214 Parramatta Rd, Burwood NSW 2134, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "Everty",
+   "Number of station": 2,
+   "Number of plugs": 2,
+   "Charger rating": "60 kW",
+   "CHAdeMO": 0,
+   "CCS": {
+      "SAE": 2
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.86973363,
+   "Longitude": 151.1105925
+},
+ {
+   "ObjId": 189,
+   "Station name": "Dan Murphy's Burwood",
+   "Station address": "312 Parramatta Rd, Burwood NSW 2134, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "JOLT",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "25 kW",
+   "CHAdeMO": 1,
+   "CCS": {
+      "SAE": 1
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.86937549,
+   "Longitude": 151.1077687
+},
+ {
+   "ObjId": 190,
+   "Station name": "Bungan Street",
+   "Station address": "5 Bungan St, Mona Vale NSW 2103",
+   "Opening hours": "Open 24/7",
+   "Operator": "JOLT",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "25 kW",
+   "CHAdeMO": 1,
+   "CCS": {
+      "SAE": 1
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.676139,
+   "Longitude": 151.303111
+},
+ {
+   "ObjId": 191,
+   "Station name": "Mona Vale Library Car Park",
+   "Station address": "1 Park St, Mona Vale NSW 2103, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "JOLT",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "25 kW",
+   "CHAdeMO": 1,
+   "CCS": {
+      "SAE": 1
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.67606,
+   "Longitude": 151.303827
+},
+ {
+   "ObjId": 192,
+   "Station name": "JOLT Gardeners Road",
+   "Station address": "904 Gardeners Rd, Mascot NSW 2020, Australia",
+   "Opening hours": "6am to 2am.",
+   "Operator": "JOLT",
+   "Number of station": 2,
+   "Number of plugs": 4,
+   "Charger rating": "25 kW",
+   "CHAdeMO": 2,
+   "CCS": {
+      "SAE": 2
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.9206552,
+   "Longitude": 151.1913821
+},
+ {
+   "ObjId": 193,
+   "Station name": "Lancaster Motor Group- open now (station #1283) ",
+   "Station address": "1 Waddell's Lane Singleton NSW 2330",
+   "Opening hours": "Monday - Friday 7:30am - 5:30pm Saturday- 9am - 4pm Sunday - Closed",
+   "Operator": "Everty",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "100 kW",
+   "CHAdeMO": 0,
+   "CCS": {
+      "SAE": 2
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -32.57696806,
+   "Longitude": 151.1841952
+},
+ {
+   "ObjId": 194,
+   "Station name": "Tenterfield Visitors Information Centre",
+   "Station address": "157 Rouse Street, Tenterfield",
+   "Opening hours": "Open 24/7",
+   "Operator": "NRMA",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "50 kW",
+   "CHAdeMO": 1,
+   "CCS": {
+      "SAE": 1
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -29.057341,
+   "Longitude": 152.01889
+},
+ {
+   "ObjId": 195,
+   "Station name": "Little Barber St Parking Lot",
+   "Station address": "73 Little Barber St, Gunnedah NSW 2380, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "NRMA",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "50 kW",
+   "CHAdeMO": 1,
+   "CCS": {
+      "SAE": 1
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -30.978145,
+   "Longitude": 150.250987
+},
+ {
+   "ObjId": 196,
+   "Station name": "Evans St Parking",
+   "Station address": "Car park, 51 Evans St (Victoria Park), Inverell NSW 2360",
+   "Opening hours": "Open 24/7",
+   "Operator": "NRMA",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "75 kW",
+   "CHAdeMO": 1,
+   "CCS": {
+      "SAE": 1
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -29.774714,
+   "Longitude": 151.114696
+},
+ {
+   "ObjId": 197,
+   "Station name": "Glen Innes Town Hall",
+   "Station address": "265 Grey St, Glen Innes NSW 2370, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "NRMA",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "50 kW",
+   "CHAdeMO": 1,
+   "CCS": {
+      "SAE": 1
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -29.738463,
+   "Longitude": 151.736308
+},
+ {
+   "ObjId": 198,
+   "Station name": "Armidale Visitors Centre",
+   "Station address": "82 Marsh St, Armidale NSW 2350, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "NRMA",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "50 kW",
+   "CHAdeMO": 1,
+   "CCS": {
+      "SAE": 1
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -30.511924,
+   "Longitude": 151.669672
+},
+ {
+   "ObjId": 199,
+   "Station name": "Grafton Public Library",
+   "Station address": "126-144 Pound St, Grafton NSW 2460, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "NRMA",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "50 kW",
+   "CHAdeMO": 1,
+   "CCS": {
+      "SAE": 1
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -29.68811,
+   "Longitude": 152.933421
+},
+ {
+   "ObjId": 200,
+   "Station name": "Little Walker St Parking",
+   "Station address": "1 Little Walker St, Casino NSW 2470, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "NRMA",
+   "Number of station": 2,
+   "Number of plugs": 4,
+   "Charger rating": "50 kW",
+   "CHAdeMO": 2,
+   "CCS": {
+      "SAE": 2
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -28.865732,
+   "Longitude": 153.048478
+},
+ {
+   "ObjId": 201,
+   "Station name": "The Farm Byron Bay",
+   "Station address": "11 Ewingsdale Rd, Ewingsdale NSW 2481, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "NRMA",
+   "Number of station": 2,
+   "Number of plugs": 4,
+   "Charger rating": "50 kW",
+   "CHAdeMO": 2,
+   "CCS": {
+      "SAE": 2
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -28.636128,
+   "Longitude": 153.55346
+},
+ {
+   "ObjId": 202,
+   "Station name": "Hands of Fame Park",
+   "Station address": "2 Kable Ave, Tamworth NSW 2340, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "NRMA",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "50 kW",
+   "CHAdeMO": 1,
+   "CCS": {
+      "SAE": 1
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -31.090437,
+   "Longitude": 150.927465
+},
+ {
+   "ObjId": 203,
+   "Station name": "Sovereign Place",
+   "Station address": "John Oxley Dr Before Chancellor Dr, Thrumster NSW 2444, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "NRMA",
+   "Number of station": 2,
+   "Number of plugs": 4,
+   "Charger rating": "50 kW",
+   "CHAdeMO": 2,
+   "CCS": {
+      "SAE": 2
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -31.457966,
+   "Longitude": 152.827345
+},
+ {
+   "ObjId": 204,
+   "Station name": "Braidwood Servicemens Club & Golf Course",
+   "Station address": "15 Victory St, Braidwood NSW 2622",
+   "Opening hours": "Open 24/7",
+   "Operator": "NRMA",
+   "Number of station": 2,
+   "Number of plugs": 4,
+   "Charger rating": "50 kW",
+   "CHAdeMO": 2,
+   "CCS": {
+      "SAE": 2
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -35.4427778,
+   "Longitude": 149.7913735
+},
+ {
+   "ObjId": 205,
+   "Station name": "Cronulla Station Parking",
+   "Station address": "2A Cronulla St, Cronulla NSW 2230, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "JOLT",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "25 kW",
+   "CHAdeMO": 1,
+   "CCS": {
+      "SAE": 1
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -34.05770708,
+   "Longitude": 151.1519568
+},
+ {
+   "ObjId": 206,
+   "Station name": "1 Gregory Hills Drive Parking",
+   "Station address": "Cnr Gregory Hills Dr & Holborn Cct, Gledswood Hills NSW, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "Everty",
+   "Number of station": 2,
+   "Number of plugs": 4,
+   "Charger rating": "120 kW",
+   "CHAdeMO": 0,
+   "CCS": {
+      "SAE": 4
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -34.02032806,
+   "Longitude": 150.7634143
+},
+ {
+   "ObjId": 207,
+   "Station name": "Innovation Campus - SBRC Building 237",
+   "Station address": "160 Innovation Way, North Wollongong NSW 2500, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "Non - Networked",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "180 kW",
+   "CHAdeMO": 0,
+   "CCS": {
+      "SAE": 2
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -34.40009045,
+   "Longitude": 150.8996111
+},
+ {
+   "ObjId": 208,
+   "Station name": "12C Oatley Parade Parking",
+   "Station address": "12C Oatley Parade, Oatley NSW 2223, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "JOLT",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "25 kW",
+   "CHAdeMO": 1,
+   "CCS": {
+      "SAE": 1
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.98151618,
+   "Longitude": 151.0794364
+},
+ {
+   "ObjId": 209,
+   "Station name": "Crossroads Hotel (2)",
+   "Station address": "2260 Camden Valley Wy, Casula NSW 2170, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "JOLT",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "25 kW",
+   "CHAdeMO": 1,
+   "CCS": {
+      "SAE": 1
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.95822583,
+   "Longitude": 150.8865017
+},
+ {
+   "ObjId": 210,
+   "Station name": "Crossroads Hotel (1)",
+   "Station address": "2260 Camden Valley Wy, Casula NSW 2170, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "JOLT",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "25 kW",
+   "CHAdeMO": 1,
+   "CCS": {
+      "SAE": 1
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.95798137,
+   "Longitude": 150.8864872
+},
+ {
+   "ObjId": 211,
+   "Station name": "NRMA - Gilgandra (Museum and Historical Society)",
+   "Station address": "6 Castlereagh St Gilgandra NSW 2827",
+   "Opening hours": "",
+   "Operator": "NRMA",
+   "Number of station": 2,
+   "Number of plugs": 4,
+   "Charger rating": "75 kW",
+   "CHAdeMO": 2,
+   "CCS": {
+      "SAE": 2
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -31.7223908,
+   "Longitude": 148.6571378
+},
+ {
+   "ObjId": 212,
+   "Station name": "Barrenjoey House carpark",
+   "Station address": "Palm Beach, Palm Beach NSW 2108, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "JOLT",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "25 kW",
+   "CHAdeMO": 1,
+   "CCS": {
+      "SAE": 1
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.59705164,
+   "Longitude": 151.3200112
+},
+ {
+   "ObjId": 213,
+   "Station name": "7 Irvine Place Building",
+   "Station address": "7 Irvine Place, Bella Vista NSW 2153, Australia",
+   "Opening hours": "7am Ã 11pm, 7 days per week.",
+   "Operator": "Everty",
+   "Number of station": 2,
+   "Number of plugs": 4,
+   "Charger rating": "140 kW",
+   "CHAdeMO": 0,
+   "CCS": {
+      "SAE": 4
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.73929068,
+   "Longitude": 150.9471975
+},
+ {
+   "ObjId": 214,
+   "Station name": "Rouse Hill Village Centre",
+   "Station address": "40 Panmure St, Rouse Hill NSW 2155, Australia",
+   "Opening hours": "6:00pm - 11:00pm",
+   "Operator": "JOLT",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "25 kW",
+   "CHAdeMO": 1,
+   "CCS": {
+      "SAE": 1
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.68326776,
+   "Longitude": 150.9165514
+},
+ {
+   "ObjId": 215,
+   "Station name": "JOLT The Ettamogah",
+   "Station address": "15 Merriville Rd, Kellyville Ridge NSW 2155, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "JOLT",
+   "Number of station": 2,
+   "Number of plugs": 4,
+   "Charger rating": "25 kW",
+   "CHAdeMO": 2,
+   "CCS": {
+      "SAE": 2
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.70049719,
+   "Longitude": 150.928112
+},
+ {
+   "ObjId": 216,
+   "Station name": "JOLT Glendenning",
+   "Station address": "670 Richmond Rd, Glendenning NSW 2761, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "JOLT",
+   "Number of station": 2,
+   "Number of plugs": 4,
+   "Charger rating": "25 kW",
+   "CHAdeMO": 2,
+   "CCS": {
+      "SAE": 2
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.73550468,
+   "Longitude": 150.8513475
+},
+ {
+   "ObjId": 217,
+   "Station name": "Roseville Station",
+   "Station address": "1 Clanville Rd, Roseville NSW 2069, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "JOLT",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "25 kW",
+   "CHAdeMO": 1,
+   "CCS": {
+      "SAE": 1
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.78289238,
+   "Longitude": 151.1752149
+},
+ {
+   "ObjId": 218,
+   "Station name": "Penrith Station Kiss and Ride",
+   "Station address": "31 Jane Street, Penrith NSW 2750, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "JOLT",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "25 kW",
+   "CHAdeMO": 1,
+   "CCS": {
+      "SAE": 1
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.75030592,
+   "Longitude": 150.6940727
+},
+ {
+   "ObjId": 219,
+   "Station name": "Berowra Station",
+   "Station address": "9/993 Pacific Hwy, Berowra NSW 2081, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "JOLT",
+   "Number of station": 1,
+   "Number of plugs": 2,
+   "Charger rating": "25 kW",
+   "CHAdeMO": 1,
+   "CCS": {
+      "SAE": 1
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.62387549,
+   "Longitude": 151.1518352
+},
+ {
+   "ObjId": 220,
+   "Station name": "Big 4 Holiday Park",
+   "Station address": "282 O'Keefes Ln, Palmers Island NSW 2463, Australia",
+   "Opening hours": "",
+   "Operator": "Non - Networked",
+   "Number of station": 1,
+   "Number of plugs": 1,
+   "Charger rating": "kW",
+   "CHAdeMO": 1,
+   "CCS": {
+      "SAE": 0
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -29.39484846,
+   "Longitude": 153.3121037
+},
+ {
+   "ObjId": 221,
+   "Station name": "Cabarita Beach",
+   "Station address": "47 Cabarita Beach Road, Cabarita Beach NSW 2488",
+   "Opening hours": "Open 24/7",
+   "Operator": "NRMA",
+   "Number of station": 2,
+   "Number of plugs": 4,
+   "Charger rating": "100 - 350 kW",
+   "CHAdeMO": 1,
+   "CCS": {
+      "SAE": 3
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -28.33169054,
+   "Longitude": 153.5641405
+},
+ {
+   "ObjId": 222,
+   "Station name": "Narooma Supercharger",
+   "Station address": "185 Princes Highway, Narooma, Australia, ",
+   "Opening hours": "Open 24/7",
+   "Operator": "Tesla Supercharge",
+   "Number of station": 4,
+   "Number of plugs": 4,
+   "Charger rating": "120 kW",
+   "CHAdeMO": 0,
+   "CCS": {
+      "SAE": 4
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -36.223136,
+   "Longitude": 150.128346
+},
+ {
+   "ObjId": 223,
+   "Station name": "Centennial Plaza",
+   "Station address": "97 Commissioner St, Cooma NSW 2630, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "Tesla Supercharge",
+   "Number of station": 4,
+   "Number of plugs": 8,
+   "Charger rating": "120 kW",
+   "CHAdeMO": 0,
+   "CCS": {
+      "SAE": 4
+   },
+   "Tesla(Fast)": 4,
+   "Latitude": -36.235522,
+   "Longitude": 149.126794
+},
+ {
+   "ObjId": 224,
+   "Station name": "Goulburn Visitor Information Centre",
+   "Station address": "201 Sloane St, Goulburn NSW 2580, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "Tesla Supercharge",
+   "Number of station": 8,
+   "Number of plugs": 16,
+   "Charger rating": "120 kW",
+   "CHAdeMO": 0,
+   "CCS": {
+      "SAE": 8
+   },
+   "Tesla(Fast)": 8,
+   "Latitude": -34.755597,
+   "Longitude": 149.720984
+},
+ {
+   "ObjId": 225,
+   "Station name": "Yass ",
+   "Station address": "68 Lead St, Yass NSW 2582, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "Tesla Supercharge",
+   "Number of station": 12,
+   "Number of plugs": 12,
+   "Charger rating": "250 kW",
+   "CHAdeMO": 0,
+   "CCS": {
+      "SAE": 12
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -34.84359869,
+   "Longitude": 148.9139874
+},
+ {
+   "ObjId": 226,
+   "Station name": "Dubbo Supercharger",
+   "Station address": "76 Wingewarra Street, Dubbo, Australia, 2830",
+   "Opening hours": "Open 24/7",
+   "Operator": "Tesla Supercharge",
+   "Number of station": 4,
+   "Number of plugs": 8,
+   "Charger rating": "120 kW",
+   "CHAdeMO": 0,
+   "CCS": {
+      "SAE": 4
+   },
+   "Tesla(Fast)": 4,
+   "Latitude": -32.24995,
+   "Longitude": 148.609182
+},
+ {
+   "ObjId": 227,
+   "Station name": "Oliver's Gundagai (2)",
+   "Station address": "31 Annie Pyers Dr, Gundagai NSW 2722, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "Tesla Supercharge",
+   "Number of station": 6,
+   "Number of plugs": 12,
+   "Charger rating": "120 kW",
+   "CHAdeMO": 0,
+   "CCS": {
+      "SAE": 6
+   },
+   "Tesla(Fast)": 6,
+   "Latitude": -35.002013,
+   "Longitude": 148.109889
+},
+ {
+   "ObjId": 228,
+   "Station name": "Bathurst Visitor Information Centre",
+   "Station address": "1 Kendall Ave, Bathurst NSW 2795, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "Tesla Supercharge",
+   "Number of station": 6,
+   "Number of plugs": 12,
+   "Charger rating": "120 kW",
+   "CHAdeMO": 0,
+   "CCS": {
+      "SAE": 6
+   },
+   "Tesla(Fast)": 6,
+   "Latitude": -33.41901,
+   "Longitude": 149.586756
+},
+ {
+   "ObjId": 229,
+   "Station name": "Hollydene Estate Wines",
+   "Station address": "3483 Golden Hwy, Jerrys Plains NSW 2330, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "Tesla Supercharge",
+   "Number of station": 6,
+   "Number of plugs": 12,
+   "Charger rating": "120 kW",
+   "CHAdeMO": 0,
+   "CCS": {
+      "SAE": 6
+   },
+   "Tesla(Fast)": 6,
+   "Latitude": -32.447359,
+   "Longitude": 150.83232
+},
+ {
+   "ObjId": 230,
+   "Station name": "The Silos Estate",
+   "Station address": "640 Princes Hwy, Jaspers Brush NSW 2535, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "Tesla Supercharge",
+   "Number of station": 6,
+   "Number of plugs": 12,
+   "Charger rating": "120 kW",
+   "CHAdeMO": 0,
+   "CCS": {
+      "SAE": 6
+   },
+   "Tesla(Fast)": 6,
+   "Latitude": -34.808254,
+   "Longitude": 150.636711
+},
+ {
+   "ObjId": 231,
+   "Station name": "Hope St Parking Lot",
+   "Station address": "126 Hope St, Blaxland NSW 2774, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "Tesla Supercharge",
+   "Number of station": 6,
+   "Number of plugs": 6,
+   "Charger rating": "250 kW",
+   "CHAdeMO": 0,
+   "CCS": {
+      "SAE": 6
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.7451971,
+   "Longitude": 150.6103969
+},
+ {
+   "ObjId": 232,
+   "Station name": "HomeCo. Tuggerah Super Centre",
+   "Station address": "Bryant Drive & Wyong Road, Tuggerah NSW 2259, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "Tesla Supercharge",
+   "Number of station": 6,
+   "Number of plugs": 12,
+   "Charger rating": "120 kW",
+   "CHAdeMO": 0,
+   "CCS": {
+      "SAE": 6
+   },
+   "Tesla(Fast)": 6,
+   "Latitude": -33.310237,
+   "Longitude": 151.420585
+},
+ {
+   "ObjId": 233,
+   "Station name": "South Village",
+   "Station address": "580 Princes Highway, Kirrawee, NSW, Australia, 2232",
+   "Opening hours": "6am - midnight",
+   "Operator": "Tesla Supercharge",
+   "Number of station": 6,
+   "Number of plugs": 6,
+   "Charger rating": "250 kW",
+   "CHAdeMO": 0,
+   "CCS": {
+      "SAE": 6
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -34.033791,
+   "Longitude": 151.073837
+},
+ {
+   "ObjId": 234,
+   "Station name": "Figtree Grove Shopping Centre",
+   "Station address": "Figtree Grove Shopping Centre, Figtree Grove Carpark, Figtree NSW 2525, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "Tesla Supercharge",
+   "Number of station": 6,
+   "Number of plugs": 6,
+   "Charger rating": "250 kW",
+   "CHAdeMO": 0,
+   "CCS": {
+      "SAE": 6
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -34.43779838,
+   "Longitude": 150.8634488
+},
+ {
+   "ObjId": 235,
+   "Station name": "Campbelltown Catholic Club",
+   "Station address": "22 Camden Rd, Campbelltown NSW 2560",
+   "Opening hours": "Open 24/7",
+   "Operator": "Tesla Supercharge",
+   "Number of station": 12,
+   "Number of plugs": 12,
+   "Charger rating": "250 kW",
+   "CHAdeMO": 0,
+   "CCS": {
+      "SAE": 12
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -34.07153315,
+   "Longitude": 150.8073678
+},
+ {
+   "ObjId": 236,
+   "Station name": "Broadway Shopping Centre",
+   "Station address": "1 Bay St, Glebe NSW 2037, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "Tesla Supercharge",
+   "Number of station": 8,
+   "Number of plugs": 16,
+   "Charger rating": "120 kW",
+   "CHAdeMO": 0,
+   "CCS": {
+      "SAE": 8
+   },
+   "Tesla(Fast)": 8,
+   "Latitude": -33.882995,
+   "Longitude": 151.194332
+},
+ {
+   "ObjId": 237,
+   "Station name": "Country Comfort Motto Farm Motel - Newcastle Airport",
+   "Station address": "2285 Pacific Hwy, Heatherbrae NSW 2324, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "Tesla Supercharge",
+   "Number of station": 6,
+   "Number of plugs": 12,
+   "Charger rating": "120 kW",
+   "CHAdeMO": 0,
+   "CCS": {
+      "SAE": 6
+   },
+   "Tesla(Fast)": 6,
+   "Latitude": -32.78781734,
+   "Longitude": 151.727705
+},
+ {
+   "ObjId": 238,
+   "Station name": "Heatherbrae's Pies Exeter",
+   "Station address": "24 Sallys Corner Rd, Exeter NSW 2579, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "Tesla Supercharge",
+   "Number of station": 6,
+   "Number of plugs": 12,
+   "Charger rating": "250 kW",
+   "CHAdeMO": 0,
+   "CCS": {
+      "SAE": 6
+   },
+   "Tesla(Fast)": 6,
+   "Latitude": -34.60926271,
+   "Longitude": 150.2299553
+},
+ {
+   "ObjId": 239,
+   "Station name": "Macquarie Centre",
+   "Station address": "55 Talavera Rd, Macquarie Park NSW 2113, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "Tesla Supercharge",
+   "Number of station": 10,
+   "Number of plugs": 20,
+   "Charger rating": "120 - 150 kW",
+   "CHAdeMO": 0,
+   "CCS": {
+      "SAE": 10
+   },
+   "Tesla(Fast)": 10,
+   "Latitude": -33.776673,
+   "Longitude": 151.123048
+},
+ {
+   "ObjId": 240,
+   "Station name": "Harwood Hotel",
+   "Station address": "56 Morpeth St, Harwood NSW 2465, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "Tesla Supercharge",
+   "Number of station": 4,
+   "Number of plugs": 8,
+   "Charger rating": "120 kW",
+   "CHAdeMO": 0,
+   "CCS": {
+      "SAE": 4
+   },
+   "Tesla(Fast)": 4,
+   "Latitude": -29.4269989,
+   "Longitude": 153.2391603
+},
+ {
+   "ObjId": 241,
+   "Station name": "Macadamia Castle",
+   "Station address": "419 Hinterland Way, Knockrow NSW 2479, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "Tesla Supercharge",
+   "Number of station": 6,
+   "Number of plugs": 12,
+   "Charger rating": "120 kW",
+   "CHAdeMO": 0,
+   "CCS": {
+      "SAE": 6
+   },
+   "Tesla(Fast)": 6,
+   "Latitude": -28.749539,
+   "Longitude": 153.534722
+},
+ {
+   "ObjId": 242,
+   "Station name": "Park Beach Plaza",
+   "Station address": "253 Pacific Highway, Coffs Harbour, NSW Australia, 2450",
+   "Opening hours": "Open 24/7",
+   "Operator": "Tesla Supercharge",
+   "Number of station": 6,
+   "Number of plugs": 12,
+   "Charger rating": "120 kW",
+   "CHAdeMO": 0,
+   "CCS": {
+      "SAE": 6
+   },
+   "Tesla(Fast)": 6,
+   "Latitude": -30.281439,
+   "Longitude": 153.131666
+},
+ {
+   "ObjId": 243,
+   "Station name": "Cassegrain Winery",
+   "Station address": "10 Winery Drive, Port Macquarie, Australia, 2444",
+   "Opening hours": "",
+   "Operator": "Tesla Supercharge",
+   "Number of station": 6,
+   "Number of plugs": 12,
+   "Charger rating": "120 kW",
+   "CHAdeMO": 0,
+   "CCS": {
+      "SAE": 6
+   },
+   "Tesla(Fast)": 6,
+   "Latitude": -31.4361,
+   "Longitude": 152.823582
+},
+ {
+   "ObjId": 244,
+   "Station name": "West Tamworth League Club",
+   "Station address": "25 Park St, West Tamworth NSW 2340, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "Tesla Supercharge",
+   "Number of station": 4,
+   "Number of plugs": 8,
+   "Charger rating": "120 kW",
+   "CHAdeMO": 0,
+   "CCS": {
+      "SAE": 4
+   },
+   "Tesla(Fast)": 4,
+   "Latitude": -31.101649,
+   "Longitude": 150.917126
+},
+ {
+   "ObjId": 245,
+   "Station name": "Coles Tenterfield",
+   "Station address": "13 Crown St, Tenterfield NSW 2372, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "Tesla Supercharge",
+   "Number of station": 4,
+   "Number of plugs": 4,
+   "Charger rating": "250 kW",
+   "CHAdeMO": 0,
+   "CCS": {
+      "SAE": 4
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -29.05606654,
+   "Longitude": 152.0176587
+},
+ {
+   "ObjId": 246,
+   "Station name": "Quality Hotel Rules Club Wagga (2)",
+   "Station address": "188 Fernleigh Rd, Wagga Wagga NSW 2650, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "Tesla Supercharge",
+   "Number of station": 6,
+   "Number of plugs": 6,
+   "Charger rating": "250 kW",
+   "CHAdeMO": 0,
+   "CCS": {
+      "SAE": 6
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -35.13100517,
+   "Longitude": 147.3397758
+},
+ {
+   "ObjId": 247,
+   "Station name": "Holbrook",
+   "Station address": "66 Young St, Holbrook NSW 2644, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "Tesla Supercharge",
+   "Number of station": 9,
+   "Number of plugs": 9,
+   "Charger rating": "250 kW",
+   "CHAdeMO": 0,
+   "CCS": {
+      "SAE": 9
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -35.72274451,
+   "Longitude": 147.317551
+},
+ {
+   "ObjId": 248,
+   "Station name": "Commercial Club Albury",
+   "Station address": "576 Stanley St, Albury NSW 2640, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "Tesla Supercharge",
+   "Number of station": 16,
+   "Number of plugs": 16,
+   "Charger rating": "250 kW",
+   "CHAdeMO": 0,
+   "CCS": {
+      "SAE": 16
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -36.07929418,
+   "Longitude": 146.9136097
+},
+ {
+   "ObjId": 249,
+   "Station name": "Tramsheds Harold Park (2)",
+   "Station address": "1 Dalgal Wy, Forest Lodge NSW 2037, Australia",
+   "Opening hours": "6am - 11pm for carpark",
+   "Operator": "Tesla Supercharge",
+   "Number of station": 4,
+   "Number of plugs": 4,
+   "Charger rating": "250 kW",
+   "CHAdeMO": 0,
+   "CCS": {
+      "SAE": 4
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -33.87635779,
+   "Longitude": 151.177867
+},
+ {
+   "ObjId": 250,
+   "Station name": "Tweed Mall Shopping Centre",
+   "Station address": "1 Wharf Street, Tweed Heads NSW 2485, Australia",
+   "Opening hours": "6:00 AM - 11:00 PM",
+   "Operator": "Tesla Supercharge",
+   "Number of station": 6,
+   "Number of plugs": 6,
+   "Charger rating": "250 kW",
+   "CHAdeMO": 0,
+   "CCS": {
+      "SAE": 6
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -28.17379051,
+   "Longitude": 153.5446309
+},
+ {
+   "ObjId": 251,
+   "Station name": "The Big Banana Fun Park",
+   "Station address": "26 Aspect Dr, Coffs Harbour NSW 2450, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "Tesla Supercharge",
+   "Number of station": 2,
+   "Number of plugs": 2,
+   "Charger rating": "250 kW",
+   "CHAdeMO": 0,
+   "CCS": {
+      "SAE": 2
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -30.27522635,
+   "Longitude": 153.1319391
+},
+ {
+   "ObjId": 252,
+   "Station name": "Sovereign Place Town Centre (2)",
+   "Station address": "15 Chancellors Dr, Thrumster NSW 2444, Australia",
+   "Opening hours": "Open 24/7",
+   "Operator": "Tesla Supercharge",
+   "Number of station": 12,
+   "Number of plugs": 12,
+   "Charger rating": "250 kW",
+   "CHAdeMO": 0,
+   "CCS": {
+      "SAE": 12
+   },
+   "Tesla(Fast)": 0,
+   "Latitude": -31.45774801,
+   "Longitude": 152.8268794
+}
+]

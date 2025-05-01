@@ -35,7 +35,7 @@ struct MapView: View {
             MapScaleView()
         }
         
-        // Neck Buttons
+        // Navigation Buttons
         HStack {
             Spacer()
             Image(systemName: "dollarsign.circle")

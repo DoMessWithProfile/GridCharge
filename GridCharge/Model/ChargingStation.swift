@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import CoreLocation
 
 struct ChargingStation: Identifiable, Decodable {
     var id: Int { ObjId }

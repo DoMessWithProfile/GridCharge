@@ -1,12 +1,3 @@
-//  Upcoming_Chargers.JSON
-//  GridCharge
-//
-//  Created by joshua chelashaw on 29/4/2025.
-
-//Data sourced from NSW EV Chargers Spreadsheet from: https://opendata.transport.nsw.gov.au/data/dataset/ev-charging-locations
-//Sourced on 29 April 2025
-//Referencing 'Upcoming Fast Chargers'
-
 [
  {
    "ObjId": 1,

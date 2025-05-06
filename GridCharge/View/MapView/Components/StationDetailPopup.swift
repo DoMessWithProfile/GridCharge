@@ -7,6 +7,9 @@
 
 import SwiftUI
 
+
+//TODO: make everything within this struct able to resize dynamically. No hardcoded frame values! but then also ensure no other values are hardcoded, make it dynamic so that this can work on all types of devices
+
 struct StationDetailPopup: View {
     let station: ChargingStation
     var onClose: () -> Void
@@ -64,9 +67,9 @@ struct StationDetailPopup: View {
             }
         }
         .padding()
-        .frame(width: 300, height: 350)
+        .frame(width: 320, height: 370)
         .background(Color(.systemBackground))
-        .cornerRadius(16)
+        .cornerRadius(10)
         .shadow(radius: 10)
     }
 }

@@ -58,11 +58,14 @@ struct StationDetailPopup: View {
                 HStack() {
                     //TODO: make these icons different
                     Spacer()
-                    ConnectorItem(count: station.tesla!, name: "Tesla", iconName: "bolt.car")
+                    // Old: count: station.tesla!, ...
+                    // New: count: station.tesla ?? 0, ...
+                    // safer way to unwrap optional, if nil then = 0
+                    ConnectorItem(count: station.tesla ?? 0, name: "Tesla", iconName: "bolt.car")
                     Spacer()
-                    ConnectorItem(count: station.type2!, name: "Type 2", iconName: "bolt.car")
+                    ConnectorItem(count: station.type2 ?? 0, name: "Type 2", iconName: "bolt.car")
                     Spacer()
-                    ConnectorItem(count: station.j1772!, name: "J-1772", iconName: "bolt.car")
+                    ConnectorItem(count: station.j1772 ?? 0, name: "J-1772", iconName: "bolt.car")
                     Spacer()
                     
                 }

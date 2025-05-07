@@ -30,12 +30,12 @@ class StationViewModel: ObservableObject {
 
         for station in acStations {
             let coord = CLLocationCoordinate2D(latitude: station.latitude, longitude: station.longitude)
-            annotations.append(StationAnnotation(coordinate: coord, title: station.stationName, chargerType: .ac))
+            annotations.append(StationAnnotation(station: station, coordinate: coord, title: station.stationName, chargerType: .ac))
         }
 
         for station in dcStations {
             let coord = CLLocationCoordinate2D(latitude: station.latitude, longitude: station.longitude)
-            annotations.append(StationAnnotation(coordinate: coord, title: station.stationName, chargerType: .dc))
+            annotations.append(StationAnnotation(station: station, coordinate: coord, title: station.stationName, chargerType: .dc))
         }
 
         for station in upcomingStations {

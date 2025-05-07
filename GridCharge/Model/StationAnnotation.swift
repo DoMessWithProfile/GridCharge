@@ -24,13 +24,22 @@ enum ChargerType {
     case ac, dc, upcoming
 }
 
-// rewrite required for adaptability of 4 types of chargers
+// rewrite was done for adaptability of 4 types of chargers
 class StationAnnotation: NSObject, MKAnnotation {
+    let station: ChargingStation?
     let coordinate: CLLocationCoordinate2D
     let title: String?
     let chargerType: ChargerType
 
+    init(station: ChargingStation, coordinate: CLLocationCoordinate2D, title: String, chargerType: ChargerType) {
+        self.station = station
+        self.coordinate = coordinate
+        self.title = title
+        self.chargerType = chargerType
+    }
+    
     init(coordinate: CLLocationCoordinate2D, title: String, chargerType: ChargerType) {
+        station = nil
         self.coordinate = coordinate
         self.title = title
         self.chargerType = chargerType

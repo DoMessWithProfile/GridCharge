@@ -45,9 +45,9 @@ struct StationDetailPopup: View {
                 
                 HStack(spacing: 40) {
                     //TODO: make these icons different
-                    ConnectorItem(count: station.tesla, name: "Tesla", iconName: "bolt.car")
-                    ConnectorItem(count: station.type2, name: "Type 2", iconName: "bolt.car")
-                    ConnectorItem(count: station.j1772, name: "J-1772", iconName: "bolt.car")
+                    ConnectorItem(count: station.tesla!, name: "Tesla", iconName: "bolt.car")
+                    ConnectorItem(count: station.type2!, name: "Type 2", iconName: "bolt.car")
+                    ConnectorItem(count: station.j1772!, name: "J-1772", iconName: "bolt.car")
                 }
             }
             
@@ -141,11 +141,14 @@ struct ConnectorItem: View {
             numberOfStation: 5,
             numberOfPlugs: 10,
             chargerRating: "50kW",
+            latitude: 22.302711,
+            longitude: 114.177216,
             tesla: 2,
             type2: 3,
             j1772: 5,
-            latitude: 22.302711,
-            longitude: 114.177216
+            chademo: 1,
+            ccs: ChargingStation.CCS(sae:1),
+            teslaFast: 1
         ),
         onClose: {}
     )

@@ -7,12 +7,23 @@
 
 import SwiftUI
 
+
+//old-to do: make everything within this struct able to resize dynamically. No hardcoded frame values! but then also ensure no other values are hardcoded, make it dynamic so that this can work on all types of devices
+
+//All frame values are currently fixed
+
+//TODO: Ensure font values are not hard-coded
+
 struct StationDetailPopup: View {
     let station: ChargingStation
     var onClose: () -> Void
     
     var body: some View {
-        VStack(alignment: .leading, spacing: 12) {
+    GeometryReader { geometry in
+        let screenWidth = geometry.size.width
+        let screenHeight = geometry.size.height
+        
+        VStack(alignment: .leading) {
             HStack {
                 Text(station.stationName)
                     .font(.headline)
@@ -30,21 +41,30 @@ struct StationDetailPopup: View {
                 DetailRow(icon: "clock", text: "Hours: \(station.openingHours)")
                 DetailRow(icon: "person.fill", text: "Operator: \(station.operatorName)")
                 
-                HStack(spacing: 20) {
+                HStack() {
+                    Spacer()
                     DetailBox(value: "\(station.numberOfStation)", label: "Stations")
+                    Spacer()
                     DetailBox(value: "\(station.numberOfPlugs)", label: "Plugs")
+                    Spacer()
                     DetailBox(value: station.chargerRating, label: "Rating")
+                    Spacer()
                 }
                 
                 Text("Available Connectors:")
                     .font(.subheadline)
                     .fontWeight(.semibold)
-                
-                HStack(spacing: 40) {
+                    .padding(.bottom)
+                HStack() {
                     //TODO: make these icons different
+                    Spacer()
                     ConnectorItem(count: station.tesla!, name: "Tesla", iconName: "bolt.car")
+                    Spacer()
                     ConnectorItem(count: station.type2!, name: "Type 2", iconName: "bolt.car")
+                    Spacer()
                     ConnectorItem(count: station.j1772!, name: "J-1772", iconName: "bolt.car")
+                    Spacer()
+                    
                 }
             }
             
@@ -52,23 +72,27 @@ struct StationDetailPopup: View {
             
             Button(action: {
                 // Action to navigate to this station,
-                //TODO: implement later
+                //TODO: for Ben to implement
             }) {
                 Text("Navigate")
                     .fontWeight(.semibold)
                     .frame(maxWidth: .infinity)
-                    .padding(.vertical, 10)
+                    .padding(.vertical)
                     .background(Color.blue)
                     .foregroundColor(.white)
                     .cornerRadius(10)
             }
         }
         .padding()
-        .frame(width: 300, height: 350)
+        .frame(width: (screenWidth * 0.8), height: (screenHeight * 0.45))
         .background(Color(.systemBackground))
-        .cornerRadius(16)
+        .cornerRadius(10)
         .shadow(radius: 10)
+        //Middle horizontally, slightly higher than middle of the screen
+        .position(x: (screenWidth / 2), y: (screenHeight / 2.3))
     }
+}
+    
 }
 
 // Helper views for the popup
@@ -79,7 +103,6 @@ struct DetailRow: View {
     var body: some View {
         HStack(alignment: .top) {
             Image(systemName: icon)
-                .frame(width: 24)
                 .foregroundColor(.blue)
             Text(text)
                 .fixedSize(horizontal: false, vertical: true)
@@ -100,7 +123,7 @@ struct DetailBox: View {
                 .font(.caption)
                 .foregroundColor(.secondary)
         }
-        .frame(minWidth: 60)
+        .frame(minWidth: UIScreen.main.bounds.width * 0.15)
         .padding(.vertical, 8)
         .padding(.horizontal, 6)
         .background(Color(.systemGray6))

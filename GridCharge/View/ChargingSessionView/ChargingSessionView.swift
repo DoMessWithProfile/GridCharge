@@ -35,9 +35,8 @@ struct ChargingSessionView: View {
                     Button {
                         // action
                     } label: {
-                        var color : Color = .black
                         Text("SCHEDULE")
-                            .foregroundStyle(color)
+                            .foregroundStyle(.black)
                     }
                     Spacer()
                     Text("NOW")

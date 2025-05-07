@@ -13,7 +13,7 @@ struct ContentView: View {
             Text("GRIDCHARGE")
                 .font(.largeTitle)
                 .fontWeight(.bold)
-            NavigationLink(destination: ContentView()){
+            NavigationLink(destination: TestView()){
                 T_ButtonView(buttonText: "A")
             }
             NavigationLink(destination: ContentView()){

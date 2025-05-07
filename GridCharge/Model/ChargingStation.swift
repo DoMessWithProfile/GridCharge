@@ -19,13 +19,26 @@ struct ChargingStation: Identifiable, Decodable {
     let numberOfStation: Int
     let numberOfPlugs: Int
     let chargerRating: String
-    // these probably aren't important
-    let tesla: Int
-    let type2: Int
-    let j1772: Int
-    // position on map
     let latitude: Double
     let longitude: Double
+    
+    // AC Chargers
+    let tesla: Int?
+    let type2: Int?
+    let j1772: Int?
+    
+    // DC Chargers
+    struct CCS: Codable {
+        let sae: Int
+
+        enum CodingKeys: String, CodingKey {
+            case sae = "SAE"
+        }
+    }
+    
+    let chademo: Int?
+    let ccs: CCS?
+    let teslaFast: Int?
 
     enum CodingKeys: String, CodingKey {
         case ObjId
@@ -36,11 +49,15 @@ struct ChargingStation: Identifiable, Decodable {
         case numberOfStation = "Number of station"
         case numberOfPlugs = "Number of plugs"
         case chargerRating = "Charger rating"
+        case latitude = "Latitude"
+        case longitude = "Longitude"
+
         case tesla = "Tesla"
         case type2 = "Type 2"
         case j1772 = "J-1772"
-        case latitude = "Latitude"
-        case longitude = "Longitude"
+
+        case chademo = "CHAdeMO"
+        case ccs = "CCS"
+        case teslaFast = "Tesla(Fast)"
     }
 }
-

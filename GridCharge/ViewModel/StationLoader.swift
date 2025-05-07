@@ -7,60 +7,43 @@
 
 import Foundation
 
-class StationLoader: ObservableObject {
-    // @State but for ViewModel, the View will grab this
-    @Published var stations: [ChargingStation] = []
+/// Complete re-write for adaptablility of 4 types of stations
 
-    init() {
-        load_ACStations()
-//        load_DCStations()
-//        load_UpcomingStations()
-    }
-
-    func load_ACStations() {
-        guard let url = Bundle.main.url(forResource: "AC_Chargers", withExtension: "JSON") else {
-            print("JSON not found")
-            return
-        }
-
-        do {
-            let data = try Data(contentsOf: url)
-            let decoded = try JSONDecoder().decode([ChargingStation].self, from: data)
-            self.stations = decoded
-        } catch {
-            print("Error decoding JSON: \(error)")
-        }
-    }
-    
-    // FIXME: Require different Models due to different data for each Charger
-    // - Create a new model for each / make it adaptable
-//    func load_DCStations() {
-//        guard let url = Bundle.main.url(forResource: "DC_Chargers", withExtension: "JSON") else {
-//            print("JSON not found")
-//            return
-//        }
-//
-//        do {
-//            let data = try Data(contentsOf: url)
-//            let decoded = try JSONDecoder().decode([ChargingStation].self, from: data)
-//            self.stations = decoded
-//        } catch {
-//            print("Error decoding JSON: \(error)")
-//        }
-//    }
-//    
-//    func load_UpcomingStations() {
-//        guard let url = Bundle.main.url(forResource: "Upcoming_Chargers", withExtension: "JSON") else {
-//            print("JSON not found")
-//            return
-//        }
-//
-//        do {
-//            let data = try Data(contentsOf: url)
-//            let decoded = try JSONDecoder().decode([ChargingStation].self, from: data)
-//            self.stations = decoded
-//        } catch {
-//            print("Error decoding JSON: \(error)")
-//        }
-//    }
+func loadACStations() -> [ChargingStation] {
+    loadStations(from: "AC_Chargers")
 }
+
+func loadDCStations() -> [ChargingStation] {
+    loadStations(from: "DC_Chargers")
+}
+
+private func loadStations(from fileName: String) -> [ChargingStation] {
+    guard let url = Bundle.main.url(forResource: fileName, withExtension: "JSON") else {
+        print("JSON not found: \(fileName)")
+        return []
+    }
+
+    do {
+        let data = try Data(contentsOf: url)
+        return try JSONDecoder().decode([ChargingStation].self, from: data)
+    } catch {
+        print("Error decoding in \(fileName): \(error)")
+        return []
+    }
+}
+
+func loadUpcomingStations() -> [UpcomingChargingStation] {
+    guard let url = Bundle.main.url(forResource: "Upcoming_Chargers", withExtension: "JSON") else {
+        print("JSON not found: Upcoming_Chargers")
+        return []
+    }
+
+    do {
+        let data = try Data(contentsOf: url)
+        return try JSONDecoder().decode([UpcomingChargingStation].self, from: data)
+    } catch {
+        print("Error decoding in Upcoming_Chargers: \(error)")
+        return []
+    }
+}
+

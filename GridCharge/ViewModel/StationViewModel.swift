@@ -15,7 +15,7 @@ class StationViewModel: ObservableObject {
     @Published var dcStations: [ChargingStation] = []
     @Published var upcomingStations: [UpcomingChargingStation] = []
     @Published var communityStations: [ChargingStation] = []
-
+    
     init() {
         loadAllStations()
     }
@@ -37,7 +37,11 @@ class StationViewModel: ObservableObject {
 
         for station in dcStations {
             let coord = CLLocationCoordinate2D(latitude: station.latitude, longitude: station.longitude)
-            annotations.append(StationAnnotation(station: station, coordinate: coord, title: station.stationName, chargerType: .dc))
+            
+            // filters tesla superchargers
+            let type : ChargerType = station.operatorName == "Tesla Supercharge" ? .tesla : .dc
+            
+            annotations.append(StationAnnotation(station: station, coordinate: coord, title: station.stationName, chargerType: type))
         }
 
         for station in upcomingStations {

@@ -92,16 +92,19 @@ struct ClusteredMapView: UIViewRepresentable { // UIViewRepresentable -> UIKit w
             switch stationAnnotation.chargerType {
             case .ac:
                 view.markerTintColor = UIColor(.blue)
-                view.glyphImage = UIImage(systemName: "bolt.circle")
+                view.glyphImage = UIImage(systemName: "ev.plug.ac.type.1")
             case .dc:
-                view.markerTintColor = UIColor(.red)
-                view.glyphImage = UIImage(systemName: "bolt.fill")
+                view.markerTintColor = UIColor(.yellow)
+                view.glyphImage = UIImage(systemName: "ev.plug.dc.ccs1")
             case .upcoming:
                 view.markerTintColor = UIColor(.gray)
                 view.glyphImage = UIImage(systemName: "hourglass")
             case .community:
                 view.markerTintColor = UIColor(.orange)
                 view.glyphImage = UIImage(systemName: "house")
+            case .tesla:
+                view.markerTintColor = UIColor(.red)
+                view.glyphImage = UIImage(systemName: "ev.plug.dc.nacs")
             }
 
             return view

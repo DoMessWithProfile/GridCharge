@@ -42,7 +42,7 @@ struct SplashView: View {
                 LinearGradient(gradient: Gradient(colors: [Color(.cyan), Color(.magenta)]),
                                startPoint: .topLeading,
                                endPoint: .bottomTrailing)
-                    .ignoresSafeArea()
+                .ignoresSafeArea()
                 
                 VStack(spacing: 20) {
                     ZStack {
@@ -53,23 +53,15 @@ struct SplashView: View {
                         // Custom Logo
                         Image("GridChargeLogo")
                             .resizable()
-                            .scaledToFit()
-                            .frame(width: 120, height: 120)
-                            .rotationEffect(.degrees(rotation))
-                            .animation(
-                                Animation.easeInOut(duration: 2)
-                                    .repeatForever(autoreverses: true),
-                                value: rotation
-                            )}
-                    
-                    .scaleEffect(size)
+                            .scaledToFill()
+                            .frame(width: 150, height: 150)
+                            .clipShape(Circle())
+                    }
                     .opacity(opacity)
                     .onAppear {
                         withAnimation(.easeIn(duration: 2.5)) {
-                            self.size = 1.0
                             self.opacity = 1.0
                         }
-                        self.rotation = 360
                     }
                     
                     // App name

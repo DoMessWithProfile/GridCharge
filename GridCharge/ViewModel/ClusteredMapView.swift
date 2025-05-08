@@ -50,9 +50,10 @@ struct ClusteredMapView: UIViewRepresentable { // UIViewRepresentable -> UIKit w
         uiView.addAnnotations(annotations) // create new annotations
         
         // sets the visible map region based on the first annotation, so the map auto-zooms on load
-        if let first = annotations.first {
-            let region = MKCoordinateRegion(center: first.coordinate, span: MKCoordinateSpan(latitudeDelta: 2.0, longitudeDelta: 2.0))
+        if !context.coordinator.hasSetInitialRegion, let first = annotations.first {
+            let region = MKCoordinateRegion(center: first.coordinate, span: MKCoordinateSpan(latitudeDelta: 1.0, longitudeDelta: 1.0))
             uiView.setRegion(region, animated: true)
+            context.coordinator.hasSetInitialRegion = true // disabled snap-back to first station
         }
     }
     
@@ -63,6 +64,7 @@ struct ClusteredMapView: UIViewRepresentable { // UIViewRepresentable -> UIKit w
     
     class Coordinator: NSObject, MKMapViewDelegate {
         var parent: ClusteredMapView
+        var hasSetInitialRegion = false
                 
         init(parent: ClusteredMapView) {
             self.parent = parent
@@ -106,6 +108,14 @@ struct ClusteredMapView: UIViewRepresentable { // UIViewRepresentable -> UIKit w
         func mapView(_ mapView: MKMapView, didSelect view: MKAnnotationView) {
             if let annotation = view.annotation as? StationAnnotation {
                 parent.selectedStation = annotation.station
+                
+                // un-comment if you want add zoom-in animation for a station
+//                let region = MKCoordinateRegion(
+//                    center: annotation.coordinate,
+//                    span: MKCoordinateSpan(latitudeDelta: 0.05, longitudeDelta: 0.05)
+//                )
+//                mapView.setRegion(region, animated: true)
+                
             } else if let cluster = view.annotation as? MKClusterAnnotation {
                 let region = MKCoordinateRegion(
                     center: cluster.coordinate,

@@ -1,6 +1,6 @@
 # GRIDCHARGE
 
-GRIDCHARGE is a SwiftUI-powered iOS app that helps users locate nearby community charging stations with ease. It integrates real-time data to offer a reliable and feature-rich charging experience.
+GRIDCHARGE is a SwiftUI-powered iOS app that helps users locate nearby community charging stations with ease.
 
 ## 🚀 Features
 

@@ -116,10 +116,10 @@ struct ClusteredMapView: UIViewRepresentable { // UIViewRepresentable -> UIKit w
                 parent.selectedStation = annotation.station
                 
                 // un-comment if you want add zoom-in animation for a station
-//                let region = MKCoordinateRegion(
-//                    center: annotation.coordinate,
-//                    span: MKCoordinateSpan(latitudeDelta: 0.05, longitudeDelta: 0.05)
-//                )
+//               let region = MKCoordinateRegion(
+//                  center: annotation.coordinate,
+//                  span: MKCoordinateSpan(latitudeDelta: 0.05, longitudeDelta: 0.05)
+//               )
 //                mapView.setRegion(region, animated: true)
                 
             } else if let cluster = view.annotation as? MKClusterAnnotation {

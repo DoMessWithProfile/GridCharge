@@ -15,48 +15,42 @@ struct MapView: View {
     var region = MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: 33.88393, longitude: 151.20051), latitudinalMeters: 0.1, longitudinalMeters: 0.1)
     
     var body: some View {
-        Text("Map")
-            .fontWeight(.bold)
-        
-//        Map {
-//            Annotation("EVC 1", coordinate: .evc1) {
-//                ZStack {
-//                    RoundedRectangle(cornerRadius: 5)
-//                        .fill(Color.teal)
-//                    Image(systemName: "ev.charger")
-//                        .foregroundStyle(.regularMaterial)
-//                        .padding(10)
-//                }
-//            }
-//        }
-//        .mapControls {
-//            MapUserLocationButton()
-//            MapCompass()
-//            MapScaleView()
-//        }
-        
-        TestView() // could just do this ig
-        
-        // Navigation Buttons
-        HStack {
-            Spacer()
-            Image(systemName: "dollarsign.circle")
-                .scaleEffect(2)
-            Spacer()
-            Image(systemName: "car")
-                .scaleEffect(2)
-            Spacer()
-            Image(systemName: "house")
-                .scaleEffect(2)
-            Spacer()
-            Image(systemName: "ev.charger")
-                .scaleEffect(2)
-            Spacer()
-            Image(systemName: "map")
-                .scaleEffect(2)
-            Spacer()
+        NavigationStack {
+            ZStack {
+                // Full-screen map and popups underneath
+                TestView()
+                
+                VStack {
+                    Spacer()
+                    
+                    // Navigation Buttons
+                    HStack {
+                        Spacer()
+                        Image(systemName: "dollarsign.circle")
+                            .scaleEffect(2)
+                        Spacer()
+                        Image(systemName: "car")
+                            .scaleEffect(2)
+                        Spacer()
+                        Image(systemName: "house")
+                            .scaleEffect(2)
+                        Spacer()
+                        NavigationLink(
+                            destination: ChargingSessionView()) {
+                                Image(systemName: "ev.charger")
+                                    .scaleEffect(2)
+                            }
+                        Spacer()
+                        Image(systemName: "map")
+                            .scaleEffect(2)
+                        Spacer()
+                    }
+                    .padding()
+                    .background(Color.white.opacity(0.9))
+                }
+                .ignoresSafeArea(edges: .horizontal) // Allows the buttons to sit on top
+            }
         }
-        .padding()
     }
 }
 

@@ -1,7 +1,7 @@
 [
  {
    "ObjId": 1,
-   "Station Name": "The Green Plug",
+   "Station name": "The Green Plug",
    "Station address": "1A Wentworth Road",
    "Opening hours": "24/7  ",
    "Operator": "Oliver Bennett",
@@ -16,7 +16,7 @@
  },
  {
    "ObjId": 2,
-   "Station Name": "The Plug Spot",
+   "Station name": "The Plug Spot",
    "Station address": "12 Frederick St, Ashfield NSW 2131",
    "Opening hours": "6:00 AM - 10:00 PM  ",
    "Operator": "Priya Patel",
@@ -31,7 +31,7 @@
  },
  {
    "ObjId": 3,
-   "Station Name": "Watt-A-Spot",
+   "Station name": "Watt-A-Spot",
    "Station address": "4/22 Nelson St, Rozelle NSW 2039",
    "Opening hours": "5:00 AM - 11:00 PM  ",
    "Operator": "William Carter",
@@ -46,7 +46,7 @@
  },
  {
    "ObjId": 4,
-   "Station Name": "The Blue Plug of Balmain",
+   "Station name": "The Blue Plug of Balmain",
    "Station address": "16 Thames St, Balmain NSW 2041",
    "Opening hours": "24/7  ",
    "Operator": "Mei Chen",
@@ -61,7 +61,7 @@
  },
  {
    "ObjId": 5,
-   "Station Name": "Volt House",
+   "Station name": "Volt House",
    "Station address": "18 Lachlan St, North Bourke NSW 2840",
    "Opening hours": "7:00 AM - 9:00 PM  ",
    "Operator": "Charlotte Mitchell",
@@ -76,7 +76,7 @@
  },
  {
    "ObjId": 6,
-   "Station Name": "Elm Street Charge",
+   "Station name": "Elm Street Charge",
    "Station address": "12 Bourke St, Woolloomooloo NSW 2011",
    "Opening hours": "8:00 AM - 8:00 PM  ",
    "Operator": "Mohammed Khan",
@@ -91,7 +91,7 @@
  },
  {
    "ObjId": 7,
-   "Station Name": "PowerPod Central",
+   "Station name": "PowerPod Central",
    "Station address": "5/18 Bayswater Rd, Potts Point NSW 2011",
    "Opening hours": "24/7  ",
    "Operator": "Henry Foster",
@@ -106,7 +106,7 @@
  },
  {
    "ObjId": 8,
-   "Station Name": "The Charging Nook",
+   "Station name": "The Charging Nook",
    "Station address": "24 Wentworth St, Point Piper NSW 2027",
    "Opening hours": "6:30 AM - 10:30 PM  ",
    "Operator": "Linh Nguyen",
@@ -121,7 +121,7 @@
  },
  {
    "ObjId": 9,
-   "Station Name": "Gridpoint ",
+   "Station name": "Gridpoint ",
    "Station address": "1 Unumgar St, Woodenbong NSW 2476, Australia, Woodenbong 2476",
    "Opening hours": "24/7  ",
    "Operator": "Amelia Parker",
@@ -136,7 +136,7 @@
  },
  {
    "ObjId": 10,
-   "Station Name": "The Watt Deck",
+   "Station name": "The Watt Deck",
    "Station address": "22 Elizabeth St, Ashfield NSW 2131",
    "Opening hours": "9:00 AM - 7:00 PM  ",
    "Operator": "Arjun Sharma",
@@ -151,7 +151,7 @@
  },
  {
    "ObjId": 11,
-   "Station Name": "The Plug-In",
+   "Station name": "The Plug-In",
    "Station address": "11 Clarence St, Burwood NSW 2134",
    "Opening hours": "24/7  ",
    "Operator": "Benjamin Hughes",
@@ -166,7 +166,7 @@
  },
  {
    "ObjId": 12,
-   "Station Name": "Edith Street Station",
+   "Station name": "Edith Street Station",
    "Station address": "17/66-68 Edith Street, Leichhardt, NSW 2040",
    "Opening hours": "12:00 PM - 12:00 AM  ",
    "Operator": "Fatima Ahmed",
@@ -181,7 +181,7 @@
  },
  {
    "ObjId": 13,
-   "Station Name": "EVee Stop",
+   "Station name": "EVee Stop",
    "Station address": "11 Illawarra Rd, Marrickville NSW 2204",
    "Opening hours": "5:00 AM - 12:00 AM  ",
    "Operator": "Mia Edwards",
@@ -196,7 +196,7 @@
  },
  {
    "ObjId": 14,
-   "Station Name": "Urban Plug Shed",
+   "Station name": "Urban Plug Shed",
    "Station address": "21 Bridge Rd, Glebe NSW 2037",
    "Opening hours": "24/7  ",
    "Operator": "Hiroshi Tanaka",
@@ -211,7 +211,7 @@
  },
  {
    "ObjId": 15,
-   "Station Name": "Forest Lodge Power Bay",
+   "Station name": "Forest Lodge Power Bay",
    "Station address": "7 Ross St, Forest Lodge NSW 2037",
    "Opening hours": "7:00 AM - 11:00 PM  ",
    "Operator": "Alexander Brooks",
@@ -226,7 +226,7 @@
  },
  {
    "ObjId": 16,
-   "Station Name": "The Charging Spot",
+   "Station name": "The Charging Spot",
    "Station address": "308 Harris Street, Pyrmont NSW 2009",
    "Opening hours": "24/7  ",
    "Operator": "Aisha Khan",
@@ -241,7 +241,7 @@
  },
  {
    "ObjId": 17,
-   "Station Name": "Little Watt Corner",
+   "Station name": "Little Watt Corner",
    "Station address": "8 Bulwara Rd, Pyrmont NSW 2009",
    "Opening hours": "6:00 AM - 9:00 PM  ",
    "Operator": "Harper Simmons",
@@ -256,7 +256,7 @@
  },
  {
    "ObjId": 18,
-   "Station Name": "EcoPark EV",
+   "Station name": "EcoPark EV",
    "Station address": "5/12 Urana St, Jindera NSW 2642",
    "Opening hours": "8:00 AM - 10:00 PM  ",
    "Operator": "Wei Zhang",
@@ -271,7 +271,7 @@
  },
  {
    "ObjId": 19,
-   "Station Name": "The Charge Den",
+   "Station name": "The Charge Den",
    "Station address": "9 Warraderry St, Grenfell NSW 2810",
    "Opening hours": "24/7  ",
    "Operator": "Daniel Coleman",
@@ -286,7 +286,7 @@
  },
  {
    "ObjId": 20,
-   "Station Name": "Current Hub",
+   "Station name": "Current Hub",
    "Station address": "17 Bangalow Rd, Byron Bay NSW 2481",
    "Opening hours": "24/7  ",
    "Operator": "Ananya Gupta",
@@ -301,7 +301,7 @@
  },
  {
    "ObjId": 21,
-   "Station Name": "Plugpoint Fitzroy",
+   "Station name": "Plugpoint Fitzroy",
    "Station address": "12 Tweed St, Murwillumbah NSW 2484",
    "Opening hours": "10:00 AM - 8:00 PM  ",
    "Operator": "Evelyn Russell",
@@ -316,7 +316,7 @@
  },
  {
    "ObjId": 22,
-   "Station Name": "The Quiet Current",
+   "Station name": "The Quiet Current",
    "Station address": "14 Bega St, Bega NSW 2550",
    "Opening hours": "24/7  ",
    "Operator": "Darius Kowalski",
@@ -331,7 +331,7 @@
  },
  {
    "ObjId": 23,
-   "Station Name": "MaxCharge on Martin",
+   "Station name": "MaxCharge on Martin",
    "Station address": "11 Argent St, Broken Hill NSW 2880",
    "Opening hours": "6:00 AM - 11:00 PM  ",
    "Operator": "Michael Sullivan",
@@ -346,7 +346,7 @@
  },
  {
    "ObjId": 24,
-   "Station Name": "High Street Plug-In",
+   "Station name": "High Street Plug-In",
    "Station address": "19 Murray St, Corowa NSW 2646",
    "Opening hours": "24/7  ",
    "Operator": "Yusuf Ibrahim",
@@ -361,7 +361,7 @@
  },
  {
    "ObjId": 25,
-   "Station Name": "Dockside EV Pad",
+   "Station name": "Dockside EV Pad",
    "Station address": "11 Short St, Gunnedah NSW 2380",
    "Opening hours": "7:00 AM - 10:00 PM  ",
    "Operator": "Abigail Hayes",
@@ -376,7 +376,7 @@
  },
  {
    "ObjId": 26,
-   "Station Name": "Greenline Garage",
+   "Station name": "Greenline Garage",
    "Station address": "16 Shirley Street, Byron Bay NSW 2481",
    "Opening hours": "24/7  ",
    "Operator": "Sofia Rossi",
@@ -391,7 +391,7 @@
  },
  {
    "ObjId": 27,
-   "Station Name": "The Watt Nest",
+   "Station name": "The Watt Nest",
    "Station address": "4/28 Browning St, Byron Bay NSW 2481",
    "Opening hours": "9:00 AM - 6:00 PM  ",
    "Operator": "Samuel Powell",
@@ -406,7 +406,7 @@
  },
  {
    "ObjId": 28,
-   "Station Name": "The Plug Stop",
+   "Station name": "The Plug Stop",
    "Station address": "7 Dobbie St, Moree NSW 2400",
    "Opening hours": "24/7  ",
    "Operator": "Ji-hoon Kim",
@@ -421,7 +421,7 @@
  },
  {
    "ObjId": 29,
-   "Station Name": "Energy Lane Station",
+   "Station name": "Energy Lane Station",
    "Station address": "3/45 Lachlan St, Cowra NSW 2794",
    "Opening hours": "5:30 AM - 11:30 PM  ",
    "Operator": "Elizabeth Bryant",
@@ -436,7 +436,7 @@
  },
  {
    "ObjId": 30,
-   "Station Name": "WattHaus",
+   "Station name": "WattHaus",
    "Station address": "6 River St, Casino NSW 2470",
    "Opening hours": "24/7  ",
    "Operator": "Nadia Petrov",
@@ -451,7 +451,7 @@
  },
  {
    "ObjId": 31,
-   "Station Name": "The Juice Shed",
+   "Station name": "The Juice Shed",
    "Station address": "3 Lloyd St, Narrabri NSW 2390",
    "Opening hours": "8:00 AM - 9:00 PM  ",
    "Operator": "Joseph Griffin",
@@ -466,7 +466,7 @@
  },
  {
    "ObjId": 32,
-   "Station Name": "Volt Dock",
+   "Station name": "Volt Dock",
    "Station address": "4/25 Castle Hill Rd, West Pennant Hills NSW 2125",
    "Opening hours": "24/7  ",
    "Operator": "Leila Abbasi",
@@ -481,7 +481,7 @@
  },
  {
    "ObjId": 33,
-   "Station Name": "ChargeBox Terrace",
+   "Station name": "ChargeBox Terrace",
    "Station address": "9 Annangrove Rd, Kenthurst NSW 2156",
    "Opening hours": "6:00 AM - 12:00 AM  ",
    "Operator": "Scarlett West",
@@ -496,7 +496,7 @@
  },
  {
    "ObjId": 34,
-   "Station Name": "Plug Central East",
+   "Station name": "Plug Central East",
    "Station address": "5 Wrights Rd, Kellyville NSW 2155",
    "Opening hours": "24/7  ",
    "Operator": "Rafael Silva",
@@ -511,7 +511,7 @@
  },
  {
    "ObjId": 35,
-   "Station Name": "WattSpace on Wilson",
+   "Station name": "WattSpace on Wilson",
    "Station address": "15 Sanctuary Dr, Beaumont Hills NSW 2155",
    "Opening hours": "7:00 AM - 8:00 PM  ",
    "Operator": "David Andrews",
@@ -526,7 +526,7 @@
  },
  {
    "ObjId": 36,
-   "Station Name": "The Power Post",
+   "Station name": "The Power Post",
    "Station address": "8 Great Western Hwy, Blaxland NSW 2774",
    "Opening hours": "24/7  ",
    "Operator": "Talia Cohen",
@@ -541,7 +541,7 @@
  },
  {
    "ObjId": 37,
-   "Station Name": "Lovel Y Charger",
+   "Station name": "Lovel Y Charger",
    "Station address": "15 Lovel St, Katoomba NSW 2780",
    "Opening hours": "10:00 AM - 9:00 PM  ",
    "Operator": "Victoria Cooper",
@@ -556,7 +556,7 @@
  },
  {
    "ObjId": 38,
-   "Station Name": "Avoca Avenue ",
+   "Station name": "Avoca Avenue ",
    "Station address": "9 Avoca Dr, Avoca Beach NSW 2251",
    "Opening hours": "24/7  ",
    "Operator": "Rajiv Kapoor",
@@ -571,7 +571,7 @@
  },
  {
    "ObjId": 39,
-   "Station Name": "Urban Volt Lounge",
+   "Station name": "Urban Volt Lounge",
    "Station address": "15 Ironbark Ave, Casula NSW 2170",
    "Opening hours": "6:00 AM - 10:00 PM  ",
    "Operator": "Christopher Bennett",
@@ -586,7 +586,7 @@
  },
  {
    "ObjId": 40,
-   "Station Name": "PlugPoint North",
+   "Station name": "PlugPoint North",
    "Station address": "19 Barina Downs Rd, Bella Vista NSW 2153",
    "Opening hours": "24/7  ",
    "Operator": "Ingrid Van Dijk",
@@ -601,7 +601,7 @@
  },
  {
    "ObjId": 41,
-   "Station Name": "The Charging Yard",
+   "Station name": "The Charging Yard",
    "Station address": "7 Chiltern Rd, Willoughby NSW 2068",
    "Opening hours": "24/7  ",
    "Operator": "Grace Murphy",
@@ -616,7 +616,7 @@
  },
  {
    "ObjId": 42,
-   "Station Name": "EV Bay on Barden",
+   "Station name": "EV Bay on Barden",
    "Station address": "27 Barden St, Tempe NSW 2044",
    "Opening hours": "7:00 AM - 12:00 AM  ",
    "Operator": "Alejandro Garcia",
@@ -631,7 +631,7 @@
  },
  {
    "ObjId": 43,
-   "Station Name": "Wattle Street Power",
+   "Station name": "Wattle Street Power",
    "Station address": "8 Otford Rd, Helensburgh NSW 2508",
    "Opening hours": "24/7  ",
    "Operator": "Matthew Reed",
@@ -646,7 +646,7 @@
  },
  {
    "ObjId": 44,
-   "Station Name": "The Quiet Plug",
+   "Station name": "The Quiet Plug",
    "Station address": "19 Abercrombie Dr, Abercrombie NSW 2795",
    "Opening hours": "8:00 AM - 11:00 PM  ",
    "Operator": "Siti Abdullah",
@@ -661,7 +661,7 @@
  },
  {
    "ObjId": 45,
-   "Station Name": "PowerPad East",
+   "Station name": "PowerPad East",
    "Station address": "27 Limekilns Rd, Kelso NSW 2795",
    "Opening hours": "24/7  ",
    "Operator": "Lily Stewart",
@@ -676,7 +676,7 @@
  },
  {
    "ObjId": 46,
-   "Station Name": "Charge on Broadway",
+   "Station name": "Charge on Broadway",
    "Station address": "1135/185-211 Broadway, Ultimo, NSW 2007",
    "Opening hours": "9:00 AM - 8:00 PM  ",
    "Operator": "Mikhail Petrov",
@@ -691,7 +691,7 @@
  },
  {
    "ObjId": 47,
-   "Station Name": "The Volt Loft",
+   "Station name": "The Volt Loft",
    "Station address": "609/70 Mountain Street, Ultimo, NSW 2007",
    "Opening hours": "24/7  ",
    "Operator": "Andrew Patterson",
@@ -706,7 +706,7 @@
  },
  {
    "ObjId": 48,
-   "Station Name": "LevelUp Station",
+   "Station name": "LevelUp Station",
    "Station address": "117/308 Wattle Street, Ultimo, NSW 2007",
    "Opening hours": "6:00 AM - 7:00 PM  ",
    "Operator": "Nia Williams",
@@ -721,7 +721,7 @@
  },
  {
    "ObjId": 49,
-   "Station Name": "Watts on Wattle",
+   "Station name": "Watts on Wattle",
    "Station address": "174/310 Wattle Street, Ultimo, NSW 2007",
    "Opening hours": "24/7  ",
    "Operator": "Chloe Jenkins",
@@ -736,7 +736,7 @@
  },
  {
    "ObjId": 50,
-   "Station Name": "VoltPoint Studio",
+   "Station name": "VoltPoint Studio",
    "Station address": "547/99 Jones Street, Ultimo, NSW 2007",
    "Opening hours": "24/7  ",
    "Operator": "Hamza Al-Mansoori",

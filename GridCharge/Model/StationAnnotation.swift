@@ -21,7 +21,7 @@ import MapKit
 //}
 
 enum ChargerType {
-    case ac, dc, upcoming
+    case ac, dc, upcoming, community
 }
 
 // rewrite was done for adaptability of 4 types of chargers

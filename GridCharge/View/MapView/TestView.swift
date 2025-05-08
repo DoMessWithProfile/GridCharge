@@ -17,7 +17,8 @@ struct TestView: View {
             ClusteredMapView(selectedStation: $selectedStation, annotations: viewModel.createAnnotations(
                 acStations: viewModel.acStations,
                 dcStations: viewModel.dcStations,
-                upcomingStations: viewModel.upcomingStations)
+                upcomingStations: viewModel.upcomingStations,
+                communityStations: viewModel.communityStations)
             )
                 .edgesIgnoringSafeArea(.all)
             

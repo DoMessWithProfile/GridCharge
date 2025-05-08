@@ -17,6 +17,10 @@ func loadDCStations() -> [ChargingStation] {
     loadStations(from: "DC_Chargers")
 }
 
+func loadCommunityStations() -> [ChargingStation] {
+    loadStations(from: "Community_Chargers")
+}
+
 private func loadStations(from fileName: String) -> [ChargingStation] {
     guard let url = Bundle.main.url(forResource: fileName, withExtension: "JSON") else {
         print("JSON not found: \(fileName)")

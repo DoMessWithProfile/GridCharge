@@ -18,22 +18,24 @@ struct MapView: View {
         Text("Map")
             .fontWeight(.bold)
         
-        Map {
-            Annotation("EVC 1", coordinate: .evc1) {
-                ZStack {
-                    RoundedRectangle(cornerRadius: 5)
-                        .fill(Color.teal)
-                    Image(systemName: "ev.charger")
-                        .foregroundStyle(.regularMaterial)
-                        .padding(10)
-                }
-            }
-        }
-        .mapControls {
-            MapUserLocationButton()
-            MapCompass()
-            MapScaleView()
-        }
+//        Map {
+//            Annotation("EVC 1", coordinate: .evc1) {
+//                ZStack {
+//                    RoundedRectangle(cornerRadius: 5)
+//                        .fill(Color.teal)
+//                    Image(systemName: "ev.charger")
+//                        .foregroundStyle(.regularMaterial)
+//                        .padding(10)
+//                }
+//            }
+//        }
+//        .mapControls {
+//            MapUserLocationButton()
+//            MapCompass()
+//            MapScaleView()
+//        }
+        
+        TestView() // could just do this ig
         
         // Navigation Buttons
         HStack {

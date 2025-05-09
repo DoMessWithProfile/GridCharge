@@ -10,24 +10,27 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         NavigationStack {
-            Text("GRIDCHARGE")
-                .font(.largeTitle)
-                .fontWeight(.bold)
-            NavigationLink(destination: TestView()){
-                T_ButtonView(buttonText: "User")
+            VStack {
+                Text("GRIDCHARGE")
+                    .font(.largeTitle)
+                    .fontWeight(.bold)
+                    .padding(.bottom, 20)
+                
+                NavigationLink(destination: MapView()){
+                    T_ButtonView(buttonText: "User")
+                }
+                
+                NavigationLink(destination: ContentView()){
+                    T_ButtonView(buttonText: "Provider")
+                }
+                
+                NavigationLink(destination: ContentView()){
+                    T_ButtonView(buttonText: "C")
+                }
             }
-            NavigationLink(destination: ContentView()){
-                T_ButtonView(buttonText: "Provider")
-            }
-            NavigationLink(destination: ContentView()){
-                T_ButtonView(buttonText: "C")
-            }
-            NavigationLink(destination:
-                MapView()){
-                T_ButtonView(buttonText: "I am a user")
-            }
+
+            .padding()
         }
-        .padding()
     }
 }
 

@@ -16,7 +16,7 @@ struct ContentView: View {
                     .fontWeight(.bold)
                     .padding(.bottom, 20)
                 
-                NavigationLink(destination: TestView()){
+                NavigationLink(destination: MapView()){
                     T_ButtonView(buttonText: "User")
                 }
                 

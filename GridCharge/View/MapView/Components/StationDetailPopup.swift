@@ -49,145 +49,145 @@ struct StationDetailPopup: View {
     
     
     var body: some View {
-    GeometryReader { geometry in
-        let screenWidth = geometry.size.width
-        let screenHeight = geometry.size.height
-        
-        VStack(alignment: .leading) {
-            HStack {
-                Text(station.stationName)
-                    .font(.headline)
-                Spacer()
-                Button(action: onClose) {
-                    Image(systemName: "xmark.circle.fill")
-                        .foregroundColor(.gray)
-                }
-            }
+        GeometryReader { geometry in
+            let screenWidth = geometry.size.width
+            let screenHeight = geometry.size.height
             
-            Divider()
-            
-            Group {
-                DetailRow(icon: "location.fill", text: station.stationAddress)
-                DetailRow(icon: "clock", text: "Hours: \(station.openingHours)")
-                DetailRow(icon: "person.fill", text: "Operator: \(station.operatorName)")
-                
-                HStack() {
+            VStack(alignment: .leading) {
+                HStack {
+                    Text(station.stationName)
+                        .font(.headline)
                     Spacer()
-                    DetailBox(value: "\(station.numberOfStation)", label: "Stations")
-                    Spacer()
-                    DetailBox(value: "\(station.numberOfPlugs)", label: "Plugs")
-                    Spacer()
-                    DetailBox(value: station.chargerRating, label: "Rating")
-                    Spacer()
+                    Button(action: onClose) {
+                        Image(systemName: "xmark.circle.fill")
+                            .foregroundColor(.gray)
+                    }
                 }
                 
-                Text("Available Connectors:")
-                    .font(.subheadline)
-                    .fontWeight(.semibold)
-                    .padding(.bottom)
-                HStack() {
-                    //TODO: make these icons different
-                    Spacer()
-                    // Old: count: station.tesla!, ...
-                    // New: count: station.tesla ?? 0, ...
-                    // safer way to unwrap optional, if nil then = 0
-                    ConnectorItem(count: station.tesla ?? 0, name: "Tesla", iconName: "bolt.car")
-                    Spacer()
-                    ConnectorItem(count: station.type2 ?? 0, name: "Type 2", iconName: "bolt.car")
-                    Spacer()
-                    ConnectorItem(count: station.j1772 ?? 0, name: "J-1772", iconName: "bolt.car")
-                    Spacer()
+                Divider()
+                
+                Group {
+                    DetailRow(icon: "location.fill", text: station.stationAddress)
+                    DetailRow(icon: "clock", text: "Hours: \(station.openingHours)")
+                    DetailRow(icon: "person.fill", text: "Operator: \(station.operatorName)")
                     
-                }
-            }
-            
-            Spacer()
-            
-            Button(action: {
-                showingActionSheet = true
-            }) {
-                Text("Navigate")
-                    .fontWeight(.semibold)
-                    .frame(maxWidth: .infinity)
-                    .padding(.vertical)
-                    .background(Color.blue)
-                    .foregroundColor(.white)
-                    .cornerRadius(10)
-            }
-            .sheet(isPresented: $showingActionSheet) {
-                VStack(spacing: 0) {
-                    Text("Open In")
-                        .font(.title2)
+                    HStack() {
+                        Spacer()
+                        DetailBox(value: "\(station.numberOfStation)", label: "Stations")
+                        Spacer()
+                        DetailBox(value: "\(station.numberOfPlugs)", label: "Plugs")
+                        Spacer()
+                        DetailBox(value: station.chargerRating, label: "Rating")
+                        Spacer()
+                    }
+                    
+                    Text("Available Connectors:")
+                        .font(.subheadline)
                         .fontWeight(.semibold)
-                        .padding(.top, 20)
-                        .padding(.bottom, 25)
-                    
-                    HStack(spacing: 40) {
-                        NavigationAppButton(
-                            appName: "Maps",
-                            iconName: "Apple",
-                            action: {
-                                showingActionSheet = false
-                                openInAppleMaps()
-                            }
-                        )
+                        .padding(.bottom)
+                    HStack() {
+                        //TODO: make these icons different
+                        Spacer()
+                        // Old: count: station.tesla!, ...
+                        // New: count: station.tesla ?? 0, ...
+                        // safer way to unwrap optional, if nil then = 0
+                        ConnectorItem(count: station.tesla ?? 0, name: "Tesla", iconName: "bolt.car")
+                        Spacer()
+                        ConnectorItem(count: station.type2 ?? 0, name: "Type 2", iconName: "bolt.car")
+                        Spacer()
+                        ConnectorItem(count: station.j1772 ?? 0, name: "J-1772", iconName: "bolt.car")
+                        Spacer()
                         
-                        NavigationAppButton(
-                            appName: "Google Maps",
-                            iconName: "Google",
-                            action: {
-                                showingActionSheet = false
-                                openInGoogleMaps()
-                            }
-                        )
-                        
-                        NavigationAppButton(
-                            appName: "Waze",
-                            iconName: "Waze",
-                            action: {
-                                showingActionSheet = false
-                                openInWaze()
-                            }
-                        )
-                    }
-                    .padding(.bottom, 25)
-                    
-                    Divider()
-                    
-                    Button(action: {
-                    // Placeholder - no action for now
-                        showingActionSheet = false
-                    }) {
-                        Text("Share")
-                            .font(.title3)
-                            .foregroundColor(.blue)
-                            .padding()
-                    }
-                    
-                    Divider()
-                    
-                    Button(action: {
-                        showingActionSheet = false
-                    }) {
-                        Text("Cancel")
-                            .font(.title3)
-                            .foregroundColor(.blue)
-                            .padding()
                     }
                 }
-                .presentationDetents([.height(350)])
-                .presentationDragIndicator(.visible)
+                
+                Spacer()
+                
+                Button(action: {
+                    showingActionSheet = true
+                }) {
+                    Text("Navigate")
+                        .fontWeight(.semibold)
+                        .frame(maxWidth: .infinity)
+                        .padding(.vertical)
+                        .background(Color.blue)
+                        .foregroundColor(.white)
+                        .cornerRadius(10)
+                }
+                .sheet(isPresented: $showingActionSheet) {
+                    VStack(spacing: 0) {
+                        Text("Open In")
+                            .font(.title2)
+                            .fontWeight(.semibold)
+                            .padding(.top, 20)
+                            .padding(.bottom, 25)
+                        
+                        HStack(spacing: 40) {
+                            NavigationAppButton(
+                                appName: "Maps",
+                                iconName: "Apple",
+                                action: {
+                                    showingActionSheet = false
+                                    openInAppleMaps()
+                                }
+                            )
+                            
+                            NavigationAppButton(
+                                appName: "Google Maps",
+                                iconName: "Google",
+                                action: {
+                                    showingActionSheet = false
+                                    openInGoogleMaps()
+                                }
+                            )
+                            
+                            NavigationAppButton(
+                                appName: "Waze",
+                                iconName: "Waze",
+                                action: {
+                                    showingActionSheet = false
+                                    openInWaze()
+                                }
+                            )
+                        }
+                        .padding(.bottom, 25)
+                        
+                        Divider()
+                        
+                        Button(action: {
+                            // Placeholder - no action for now
+                            showingActionSheet = false
+                        }) {
+                            Text("Share")
+                                .font(.title3)
+                                .foregroundColor(.blue)
+                                .padding()
+                        }
+                        
+                        Divider()
+                        
+                        Button(action: {
+                            showingActionSheet = false
+                        }) {
+                            Text("Cancel")
+                                .font(.title3)
+                                .foregroundColor(.blue)
+                                .padding()
+                        }
+                    }
+                    .presentationDetents([.height(350)])
+                    .presentationDragIndicator(.visible)
+                }
             }
+            .padding()
+            .frame(width: (screenWidth * 0.8), height: (screenHeight * 0.45))
+            .background(Color(.systemBackground))
+            .cornerRadius(10)
+            .shadow(radius: 10)
+            //Middle horizontally, slightly higher than middle of the screen
+            .position(x: (screenWidth / 2), y: (screenHeight / 2.3))
         }
-        .padding()
-        .frame(width: (screenWidth * 0.8), height: (screenHeight * 0.45))
-        .background(Color(.systemBackground))
-        .cornerRadius(10)
-        .shadow(radius: 10)
-        //Middle horizontally, slightly higher than middle of the screen
-        .position(x: (screenWidth / 2), y: (screenHeight / 2.3))
     }
-}
     
     // Function to open location in Apple Maps
     private func openInAppleMaps() {
@@ -205,8 +205,8 @@ struct StationDetailPopup: View {
                 UIApplication.shared.open(url)
             } else {
                 // Google Maps is not installed, open in browser
-                let webUrlString = "https://www.google.com/maps/dir/?api=1&destination=\(station.latitude),\(station.longitude)"
-                if let webUrl = URL(string: webUrlString) {
+                let googleUrl = "https://www.google.com/maps/dir/?api=1&destination=\(station.latitude),\(station.longitude)"
+                if let webUrl = URL(string: googleUrl) {
                     UIApplication.shared.open(webUrl)
                 }
             }
@@ -220,9 +220,10 @@ struct StationDetailPopup: View {
             if UIApplication.shared.canOpenURL(url) {
                 UIApplication.shared.open(url)
             } else {
-                // Waze is not installed, open App Store
-                if let appStoreUrl = URL(string: "https://itunes.apple.com/app/waze/id323229106") {
-                    UIApplication.shared.open(appStoreUrl)
+                // Waze is not installed, open in browser
+                let webUrl = "https://www.waze.com/ul?ll=\(station.latitude)%2C\(station.longitude)&navigate=yes"
+                if let wazeUrl = URL(string: webUrl) {
+                    UIApplication.shared.open(wazeUrl)
                 }
             }
         }

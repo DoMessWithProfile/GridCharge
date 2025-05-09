@@ -28,6 +28,7 @@ struct ContentView: View {
                     T_ButtonView(buttonText: "C")
                 }
             }
+
             .padding()
         }
     }

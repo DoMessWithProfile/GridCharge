@@ -100,7 +100,7 @@ struct ClusteredMapView: UIViewRepresentable { // UIViewRepresentable -> UIKit w
                 view.markerTintColor = UIColor(.gray)
                 view.glyphImage = UIImage(systemName: "hourglass")
             case .community:
-                view.markerTintColor = UIColor(.orange)
+                view.markerTintColor = UIColor(.purple)
                 view.glyphImage = UIImage(systemName: "house")
             case .tesla:
                 view.markerTintColor = UIColor(.red)

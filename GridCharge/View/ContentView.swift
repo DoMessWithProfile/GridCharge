@@ -53,15 +53,15 @@ struct SplashView: View {
                 VStack(spacing: 20) {
                     ZStack {
                         Rectangle()
-                            .fill(Color.white.opacity(0.1))
+                            .fill(Color.black.opacity(0.1))
                             .frame(width: 150, height: 150)
-                        
+//
                         // Custom Logo
                         Image("GridChargeLogo")
                             .resizable()
                             .scaledToFill()
                             .frame(width: 150, height: 150)
-                            .clipShape(Circle())
+                            .clipShape(Rectangle())
                     }
                     .opacity(opacity)
                     .onAppear {
@@ -71,18 +71,18 @@ struct SplashView: View {
                     }
                     
                     // App name
-                    Text("GRIDCHARGE")
-                        .font(.system(size: 42, weight: .bold, design: .rounded))
-                        .foregroundColor(.white)
-                        .padding(.top, 20)
-                        .opacity(opacity)
-                        .animation(
-                            Animation.easeIn(duration: 1.2),
-                            value: opacity
-                        )
+//                    Text("GRIDCHARGE")
+//                        .font(.system(size: 42, weight: .bold, design: .rounded))
+//                        .foregroundColor(.white)
+//                        .padding(.top, 20)
+//                        .opacity(opacity)
+//                        .animation(
+//                            Animation.easeIn(duration: 1.2),
+//                            value: opacity
+//                        )
                     
                     // Tagline
-                    Text("Powering Your Drive Together")
+                    Text("Powering your drive")
                         .font(.system(size: 18, weight: .medium, design: .rounded))
                         .foregroundColor(.white.opacity(0.8))
                         .padding(.top, 5)

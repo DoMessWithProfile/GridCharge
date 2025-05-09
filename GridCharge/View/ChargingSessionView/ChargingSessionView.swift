@@ -22,7 +22,7 @@ struct ChargingSessionView: View {
                     // action
                 } label: {
                     Image(systemName: "plus.circle.fill")
-                        .foregroundStyle(.orange)
+                        .foregroundStyle(.purple)
                 }
                     .scaleEffect(1.5)
                     .padding(.trailing)

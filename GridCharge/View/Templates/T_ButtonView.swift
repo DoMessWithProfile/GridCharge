@@ -15,7 +15,7 @@ struct T_ButtonView: View {
         ZStack {
             RoundedRectangle(cornerRadius: 15)
                 .frame(width: 280, height: 80)
-                .foregroundStyle(.orange)
+                .foregroundStyle(.purple)
             Text("\(buttonText)")
                 .fontWeight(.heavy)
                 .foregroundStyle(.regularMaterial)

@@ -22,6 +22,10 @@ struct ContentView: View {
             NavigationLink(destination: ContentView()){
                 T_ButtonView(buttonText: "C")
             }
+            NavigationLink(destination:
+                MapView()){
+                T_ButtonView(buttonText: "I am a user")
+            }
         }
         .padding()
     }

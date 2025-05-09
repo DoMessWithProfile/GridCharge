@@ -52,7 +52,7 @@ struct SplashView: View {
                 
                 VStack(spacing: 20) {
                     ZStack {
-                        Circle()
+                        Rectangle()
                             .fill(Color.white.opacity(0.1))
                             .frame(width: 150, height: 150)
                         

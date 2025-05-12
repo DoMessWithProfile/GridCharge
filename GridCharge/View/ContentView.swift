@@ -10,26 +10,29 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         NavigationStack {
-            VStack {
-                Text("GRIDCHARGE")
-                    .font(.largeTitle)
-                    .fontWeight(.bold)
-                    .padding(.bottom, 20)
+            GeometryReader { geometry in
                 
-                NavigationLink(destination: MapView()){
-                    T_ButtonView(buttonText: "User")
-                }
+                let screenWidth = geometry.size.width
+                let screenHeight = geometry.size.height
                 
-                NavigationLink(destination: ContentView()){
-                    T_ButtonView(buttonText: "Provider")
-                }
-                
-                NavigationLink(destination: ContentView()){
-                    T_ButtonView(buttonText: "C")
-                }
-            }
+                VStack {
+                    NavigationLink(destination: MapView()){
+                        T_ButtonView(buttonText: "I'm a User", isDisabled: false)
+                            .frame(width: (screenWidth * 0.8), height: (screenHeight * 0.15))
+                    }
+                    .padding(.bottom)
+                    NavigationLink(destination: ContentView()){
+                        T_ButtonView(buttonText: "I'm a Provider - Coming soon", isDisabled: true)
+                            .frame(width: (screenWidth * 0.8), height: (screenHeight * 0.15))
 
-            .padding()
+                        
+                    }.disabled(true)
+
+                }
+//                    .frame(width: (screenWidth * 0.8), height: (screenHeight * 0.45))
+                .position(x: (screenWidth / 2.2), y: (screenHeight / 2))
+                .padding()
+            }
         }
     }
 }
@@ -53,16 +56,25 @@ struct SplashView: View {
                 
                 VStack(spacing: 20) {
                     ZStack {
-                        Rectangle()
-                            .fill(Color.black.opacity(0.1))
-                            .frame(width: 150, height: 150)
-//
+//                        Circle()
+//                            .fill(Color.black.opacity(0.1))
+//                            .frame(width: 120, height: 120)
+////
+                        ///
+                Text("GridCharge")
+                            .font(.system(size: 42, weight: .bold, design: .rounded))
+                            .foregroundColor(.white)
+                            .padding(.top, 20)
+                            .opacity(opacity)
+            .animation(
+                Animation.easeIn(duration: 1.2),
+                value: opacity
+            )
                         // Custom Logo
-                        Image("GridChargeLogo")
-                            .resizable()
-                            .scaledToFill()
-                            .frame(width: 150, height: 150)
-                            .clipShape(Rectangle())
+                        
+                        
+                
+
                     }
                     .opacity(opacity)
                     .onAppear {
@@ -70,20 +82,10 @@ struct SplashView: View {
                             self.opacity = 1.0
                         }
                     }
-                    
-                    // App name
-//                    Text("GRIDCHARGE")
-//                        .font(.system(size: 42, weight: .bold, design: .rounded))
-//                        .foregroundColor(.white)
-//                        .padding(.top, 20)
-//                        .opacity(opacity)
-//                        .animation(
-//                            Animation.easeIn(duration: 1.2),
-//                            value: opacity
-//                        )
+                
                     
                     // Tagline
-                    Text("Powering your drive")
+                    Text("Powering your drive.")
                         .font(.system(size: 18, weight: .medium, design: .rounded))
                         .foregroundColor(.white.opacity(0.8))
                         .padding(.top, 5)

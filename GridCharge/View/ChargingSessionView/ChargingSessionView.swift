@@ -52,7 +52,7 @@ struct ChargingSessionView: View {
             Button {
                 // action
             } label: {
-                T_ButtonView(buttonText: "End Session")
+                T_ButtonView(buttonText: "End Session").frame(width: 280, height: 80)
             }
             Divider()
         }

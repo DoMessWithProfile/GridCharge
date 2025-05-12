@@ -9,10 +9,8 @@ import SwiftUI
 import MapKit
 
 struct MapView: View {
-    
-    // TODO: JSON file read
-    
-    var region = MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: -33.88393, longitude: 151.20051), latitudinalMeters: 0.1, longitudinalMeters: 0.1)
+        
+    var region = MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: -33.882635, longitude: 151.20061), latitudinalMeters: 0.1, longitudinalMeters: 0.1)
     
     
     var body: some View {
@@ -26,27 +24,21 @@ struct MapView: View {
             VStack(spacing: 0) {
                 Spacer()
                 HStack {
+//                    Spacer()
+//                    Button(action: {}) {
+//                        Image(systemName: "dollarsign.circle")
+//                            .font(.system(size: 24))
+//                            .foregroundColor(.primary)
+//                    }
+//                    Spacer()
+//                    Button(action: {}) {
+//                        Image(systemName: "car")
+//                            .font(.system(size: 24))
+//                            .foregroundColor(.primary)
+//                    }
                     Spacer()
-                    Button(action: {}) {
-                        Image(systemName: "dollarsign.circle")
-                            .font(.system(size: 24))
-                            .foregroundColor(.primary)
-                    }
-                    Spacer()
-                    Button(action: {}) {
-                        Image(systemName: "car")
-                            .font(.system(size: 24))
-                            .foregroundColor(.primary)
-                    }
-                    Spacer()
-                    Button(action: {}) {
+                    NavigationLink(destination: ContentView().navigationBarBackButtonHidden(true))  {
                         Image(systemName: "house")
-                            .font(.system(size: 24))
-                            .foregroundColor(.primary)
-                    }
-                    Spacer()
-                    NavigationLink(destination: ChargingSessionView()) {
-                        Image(systemName: "ev.charger")
                             .font(.system(size: 24))
                             .foregroundColor(.primary)
                     }
@@ -54,7 +46,14 @@ struct MapView: View {
                     Button(action: {}) {
                         Image(systemName: "map")
                             .font(.system(size: 24))
-                            .foregroundColor(.blue)
+                            .foregroundColor(.blue) //TODO: FIX THIS SO IT'S NOT HARDCODED
+                    }
+    
+                    Spacer()
+                    NavigationLink(destination: ChargingSessionView()) {
+                        Image(systemName: "ev.charger")
+                            .font(.system(size: 24))
+                            .foregroundColor(.primary)
                     }
                     Spacer()
                 }
@@ -76,5 +75,5 @@ struct MapView: View {
 }
 
 extension CLLocationCoordinate2D {
-    static let evc1 = CLLocationCoordinate2D(latitude: -33.88393, longitude: 151.20051)
+    static let evc1 = CLLocationCoordinate2D(latitude: -33.88264, longitude: 151.20061)
 }

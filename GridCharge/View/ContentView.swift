@@ -52,14 +52,14 @@ struct SplashView: View {
             ContentView()
         } else {
             ZStack {
-                // Background from asset catalog
+                // Custom Background
                 Image("Background")
                     .resizable()
                     .aspectRatio(contentMode: .fill)
                     .ignoresSafeArea()
                 
                 VStack(spacing: 20) {
-                    // Custom Logo with @2x asset
+                    // Custom Logo
                     Image("GridChargeLogo")
                         .resizable()
                         .scaledToFit()

@@ -14,7 +14,8 @@ struct ContentView: View {
                 Image("GridChargeLogo")
                     .resizable()
                     .scaledToFit()
-                    .frame(width: 230, height: 100)
+                    .frame(width: 300, height: 100)
+                    .shadow(color: .white.opacity(0.3), radius: 8, x: 0, y: 0)
                 
                 NavigationLink(destination: MapView()) {
                     T_ButtonView(buttonText: "User")
@@ -32,7 +33,7 @@ struct ContentView: View {
             .frame(maxWidth: .infinity, maxHeight: .infinity)
             .background(
                 LinearGradient(
-                    gradient: Gradient(colors: [Color.black, Color(.purple)]),
+                    gradient: Gradient(colors: [Color.black, Color(.darkGray)]),
                     startPoint: .top,
                     endPoint: .bottom
                 )
@@ -67,7 +68,7 @@ struct SplashView: View {
                         .clipShape(Rectangle())
                         .opacity(opacity)
                         .onAppear {
-                            withAnimation(.easeIn(duration: 3)) {
+                            withAnimation(.easeIn(duration: 1.5)) {
                                 self.opacity = 1.0
                             }
                         }

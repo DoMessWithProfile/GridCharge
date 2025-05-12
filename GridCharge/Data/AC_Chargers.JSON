@@ -1,18 +1,18 @@
 [
  {
    "ObjId": 1,
-   "Station name": "Curlew Retreat",
-   "Station address": "399 Wylie Creek Rd, Maryland NSW 2372, Australia",
-   "Opening hours": "Open 24/7",
-   "Operator": "",
+   "Station name": "UTS Building 10 Parking",
+   "Station address": "UTS Building 10, Thomas Street, Ultimo NSW 2007",
+   "Opening hours": "Monday – Friday (6am – 10pm)",
+   "Operator": "Tesla Destination, UTS",
    "Number of station": 1,
    "Number of plugs": 1,
-   "Charger rating": "kW",
-   "Tesla": 1,
-   "Type 2": 0,
+   "Charger rating": "7 kW",
+   "Tesla": 2,
+   "Type 2": 2,
    "J-1772": 0,
-   "Latitude": -28.558403,
-   "Longitude": 152.108476
+   "Latitude": -33.88330280142013,
+   "Longitude": 151.19890507923606
  },
  {
    "ObjId": 2,

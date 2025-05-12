@@ -51,7 +51,7 @@ struct ClusteredMapView: UIViewRepresentable { // UIViewRepresentable -> UIKit w
         
         // sets the visible map region based on the first annotation, so the map auto-zooms on load
         if !context.coordinator.hasSetInitialRegion, let first = annotations.first {
-            let region = MKCoordinateRegion(center: first.coordinate, span: MKCoordinateSpan(latitudeDelta: 1.0, longitudeDelta: 1.0))
+            let region = MKCoordinateRegion(center: first.coordinate, span: MKCoordinateSpan(latitudeDelta: 0.05, longitudeDelta: 0.05))
             uiView.setRegion(region, animated: true)
             context.coordinator.hasSetInitialRegion = true // disabled snap-back to first station
         }

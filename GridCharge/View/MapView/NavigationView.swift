@@ -9,7 +9,7 @@ import SwiftUI
 
 // Enum to track the current selected view
 enum NavigationTab {
-    case finance, vehicle, home, charging, map
+    case dollar, car, home, charging, map
 }
 
 // Create a view model to manage the current tab
@@ -26,19 +26,19 @@ struct NavigationView: View {
             HStack {
                 Spacer()
                 Button(action: {
-                    navigationViewModel.currentTab = .finance
+                    navigationViewModel.currentTab = .dollar
                 }) {
                     Image(systemName: "dollarsign.circle")
                         .font(.system(size: 24))
-                        .foregroundColor(navigationViewModel.currentTab == .finance ? .blue : .primary)
+                        .foregroundColor(navigationViewModel.currentTab == .dollar ? .blue : .primary)
                 }
                 Spacer()
                 Button(action: {
-                    navigationViewModel.currentTab = .vehicle
+                    navigationViewModel.currentTab = .car
                 }) {
                     Image(systemName: "car")
                         .font(.system(size: 24))
-                        .foregroundColor(navigationViewModel.currentTab == .vehicle ? .blue : .primary)
+                        .foregroundColor(navigationViewModel.currentTab == .car ? .blue : .primary)
                 }
                 Spacer()
                 NavigationLink(destination: ContentView()) {

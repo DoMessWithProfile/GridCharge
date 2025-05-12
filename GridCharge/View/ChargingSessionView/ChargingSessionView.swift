@@ -70,6 +70,7 @@ struct ChargingSessionView: View {
             
             VStack {
                 Spacer()
+                // Navigation Bar
                 NavigationView()
                     .environmentObject(navigationViewModel)
             }

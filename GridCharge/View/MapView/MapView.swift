@@ -20,7 +20,7 @@ struct MapView: View {
                 TestView()
                     .edgesIgnoringSafeArea(.all)
                 
-                // Bottom Navigation Bar
+                // Navigation Bar
                 NavigationView()
             }
         }

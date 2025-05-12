@@ -52,6 +52,7 @@ struct StationDetailPopup: View {
         GeometryReader { geometry in
             let screenWidth = geometry.size.width
             let screenHeight = geometry.size.height
+
             
             VStack(alignment: .leading) {
                 HStack {
@@ -80,23 +81,20 @@ struct StationDetailPopup: View {
                         DetailBox(value: station.chargerRating, label: "Rating")
                         Spacer()
                     }
-                    
+//                    Spacer()
                     Text("Available Connectors:")
                         .font(.subheadline)
                         .fontWeight(.semibold)
-                        .padding(.bottom)
+//                        .padding(.bottom)
                     HStack() {
                         //TODO: make these icons different
-                        Spacer()
-                        // Old: count: station.tesla!, ...
-                        // New: count: station.tesla ?? 0, ...
-                        // safer way to unwrap optional, if nil then = 0
-                        ConnectorItem(count: station.tesla ?? 0, name: "Tesla", iconName: "bolt.car")
-                        Spacer()
+//                        Spacer()
+                        ConnectorItem(count: station.tesla ?? 0, name: "Tesla", iconName: "bolt.circle")
+//                        Spacer()
                         ConnectorItem(count: station.type2 ?? 0, name: "Type 2", iconName: "bolt.car")
-                        Spacer()
-                        ConnectorItem(count: station.j1772 ?? 0, name: "J-1772", iconName: "bolt.car")
-                        Spacer()
+//                        Spacer()
+                        ConnectorItem(count: station.j1772 ?? 0, name: "J-1772", iconName: "car.circle")
+//                        Spacer()
                         
                     }
                 }
@@ -150,13 +148,17 @@ struct StationDetailPopup: View {
                                 }
                             )
                         }
-                        .padding(.bottom, 25)
+                        .padding(.bottom)
                         
                         Divider()
                         
                         Button(action: {
                             // Placeholder - no action for now
                             showingActionSheet = false
+                            DispatchQueue.main.asyncAfter(deadline: .now() + 0.2) { // Add delay to ensure sheet is dismissed
+                                    shareStation() // Then present
+                                }
+                       
                         }) {
                             Text("Share")
                                 .font(.title3)
@@ -175,7 +177,7 @@ struct StationDetailPopup: View {
                                 .padding()
                         }
                     }
-                    .presentationDetents([.height(350)])
+                    .presentationDetents([.height(screenHeight * 0.34)])
                     .presentationDragIndicator(.visible)
                 }
             }
@@ -188,6 +190,8 @@ struct StationDetailPopup: View {
             .position(x: (screenWidth / 2), y: (screenHeight / 2.3))
         }
     }
+
+
     
     // Function to open location in Apple Maps
     private func openInAppleMaps() {
@@ -228,7 +232,31 @@ struct StationDetailPopup: View {
             }
         }
     }
+    
+    // Add this function inside the StationDetailPopup struct
+    private func shareStation() {
+        // Create the text to share
+        let shareText = """
+        Charging Station: \(station.stationName)
+        Address: \(station.stationAddress)
+        Hours: \(station.openingHours)
+        Operator: \(station.operatorName)
+        Location: https://maps.apple.com/?ll=\(station.latitude),\(station.longitude)&q=\(station.stationName.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) ?? "")
+        """
+        
+        // Create the activity view controller
+        let activityVC = UIActivityViewController(activityItems: [shareText], applicationActivities: nil)
+        
+        // Present the activity view controller
+        if let windowScene = UIApplication.shared.connectedScenes.first as? UIWindowScene,
+           let rootViewController = windowScene.windows.first?.rootViewController {
+            rootViewController.present(activityVC, animated: true, completion: nil)
+        }
+    }
+    
 }
+
+
 
 // Helper views for the popup
 struct DetailRow: View {

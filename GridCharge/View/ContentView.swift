@@ -26,6 +26,9 @@ struct ContentView: View {
                 MapView()){
                 T_ButtonView(buttonText: "I am a user")
             }
+            T_ButtonView(buttonText:"I am a provider")
+                .disabled(true)
+                .opacity(0.5)
         }
         .padding()
     }

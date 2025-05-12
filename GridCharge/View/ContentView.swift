@@ -25,7 +25,7 @@ struct ContentView: View {
                 }
                 
                 NavigationLink(destination: ContentView()) {
-                    T_ButtonView(buttonText: "C")
+                    T_ButtonView(buttonText: "Coming Soon")
                 }
             }
             .padding()

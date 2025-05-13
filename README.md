@@ -16,13 +16,18 @@ GridCharge is a SwiftUI-powered iOS app that helps users locate nearby community
 
 ## 📲 Installation
 
-1. Clone the repository:
+1. Download the source code at:
+https://github.com/DoMessWithProfile/GridCharge
+
+   OR 
+
+   Clone the repository:
    ```bash
    git clone https://github.com/yourusername/gridcharge.git
    ```
-2. Open the project in **Xcode**.
-3. Ensure you have the latest iOS SDK and Xcode version (16 or later recommended).
-4. Run the app on a simulator or connected iOS device.
+3. Open the project in **Xcode**.
+4. Ensure you have the latest iOS SDK and Xcode version (16 or later recommended).
+5. Run the app on a simulator or connected iOS device.
 
 ## 📖 Usage
 

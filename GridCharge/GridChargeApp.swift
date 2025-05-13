@@ -15,3 +15,4 @@ struct GridChargeApp: App {
         }
     }
 }
+//defines the entry point of the GridCharge app and sets SplashView as the initial screen

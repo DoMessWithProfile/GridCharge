@@ -36,12 +36,6 @@ struct NavigationView: View {
                         .font(.system(size: 24))
                         .foregroundColor(navigationViewModel.currentTab == .home ? .blue : .primary)
                 }
-                .background(
-                    NavigationLink(destination: ContentView(), isActive: $isActiveHome) {
-                        EmptyView()
-                    }
-                    .hidden()
-                )
 
                 Spacer()
                 Button(action: {
@@ -54,12 +48,6 @@ struct NavigationView: View {
                         .font(.system(size: 24))
                         .foregroundColor(navigationViewModel.currentTab == .map ? .blue : .primary)
                 }
-                .background(
-                    NavigationLink(destination: MapView(), isActive: $isActiveMap) {
-                        EmptyView()
-                    }
-                    .hidden()
-                )
 
                 Spacer()
                 Button(action: {
@@ -72,17 +60,20 @@ struct NavigationView: View {
                         .font(.system(size: 24))
                         .foregroundColor(navigationViewModel.currentTab == .charging ? .blue : .primary)
                 }
-                .background(
-                    NavigationLink(destination: ChargingSessionView(), isActive: $isActiveCharging) {
-                        EmptyView()
-                    }
-                    .hidden()
-                )
                 Spacer()
             }
             .padding(.vertical, 15)
             .background(Color.white)
             .shadow(radius: 2, y: -3)
+        }
+        .navigationDestination(isPresented: $isActiveHome) {
+            ContentView()
+        }
+        .navigationDestination(isPresented: $isActiveMap) {
+            MapView()
+        }
+        .navigationDestination(isPresented: $isActiveCharging) {
+            ChargingSessionView()
         }
         .edgesIgnoringSafeArea(.bottom)
         .zIndex(2)

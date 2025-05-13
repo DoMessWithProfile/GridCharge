@@ -41,7 +41,7 @@ struct NavigationAppButton: View {
         }
     }
 }
-
+//displays specific details about a charging //station
 struct StationDetailPopup: View {
     let station: ChargingStation
     var onClose: () -> Void
@@ -272,7 +272,7 @@ struct DetailRow: View {
         }
     }
 }
-
+//details two variables, a label and a //value, inside a box
 struct DetailBox: View {
     let value: String
     let label: String
@@ -293,7 +293,7 @@ struct DetailBox: View {
         .cornerRadius(8)
     }
 }
-
+//shows a view for available connectors at a //station
 struct ConnectorItem: View {
     let count: Int
     let name: String

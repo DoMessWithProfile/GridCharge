@@ -10,6 +10,7 @@ import MapKit
 
 struct TestView: View {
     @StateObject private var viewModel = StationViewModel()
+    //Creates a view model
     @State private var selectedStation: ChargingStation? // Track selected station
     @State private var showTeslaOnly: Bool = false // Toggle for Tesla filter
     

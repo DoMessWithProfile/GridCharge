@@ -31,6 +31,7 @@ struct MapView: View {
                 NavigationView()
                     .environmentObject(navigationViewModel)
             }
+            //updates the interface to highlight the map tab
             .onAppear {
                 navigationViewModel.currentTab = .map
             }

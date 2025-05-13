@@ -42,7 +42,7 @@ struct MapView: View {
 #Preview {
     MapView()
 }
-
+//adds a location object with constant location coordinates
 extension CLLocationCoordinate2D {
     static let evc1 = CLLocationCoordinate2D(latitude: -33.88264, longitude: 151.20061)
 }

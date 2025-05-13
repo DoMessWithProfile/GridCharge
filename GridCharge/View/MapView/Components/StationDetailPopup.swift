@@ -272,7 +272,7 @@ struct DetailRow: View {
         }
     }
 }
-//details two variables, a label and a //value, inside a box
+//details two variables, a label and a value, inside a box
 struct DetailBox: View {
     let value: String
     let label: String

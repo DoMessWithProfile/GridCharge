@@ -72,7 +72,7 @@ struct SplashView: View {
                         .resizable()
                         .scaledToFit()
                         .frame(width: 400, height: 400)
-                        .clipShape(Rectangle())
+                        .shadow(color: .white.opacity(0.3), radius: 10, x: 0, y: 0)
                         .opacity(opacity)
                         .onAppear {
                             withAnimation(.easeIn(duration: 1.5)) {

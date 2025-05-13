@@ -19,7 +19,6 @@ struct T_ButtonView: View {
             Text("\(buttonText)")
                 .fontWeight(.heavy)
                 .foregroundStyle(.regularMaterial)
-//                .scaledToFill()
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
     }

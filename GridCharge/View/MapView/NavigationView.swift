@@ -8,7 +8,7 @@
 import SwiftUI
 
 enum NavigationTab {
-    case home, charging, map
+    case home, map, charging
 }
 
 class NavigationViewModel: ObservableObject {

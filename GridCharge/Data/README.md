@@ -1,42 +1,46 @@
-#  Data File Explainer
+# 📁 Data File Explainer
 
-JSON format does not work with comments. 
-The following explains each data file. Sourcing / Purpose
+> **Note:** JSON format does not support comments. This Markdown file explains the purpose and sourcing of each data file used in the GridCharge project. Each of these are taken from the NSW Government FuelCheck API.
 
+---
 
-//  Upcoming_Chargers.JSON
-//  GridCharge
-//
-//  Created by joshua chelashaw on 29/4/2025.
+### `Upcoming_Chargers.JSON`
 
-//Data sourced from NSW EV Chargers Spreadsheet from: https://opendata.transport.nsw.gov.au/data/dataset/ev-charging-locations
-//Sourced on 29 April 2025
-//Referencing 'Upcoming Fast Chargers'
+- **Project:** GridCharge  
+- **Created by:** Joshua Chelashaw  
+- **Date:** 29 April 2025  
+- **Source:** NSW EV Chargers Spreadsheet  
+- **Dataset URL:** [NSW Transport EV Charging Locations](https://opendata.transport.nsw.gov.au/data/dataset/ev-charging-locations)  
+- **Referenced Section:** *Upcoming Fast Chargers*  
 
-//  DC_Chargers.JSON
-//  GridCharge
-//
-//  Created by joshua chelashaw on 29/4/2025.
+---
 
-//Data sourced from NSW EV Chargers Spreadsheet from: https://opendata.transport.nsw.gov.au/data/dataset/ev-charging-locations
-//Sourced on 29 April 2025
-//Referencing 'Fast Chargers'
+### `DC_Chargers.JSON`
 
-//  Community_Chargers.JSON
-//  GridCharge
-//
-//  Created by joshua chelashaw on 29/4/2025.
+- **Project:** GridCharge  
+- **Created by:** Joshua Chelashaw  
+- **Date:** 29 April 2025  
+- **Source:** NSW EV Chargers Spreadsheet  
+- **Dataset URL:** [NSW Transport EV Charging Locations](https://opendata.transport.nsw.gov.au/data/dataset/ev-charging-locations)  
+- **Referenced Section:** *Fast Chargers*  
 
-//Sample dataset for community based chargers - GridCharges main business
-//Created on DD MM 2025
+---
 
-//  AC_Chargers.JSON
-//  GridCharge
-//
-//  Created by joshua chelashaw on 29/4/2025.
+### `Community_Chargers.JSON`
 
-//Data sourced from NSW EV Chargers Spreadsheet from: https://opendata.transport.nsw.gov.au/data/dataset/ev-charging-locations
-//Sourced on 29 April 2025
-//Referencing 'Destination Chargers'
+- **Project:** GridCharge  
+- **Created by:** Joshua Chelashaw  
+- **Date:** 01 05 2025
+- **Source:** Sample dataset created internally for community-based chargers  
+- **Purpose:** Represents GridCharge’s core business model around community (peer-peer) EV charger sharing  
 
+---
 
+### `AC_Chargers.JSON`
+
+- **Project:** GridCharge  
+- **Created by:** Joshua Chelashaw  
+- **Date:** 29 April 2025  
+- **Source:** NSW EV Chargers Spreadsheet  
+- **Dataset URL:** [NSW Transport EV Charging Locations](https://opendata.transport.nsw.gov.au/data/dataset/ev-charging-locations)  
+- **Referenced Section:** *Destination Chargers*  

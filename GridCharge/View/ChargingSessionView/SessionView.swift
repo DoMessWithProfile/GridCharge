@@ -5,6 +5,9 @@
 //  Created by Michael Lam on 27/4/2025.
 //
 
+//TODO: Finish building functionality for this view.
+    //This was not deemed necessary for the MVP version of GridCharge.
+
 import SwiftUI
 
 struct SessionView: View {

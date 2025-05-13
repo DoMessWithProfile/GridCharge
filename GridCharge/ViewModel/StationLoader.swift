@@ -20,7 +20,7 @@ func loadDCStations() -> [ChargingStation] {
 func loadCommunityStations() -> [ChargingStation] {
     loadStations(from: "Community_Chargers")
 }
-//loading and decoding JSON files about charging stations
+//loading and decoding JSON file data about charging stations
 private func loadStations(from fileName: String) -> [ChargingStation] {
     guard let url = Bundle.main.url(forResource: fileName, withExtension: "JSON") else {
         print("JSON not found: \(fileName)")
@@ -50,4 +50,3 @@ func loadUpcomingStations() -> [UpcomingChargingStation] {
         return []
     }
 }
-

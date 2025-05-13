@@ -15,7 +15,13 @@ struct ContentView: View {
                 let screenWidth = geometry.size.width
                 let screenHeight = geometry.size.height
                 
-                VStack {
+                VStack(spacing: 20) {
+                    Image("GridChargeLogo")
+                        .resizable()
+                        .scaledToFit()
+                        .frame(width: 300, height: 100)
+                        .shadow(color: .white.opacity(0.3), radius: 8, x: 0, y: 0)
+                    
                     NavigationLink(destination: MapView()){
                         T_ButtonView(buttonText: "I'm a User", isDisabled: false)
                             .frame(width: (screenWidth * 0.8), height: (screenHeight * 0.15))
@@ -29,9 +35,17 @@ struct ContentView: View {
                     }.disabled(true)
 
                 }
-//                    .frame(width: (screenWidth * 0.8), height: (screenHeight * 0.45))
-                .position(x: (screenWidth / 2.2), y: (screenHeight / 2))
                 .padding()
+                .frame(maxWidth: .infinity, maxHeight: .infinity)
+                .background(
+                    LinearGradient(
+                        gradient: Gradient(colors: [Color.black, Color(.darkGray)]),
+                        startPoint: .top,
+                        endPoint: .bottom
+                    )
+                )
+                .navigationBarBackButtonHidden(true)
+                .foregroundColor(.white)
             }
         }
     }
@@ -39,61 +53,32 @@ struct ContentView: View {
 
 struct SplashView: View {
     @State private var isActive = false
-    @State private var size = 0.8
     @State private var opacity = 0.5
-    @State private var rotation = 0.0
     
     var body: some View {
         if isActive {
             ContentView()
         } else {
             ZStack {
-                // Background gradient
-                LinearGradient(gradient: Gradient(colors: [Color(.cyan), Color(.magenta)]),
-                               startPoint: .topLeading,
-                               endPoint: .bottomTrailing)
-                .ignoresSafeArea()
+                // Custom Background
+                Image("Background")
+                    .resizable()
+                    .aspectRatio(contentMode: .fill)
+                    .ignoresSafeArea()
                 
                 VStack(spacing: 20) {
-                    ZStack {
-//                        Circle()
-//                            .fill(Color.black.opacity(0.1))
-//                            .frame(width: 120, height: 120)
-////
-                        ///
-                Text("GridCharge")
-                            .font(.system(size: 42, weight: .bold, design: .rounded))
-                            .foregroundColor(.white)
-                            .padding(.top, 20)
-                            .opacity(opacity)
-            .animation(
-                Animation.easeIn(duration: 1.2),
-                value: opacity
-            )
-                        // Custom Logo
-                        
-                        
-                
-
-                    }
-                    .opacity(opacity)
-                    .onAppear {
-                        withAnimation(.easeIn(duration: 2.5)) {
-                            self.opacity = 1.0
-                        }
-                    }
-                
-                    
-                    // Tagline
-                    Text("Powering your drive.")
-                        .font(.system(size: 18, weight: .medium, design: .rounded))
-                        .foregroundColor(.white.opacity(0.8))
-                        .padding(.top, 5)
+                    // Custom Logo
+                    Image("GridChargeLogo")
+                        .resizable()
+                        .scaledToFit()
+                        .frame(width: 400, height: 400)
+                        .clipShape(Rectangle())
                         .opacity(opacity)
-                        .animation(
-                            Animation.easeIn(duration: 1.2).delay(0.3),
-                            value: opacity
-                        )
+                        .onAppear {
+                            withAnimation(.easeIn(duration: 1.5)) {
+                                self.opacity = 1.0
+                            }
+                        }
                 }
             }
             .onAppear {

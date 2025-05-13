@@ -1,12 +1,11 @@
 {
   "images" : [
     {
-      "filename" : "gridcharge.png",
+      "filename" : "Screenshot_2.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "Screenshot_2.png",
       "idiom" : "universal",
       "scale" : "2x"
     },

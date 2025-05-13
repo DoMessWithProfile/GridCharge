@@ -11,6 +11,7 @@ import MapKit
 struct MapView: View {
     @StateObject private var navigationViewModel = NavigationViewModel()
     
+    //Creates a map region centered in Sydney
     var region = MKCoordinateRegion(
         center: CLLocationCoordinate2D(latitude: -33.882635, longitude: 151.20061),
         latitudinalMeters: 0.1,

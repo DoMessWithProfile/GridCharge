@@ -9,6 +9,7 @@ import SwiftUI
 import MapKit
 
 struct MapView: View {
+    //Creates a view model named "NavigationViewModel"
     @StateObject private var navigationViewModel = NavigationViewModel()
     
     //Creates a map region centered in Sydney

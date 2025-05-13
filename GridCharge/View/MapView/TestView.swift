@@ -74,7 +74,7 @@ struct TestView: View {
         .animation(.easeInOut, value: selectedStation != nil)
     }
 }
-
+//Previews the screen for the user
 #Preview {
     TestView()
 }

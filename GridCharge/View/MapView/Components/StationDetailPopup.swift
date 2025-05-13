@@ -293,7 +293,7 @@ struct DetailBox: View {
         .cornerRadius(8)
     }
 }
-//shows a view for available connectors at a //station
+//shows a view for available connectors at a station
 struct ConnectorItem: View {
     let count: Int
     let name: String

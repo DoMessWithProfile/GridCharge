@@ -17,7 +17,8 @@ struct MapView: View {
         latitudinalMeters: 0.1,
         longitudinalMeters: 0.1
     )
-    
+//defines the body of the MapView and
+    //encompasses the main UI components of the screen
     var body: some View {
         NavigationStack {
             ZStack(alignment: .bottom) {

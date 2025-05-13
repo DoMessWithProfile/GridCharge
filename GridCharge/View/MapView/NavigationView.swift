@@ -7,57 +7,77 @@
 
 import SwiftUI
 
-// Enum to track the current selected view
 enum NavigationTab {
-    case dollar, car, home, charging, map
+    case home, charging, map
 }
 
-// Create a view model to manage the current tab
 class NavigationViewModel: ObservableObject {
     @Published var currentTab: NavigationTab = .home
 }
 
 struct NavigationView: View {
     @EnvironmentObject var navigationViewModel: NavigationViewModel
-    
+    @State private var isActiveHome = false
+    @State private var isActiveMap = false
+    @State private var isActiveCharging = false
+
     var body: some View {
         VStack(spacing: 0) {
             Spacer()
             HStack {
                 Spacer()
                 Button(action: {
-                    navigationViewModel.currentTab = .dollar
+                    if navigationViewModel.currentTab != .home {
+                        navigationViewModel.currentTab = .home
+                        isActiveHome = true
+                    }
                 }) {
-                    Image(systemName: "dollarsign.circle")
-                        .font(.system(size: 24))
-                        .foregroundColor(navigationViewModel.currentTab == .dollar ? .blue : .primary)
-                }
-                Spacer()
-                Button(action: {
-                    navigationViewModel.currentTab = .car
-                }) {
-                    Image(systemName: "car")
-                        .font(.system(size: 24))
-                        .foregroundColor(navigationViewModel.currentTab == .car ? .blue : .primary)
-                }
-                Spacer()
-                NavigationLink(destination: ContentView()) {
                     Image(systemName: "house")
                         .font(.system(size: 24))
                         .foregroundColor(navigationViewModel.currentTab == .home ? .blue : .primary)
                 }
+                .background(
+                    NavigationLink(destination: ContentView(), isActive: $isActiveHome) {
+                        EmptyView()
+                    }
+                    .hidden()
+                )
+
                 Spacer()
-                NavigationLink(destination: ChargingSessionView()) {
-                    Image(systemName: "ev.charger")
-                        .font(.system(size: 24))
-                        .foregroundColor(navigationViewModel.currentTab == .charging ? .blue : .primary)
-                }
-                Spacer()
-                NavigationLink(destination: MapView()) {
+                Button(action: {
+                    if navigationViewModel.currentTab != .map {
+                        navigationViewModel.currentTab = .map
+                        isActiveMap = true
+                    }
+                }) {
                     Image(systemName: "map")
                         .font(.system(size: 24))
                         .foregroundColor(navigationViewModel.currentTab == .map ? .blue : .primary)
                 }
+                .background(
+                    NavigationLink(destination: MapView(), isActive: $isActiveMap) {
+                        EmptyView()
+                    }
+                    .hidden()
+                )
+
+                Spacer()
+                Button(action: {
+                    if navigationViewModel.currentTab != .charging {
+                        navigationViewModel.currentTab = .charging
+                        isActiveCharging = true
+                    }
+                }) {
+                    Image(systemName: "ev.charger")
+                        .font(.system(size: 24))
+                        .foregroundColor(navigationViewModel.currentTab == .charging ? .blue : .primary)
+                }
+                .background(
+                    NavigationLink(destination: ChargingSessionView(), isActive: $isActiveCharging) {
+                        EmptyView()
+                    }
+                    .hidden()
+                )
                 Spacer()
             }
             .padding(.vertical, 15)

@@ -72,6 +72,7 @@ struct TestView: View {
             }
         }
         .animation(.easeInOut, value: selectedStation != nil)
+        //animation for when a station is //selected
     }
 }
 //Previews the screen for the user

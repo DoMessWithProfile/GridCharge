@@ -26,7 +26,7 @@ class StationViewModel: ObservableObject {
         upcomingStations = loadUpcomingStations()
         communityStations = loadCommunityStations()
     }
-    //loads all the data for the model
+    //above function loads all the data for the model
     func createAnnotations(acStations: [ChargingStation], dcStations: [ChargingStation], upcomingStations: [UpcomingChargingStation], communityStations: [ChargingStation]) -> [StationAnnotation] {
         var annotations: [StationAnnotation] = []
 

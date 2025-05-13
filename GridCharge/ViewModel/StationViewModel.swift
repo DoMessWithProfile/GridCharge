@@ -27,6 +27,10 @@ class StationViewModel: ObservableObject {
         communityStations = loadCommunityStations()
     }
     //above function loads all the data for the model
+    //the function below details how for each type of station, there would be
+    // an array of stations, and each station will have its own annotation on the map
+    //for example, in the array of AC stations from the JSON file, for each station a
+    // a stationAnnoation() is created and added to the annotations array
     func createAnnotations(acStations: [ChargingStation], dcStations: [ChargingStation], upcomingStations: [UpcomingChargingStation], communityStations: [ChargingStation]) -> [StationAnnotation] {
         var annotations: [StationAnnotation] = []
 

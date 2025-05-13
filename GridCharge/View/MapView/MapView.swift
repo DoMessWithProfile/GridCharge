@@ -37,7 +37,7 @@ struct MapView: View {
         .environmentObject(navigationViewModel)
     }
 }
-    
+//provides a preview for the user
 #Preview {
     MapView()
 }

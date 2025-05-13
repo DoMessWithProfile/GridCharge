@@ -15,18 +15,18 @@ class StationViewModel: ObservableObject {
     @Published var dcStations: [ChargingStation] = []
     @Published var upcomingStations: [UpcomingChargingStation] = []
     @Published var communityStations: [ChargingStation] = []
-    
+    //Above 4 variables store lists of different types of charging station
     init() {
         loadAllStations()
     }
-
+//initialises the class
     private func loadAllStations() {
         acStations = loadACStations()
         dcStations = loadDCStations()
         upcomingStations = loadUpcomingStations()
         communityStations = loadCommunityStations()
     }
-    
+    //loads all the data for the model
     func createAnnotations(acStations: [ChargingStation], dcStations: [ChargingStation], upcomingStations: [UpcomingChargingStation], communityStations: [ChargingStation]) -> [StationAnnotation] {
         var annotations: [StationAnnotation] = []
 
